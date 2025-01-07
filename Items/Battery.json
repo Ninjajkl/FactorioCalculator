@@ -1,0 +1,11 @@
+{
+  "Name": "Battery",
+  "BaseTimeToCraft": 4,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": true,
+  "Components": {
+    "Copper Plate": 1,
+    "Iron Plate": 1,
+    "Sulfuric Acid": 20
+  }
+}

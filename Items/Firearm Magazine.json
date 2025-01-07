@@ -1,0 +1,9 @@
+{
+  "Name": "Firearm Magazine",
+  "BaseTimeToCraft": 1,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Iron Plate": 4
+  }
+}

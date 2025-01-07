@@ -1,0 +1,9 @@
+{
+  "Name": "Carbonic Asteroid Chunk",
+  "BaseTimeToCraft": 1,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": true,
+  "Components": {
+    "Carbonic Asteroid Chunk": 1
+  }
+}

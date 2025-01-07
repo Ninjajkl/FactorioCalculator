@@ -1,0 +1,10 @@
+{
+  "Name": "Automation Science Pack",
+  "BaseTimeToCraft": 5,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Copper Plate": 1,
+    "Iron Gear Wheel": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Name": "Bioflux",
+  "BaseTimeToCraft": 6,
+  "NumCreatedPerCraft": 4,
+  "IsRawMaterial": false,
+  "Components": {
+    "Yumako Mash": 15,
+    "Jelly": 12
+  }
+}

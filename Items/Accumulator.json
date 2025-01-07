@@ -1,0 +1,10 @@
+{
+  "Name": "Accumulator",
+  "BaseTimeToCraft": 10,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Battery": 5,
+    "Iron Plate": 2
+  }
+}

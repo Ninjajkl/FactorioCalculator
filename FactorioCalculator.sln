@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorioCalculator", "FactorioCalculator.csproj", "{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19E2CEB8-A199-4B34-9915-697043529A46}
+	EndGlobalSection
+EndGlobal

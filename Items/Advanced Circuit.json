@@ -1,0 +1,11 @@
+{
+  "Name": "Advanced Circuit",
+  "BaseTimeToCraft": 6,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": true,
+  "Components": {
+    "Copper Cable": 4,
+    "Electronic Circuit": 2,
+    "Plastic": 2
+  }
+}

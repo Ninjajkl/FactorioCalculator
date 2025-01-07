@@ -1,0 +1,11 @@
+{
+  "Name": "Rail",
+  "BaseTimeToCraft": 0.5,
+  "NumCreatedPerCraft": 2,
+  "IsRawMaterial": false,
+  "Components": {
+    "Iron Stick": 1,
+    "Steel Plate": 1,
+    "Stone": 1
+  }
+}

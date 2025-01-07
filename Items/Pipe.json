@@ -1,0 +1,9 @@
+{
+  "Name": "Pipe",
+  "BaseTimeToCraft": 0.5,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Iron Plate": 1
+  }
+}

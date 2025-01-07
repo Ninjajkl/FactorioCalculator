@@ -1,0 +1,8 @@
+{
+  "Name": "Sulfuric Acid",
+  "BaseTimeToCraft": 0.5,
+  "NumCreatedPerCraft": 2,
+  "IsRawMaterial": true,
+  "Components": {
+  }
+}

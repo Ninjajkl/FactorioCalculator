@@ -1,0 +1,11 @@
+{
+  "Name": "Holmium Solution",
+  "BaseTimeToCraft": 10,
+  "NumCreatedPerCraft": 100,
+  "IsRawMaterial": false,
+  "Components": {
+    "Holmium Ore": 2,
+    "Stone": 1,
+    "Water": 10
+  }
+}

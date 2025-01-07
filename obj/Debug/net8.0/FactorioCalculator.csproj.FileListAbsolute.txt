@@ -1,0 +1,14 @@
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\bin\Debug\net8.0\FactorioCalculator.exe
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\bin\Debug\net8.0\FactorioCalculator.deps.json
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\bin\Debug\net8.0\FactorioCalculator.runtimeconfig.json
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\bin\Debug\net8.0\FactorioCalculator.dll
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\bin\Debug\net8.0\FactorioCalculator.pdb
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.AssemblyInfoInputs.cache
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.AssemblyInfo.cs
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.dll
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\refint\FactorioCalculator.dll
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.pdb
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.genruntimeconfig.cache
+C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\ref\FactorioCalculator.dll

@@ -1,0 +1,11 @@
+{
+  "Name": "Space Science Pack",
+  "BaseTimeToCraft": 15,
+  "NumCreatedPerCraft": 5,
+  "IsRawMaterial": false,
+  "Components": {
+    "Iron Plate": 2,
+    "Carbon": 1,
+    "Ice": 1
+  }
+}

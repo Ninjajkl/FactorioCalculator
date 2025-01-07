@@ -1,0 +1,11 @@
+{
+  "Name": "Military Science Pack",
+  "BaseTimeToCraft": 10,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Grenade": 1,
+    "Piercing Rounds Magazine": 1,
+    "Wall": 2
+  }
+}

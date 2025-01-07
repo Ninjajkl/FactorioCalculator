@@ -1,0 +1,10 @@
+{
+  "Name": "Productivity Module",
+  "BaseTimeToCraft": 15,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Advanced Circuit": 5,
+    "Electronic Circuit": 5
+  }
+}

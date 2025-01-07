@@ -1,0 +1,12 @@
+{
+  "Name": "Electromagnetic Science Pack",
+  "BaseTimeToCraft": 10,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Accumulator": 1,
+    "Supercapacitor": 1,
+    "Electrolyte": 25,
+    "Holmium Solution": 25
+  }
+}

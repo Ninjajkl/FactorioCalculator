@@ -1,0 +1,10 @@
+{
+  "Name": "Logistic Science Pack",
+  "BaseTimeToCraft": 6,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Inserter": 1,
+    "Transport Belt": 1
+  }
+}

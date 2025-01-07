@@ -1,0 +1,10 @@
+{
+  "Name": "Light Oil",
+  "BaseTimeToCraft": 2,
+  "NumCreatedPerCraft": 30,
+  "IsRawMaterial": false,
+  "Components": {
+    "Heavy Oil": 40,
+    "Water": 30
+  }
+}

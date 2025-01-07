@@ -1,0 +1,11 @@
+{
+  "Name": "Chemical Science Pack",
+  "BaseTimeToCraft": 24,
+  "NumCreatedPerCraft": 2,
+  "IsRawMaterial": false,
+  "Components": {
+    "Advanced Circuit": 3,
+    "Engine Unit": 2,
+    "Sulfur": 1
+  }
+}

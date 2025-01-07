@@ -1,0 +1,7 @@
+{
+  "Name": "Plastic",
+  "BaseTimeToCraft": 1,
+  "NumCreatedPerCraft": 2,
+  "IsRawMaterial": true,
+  "Components": {}
+}

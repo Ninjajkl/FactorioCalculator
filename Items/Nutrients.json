@@ -1,0 +1,9 @@
+{
+  "Name": "Nutrients",
+  "BaseTimeToCraft": 2,
+  "NumCreatedPerCraft": 40,
+  "IsRawMaterial": false,
+  "Components": {
+    "Bioflux": 5
+  }
+}

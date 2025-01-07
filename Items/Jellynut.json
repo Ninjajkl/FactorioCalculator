@@ -1,0 +1,8 @@
+{
+  "Name": "Jellynut",
+  "BaseTimeToCraft": 1,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": true,
+  "Components": {
+  }
+}

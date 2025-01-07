@@ -1,0 +1,11 @@
+{
+  "Name": "Electric Furnace",
+  "BaseTimeToCraft": 5,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Advanced Circuit": 5,
+    "Steel Plate": 10,
+    "Stone Brick": 10
+  }
+}

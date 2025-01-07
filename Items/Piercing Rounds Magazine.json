@@ -1,0 +1,11 @@
+{
+  "Name": "Piercing Rounds Magazine",
+  "BaseTimeToCraft": 3,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Copper Plate": 5,
+    "Firearm Magazine": 1,
+    "Steel Plate": 1
+  }
+}

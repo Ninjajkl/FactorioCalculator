@@ -1,0 +1,10 @@
+{
+  "Name": "Agricultural Science Pack",
+  "BaseTimeToCraft": 4,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Bioflux": 1,
+    "Pentapod Egg": 1
+  }
+}

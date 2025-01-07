@@ -1,0 +1,13 @@
+{
+  "Name": "Supercapacitor",
+  "BaseTimeToCraft": 10,
+  "NumCreatedPerCraft": 1,
+  "IsRawMaterial": false,
+  "Components": {
+    "Battery": 1,
+    "Electronic Circuit": 4,
+    "Holmium Plate": 2,
+    "Superconductor": 2,
+    "Electrolyte":  10
+  }
+}

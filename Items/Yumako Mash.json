@@ -1,0 +1,9 @@
+{
+  "Name": "Yumako Mash",
+  "BaseTimeToCraft": 1,
+  "NumCreatedPerCraft": 2,
+  "IsRawMaterial": false,
+  "Components": {
+    "Yumako": 1
+  }
+}

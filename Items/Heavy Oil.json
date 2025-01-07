@@ -1,0 +1,7 @@
+{
+  "Name": "Heavy Oil",
+  "BaseTimeToCraft": 2,
+  "NumCreatedPerCraft": 30,
+  "IsRawMaterial": true,
+  "Components": {}
+}
