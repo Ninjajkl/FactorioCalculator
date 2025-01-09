@@ -1,24 +1,3 @@
-function create_recipe_parameter(number)
-  data:extend(
-  {
-    {
-      type = "recipe",
-      name = "parameter-" .. number,
-      icon = "__base__/graphics/icons/parameter/parameter-" .. number .. ".png",
-      localised_name = {"parameter-x", tostring(number)},
-      subgroup = "parameters",
-      category = "parameters",
-      order = "a",
-      parameter = true,
-      allow_productivity = true
-    },
-  })
-end
-
-for n = 0, 9 do
-  create_recipe_parameter(n)
-end
-
 data:extend
 ({
   {

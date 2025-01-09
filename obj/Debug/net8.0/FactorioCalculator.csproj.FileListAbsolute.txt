@@ -33,3 +33,38 @@ C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\bin\Debu
 C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.csproj.AssemblyReference.cache
 C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.sourcelink.json
 C:\Users\Ninja\Documents\Programming\Random\Factorio\FactorioCalculator\obj\Debug\net8.0\Factorio.1D4A2579.Up2Date
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\FactorioCalculator.exe
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\FactorioCalculator.deps.json
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\FactorioCalculator.runtimeconfig.json
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\FactorioCalculator.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\FactorioCalculator.pdb
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\KeraLua.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\NLua.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\android-arm\native\liblua54.so
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\android-arm64\native\liblua54.so
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\android-x64\native\liblua54.so
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\android-x86\native\liblua54.so
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\ios\native\liblua54.framework\Info.plist
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\ios\native\liblua54.framework\liblua54
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\linux-x64\native\liblua54.so
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\maccatalyst\native\liblua54.framework\Info.plist
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\maccatalyst\native\liblua54.framework\liblua54
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\osx\native\liblua54.dylib
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\tvos\native\liblua54.framework\Info.plist
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\tvos\native\liblua54.framework\liblua54
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\win-arm\native\lua54.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\win-arm64\native\lua54.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\win-x64\native\lua54.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\bin\Debug\net8.0\runtimes\win-x86\native\lua54.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.csproj.AssemblyReference.cache
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.AssemblyInfoInputs.cache
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.AssemblyInfo.cs
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.csproj.CoreCompileInputs.cache
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.sourcelink.json
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\Factorio.1D4A2579.Up2Date
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\refint\FactorioCalculator.dll
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.pdb
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\FactorioCalculator.genruntimeconfig.cache
+C:\Users\P3194927\OneDrive - Charter Communications\Documents\Projects\Personal\FactorioCalculator\obj\Debug\net8.0\ref\FactorioCalculator.dll

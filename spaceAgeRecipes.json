@@ -1,0 +1,5422 @@
+[
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 50,
+        "type": "fluid",
+        "name": "heavy-oil"
+      }
+    },
+    "name": "simple-coal-liquefaction",
+    "show_amount_in_title": false,
+    "energy_required": 5,
+    "allow_decomposition": false,
+    "order": "a[oil-processing]-c[coal-liquefaction]",
+    "icon": "__space-age__/graphics/icons/fluid/simple-coal-liquefaction.png",
+    "subgroup": "fluid-recipes",
+    "ingredients": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "coal"
+      },
+      "2": {
+        "amount": 2,
+        "type": "item",
+        "name": "calcite"
+      },
+      "3": {
+        "amount": 25,
+        "type": "fluid",
+        "name": "sulfuric-acid"
+      }
+    },
+    "category": "oil-processing",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "name": "yumako-seed",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.02
+      },
+      "2": {
+        "amount": 2,
+        "type": "item",
+        "name": "yumako-mash"
+      }
+    },
+    "name": "yumako-processing",
+    "order": "a[seeds]-a[yumako-processing]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.976,
+        "g": 0.006,
+        "b": 0.31,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.805,
+        "g": 0.701,
+        "b": 0.293,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "yumako"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/yumako-processing.png",
+    "subgroup": "agriculture-processes",
+    "energy_required": 1,
+    "category": "organic-or-hand-crafting",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "name": "jellynut-seed",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.02
+      },
+      "2": {
+        "amount": 4,
+        "type": "item",
+        "name": "jelly"
+      }
+    },
+    "name": "jellynut-processing",
+    "order": "a[seeds]-b[jellynut-processing]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.405,
+        "g": 0.701,
+        "b": 0.693,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.876,
+        "g": 0.406,
+        "b": 0.71,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "jellynut"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/jellynut-processing.png",
+    "subgroup": "agriculture-processes",
+    "energy_required": 1,
+    "category": "organic-or-hand-crafting",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 2000,
+        "max": 2000
+      }
+    },
+    "results": {
+      "1": {
+        "name": "copper-bacteria",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.1
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "spoilage"
+      }
+    },
+    "name": "copper-bacteria",
+    "order": "e[bacteria]-a[bacteria]-b[copper]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 1,
+        "g": 0.457,
+        "b": 0,
+        "a": 1
+      },
+      "secondary": {
+        "r": 1,
+        "g": 0.196,
+        "b": 0,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 3,
+        "type": "item",
+        "name": "yumako-mash"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/copper-bacteria.png",
+    "subgroup": "agriculture-processes",
+    "energy_required": 1,
+    "category": "organic-or-hand-crafting",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 2000,
+        "max": 2000
+      }
+    },
+    "result_is_always_fresh": true,
+    "results": {
+      "1": {
+        "amount": 4,
+        "type": "item",
+        "name": "copper-bacteria"
+      }
+    },
+    "name": "copper-bacteria-cultivation",
+    "show_amount_in_title": false,
+    "order": "e[bacteria]-b[cultivation]-b[copper]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 1,
+        "g": 0.457,
+        "b": 0,
+        "a": 1
+      },
+      "secondary": {
+        "r": 1,
+        "g": 0.196,
+        "b": 0,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "copper-bacteria"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "bioflux"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/copper-bacteria-cultivation.png",
+    "subgroup": "agriculture-processes",
+    "energy_required": 4,
+    "category": "organic",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 2000,
+        "max": 2000
+      }
+    },
+    "results": {
+      "1": {
+        "name": "iron-bacteria",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.1
+      },
+      "2": {
+        "amount": 4,
+        "type": "item",
+        "name": "spoilage"
+      }
+    },
+    "name": "iron-bacteria",
+    "order": "e[bacteria]-a[bacteria]-a[iron]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0,
+        "g": 0.5,
+        "b": 1,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.095,
+        "g": 0.412,
+        "b": 0.822,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 6,
+        "type": "item",
+        "name": "jelly"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/iron-bacteria.png",
+    "subgroup": "agriculture-processes",
+    "energy_required": 1,
+    "category": "organic-or-hand-crafting",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 2000,
+        "max": 2000
+      }
+    },
+    "result_is_always_fresh": true,
+    "results": {
+      "1": {
+        "amount": 4,
+        "type": "item",
+        "name": "iron-bacteria"
+      }
+    },
+    "name": "iron-bacteria-cultivation",
+    "show_amount_in_title": false,
+    "order": "e[bacteria]-b[cultivation]-a[iron]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0,
+        "g": 0.5,
+        "b": 1,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.095,
+        "g": 0.412,
+        "b": 0.822,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "iron-bacteria"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "bioflux"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/iron-bacteria-cultivation.png",
+    "subgroup": "agriculture-processes",
+    "energy_required": 4,
+    "category": "organic",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 2000,
+        "max": 2000
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "artificial-yumako-soil"
+      }
+    },
+    "name": "artificial-yumako-soil",
+    "energy_required": 2,
+    "icon": "__space-age__/graphics/icons/artificial-yumako-soil.png",
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "yumako-seed"
+      },
+      "2": {
+        "amount": 50,
+        "type": "item",
+        "name": "nutrients"
+      },
+      "3": {
+        "amount": 5,
+        "type": "item",
+        "name": "landfill"
+      }
+    },
+    "category": "crafting",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 2000,
+        "max": 2000
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "overgrowth-yumako-soil"
+      }
+    },
+    "name": "overgrowth-yumako-soil",
+    "energy_required": 10,
+    "icon": "__space-age__/graphics/icons/overgrowth-yumako-soil.png",
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "artificial-yumako-soil"
+      },
+      "2": {
+        "amount": 5,
+        "type": "item",
+        "name": "yumako-seed"
+      },
+      "3": {
+        "amount": 10,
+        "type": "item",
+        "name": "biter-egg"
+      },
+      "4": {
+        "amount": 50,
+        "type": "item",
+        "name": "spoilage"
+      },
+      "5": {
+        "amount": 100,
+        "type": "fluid",
+        "name": "water"
+      }
+    },
+    "category": "crafting-with-fluid",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 2000,
+        "max": 2000
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "artificial-jellynut-soil"
+      }
+    },
+    "name": "artificial-jellynut-soil",
+    "energy_required": 2,
+    "icon": "__space-age__/graphics/icons/artificial-jellynut-soil.png",
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "jellynut-seed"
+      },
+      "2": {
+        "amount": 50,
+        "type": "item",
+        "name": "nutrients"
+      },
+      "3": {
+        "amount": 5,
+        "type": "item",
+        "name": "landfill"
+      }
+    },
+    "category": "crafting",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 2000,
+        "max": 2000
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "overgrowth-jellynut-soil"
+      }
+    },
+    "name": "overgrowth-jellynut-soil",
+    "energy_required": 10,
+    "icon": "__space-age__/graphics/icons/overgrowth-jellynut-soil.png",
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "artificial-jellynut-soil"
+      },
+      "2": {
+        "amount": 5,
+        "type": "item",
+        "name": "jellynut-seed"
+      },
+      "3": {
+        "amount": 10,
+        "type": "item",
+        "name": "biter-egg"
+      },
+      "4": {
+        "amount": 50,
+        "type": "item",
+        "name": "spoilage"
+      },
+      "5": {
+        "amount": 100,
+        "type": "fluid",
+        "name": "water"
+      }
+    },
+    "category": "crafting-with-fluid",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "percent_spoiled": 0.5,
+        "amount": 1,
+        "type": "item",
+        "name": "nutrients"
+      }
+    },
+    "name": "nutrients-from-spoilage",
+    "order": "c[nutrients]-a[nutrients-from-spoilage]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.8,
+        "g": 0.9,
+        "b": 1,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.8,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "spoilage"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/nutrients-from-spoilage.png",
+    "subgroup": "agriculture-processes",
+    "energy_required": 2,
+    "category": "organic-or-assembling",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 6,
+        "type": "item",
+        "name": "nutrients"
+      }
+    },
+    "name": "nutrients-from-yumako-mash",
+    "order": "c[nutrients]-b[nutrients-from-yumako-mash]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.8,
+        "g": 0.9,
+        "b": 1,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.8,
+        "g": 0.2,
+        "b": 0,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 4,
+        "type": "item",
+        "name": "yumako-mash"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/nutrients-from-yumako-mash.png",
+    "subgroup": "agriculture-processes",
+    "energy_required": 4,
+    "category": "organic",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 40,
+        "type": "item",
+        "name": "nutrients"
+      }
+    },
+    "name": "nutrients-from-bioflux",
+    "order": "c[nutrients]-c[nutrients-from-bioflux]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.8,
+        "g": 0.9,
+        "b": 1,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.9,
+        "g": 0.137,
+        "b": 0,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "bioflux"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/nutrients-from-bioflux.png",
+    "subgroup": "agriculture-processes",
+    "energy_required": 2,
+    "category": "organic",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.5,
+        "g": 0.9,
+        "b": 0.5,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0,
+        "g": 0.5,
+        "b": 0,
+        "a": 1
+      }
+    },
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 2000,
+        "max": 2000
+      }
+    },
+    "result_is_always_fresh": true,
+    "hide_from_signal_gui": true,
+    "name": "pentapod-egg",
+    "results": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "ignored_by_stats": 1,
+        "name": "pentapod-egg",
+        "ignored_by_productivity": 1
+      }
+    },
+    "order": "d[organic-processing]-a[pentapod-egg]",
+    "ingredients": {
+      "1": {
+        "ignored_by_stats": 1,
+        "amount": 1,
+        "type": "item",
+        "name": "pentapod-egg"
+      },
+      "2": {
+        "amount": 30,
+        "type": "item",
+        "name": "nutrients"
+      },
+      "3": {
+        "amount": 60,
+        "type": "fluid",
+        "name": "water"
+      }
+    },
+    "energy_required": 15,
+    "icon": "__space-age__/graphics/icons/pentapod-egg-3.png",
+    "subgroup": "agriculture-processes",
+    "category": "organic",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "rocket-fuel"
+      }
+    },
+    "name": "rocket-fuel-from-jelly",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.728,
+        "g": 0.116,
+        "b": 0.116,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.3,
+        "g": 0.9,
+        "b": 0.3,
+        "a": 1
+      }
+    },
+    "order": "a[organic-products]-a[rocket-fuel-from-jelly]",
+    "ingredients": {
+      "1": {
+        "amount": 30,
+        "type": "fluid",
+        "name": "water"
+      },
+      "2": {
+        "amount": 30,
+        "type": "item",
+        "name": "jelly"
+      },
+      "3": {
+        "amount": 2,
+        "type": "item",
+        "name": "bioflux"
+      }
+    },
+    "energy_required": 10,
+    "icon": "__space-age__/graphics/icons/rocket-fuel-from-jelly.png",
+    "subgroup": "agriculture-products",
+    "category": "organic",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 4,
+        "type": "item",
+        "name": "bioflux"
+      }
+    },
+    "name": "bioflux",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.3,
+        "g": 0.9,
+        "b": 0.8,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.8,
+        "g": 0.5,
+        "b": 0.3,
+        "a": 1
+      }
+    },
+    "order": "a[organic-products]-g[bioflux]",
+    "ingredients": {
+      "1": {
+        "amount": 15,
+        "type": "item",
+        "name": "yumako-mash"
+      },
+      "2": {
+        "amount": 12,
+        "type": "item",
+        "name": "jelly"
+      }
+    },
+    "energy_required": 6,
+    "icon": "__space-age__/graphics/icons/bioflux.png",
+    "subgroup": "agriculture-products",
+    "category": "organic",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 3,
+        "type": "item",
+        "name": "plastic-bar"
+      }
+    },
+    "name": "bioplastic",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.722,
+        "g": 0.621,
+        "b": 0.655,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.693,
+        "g": 0.449,
+        "b": 0.449,
+        "a": 1
+      }
+    },
+    "order": "a[organic-products]-c[bioplastic]",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "bioflux"
+      },
+      "2": {
+        "amount": 4,
+        "type": "item",
+        "name": "yumako-mash"
+      }
+    },
+    "energy_required": 2,
+    "icon": "__space-age__/graphics/icons/bioplastic.png",
+    "subgroup": "agriculture-products",
+    "category": "organic",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "sulfur"
+      }
+    },
+    "name": "biosulfur",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 1,
+        "g": 1,
+        "b": 0,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.693,
+        "g": 0.449,
+        "b": 0,
+        "a": 1
+      }
+    },
+    "order": "a[organic-products]-d[biosulfur]",
+    "ingredients": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "spoilage"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "bioflux"
+      }
+    },
+    "energy_required": 2,
+    "icon": "__space-age__/graphics/icons/biosulfur.png",
+    "subgroup": "agriculture-products",
+    "category": "organic",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 20,
+        "type": "fluid",
+        "name": "lubricant"
+      }
+    },
+    "name": "biolubricant",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0,
+        "g": 1,
+        "b": 0,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.3,
+        "g": 1,
+        "b": 0.3,
+        "a": 1
+      }
+    },
+    "order": "a[organic-products]-b[biolubricant]",
+    "ingredients": {
+      "1": {
+        "amount": 60,
+        "type": "item",
+        "name": "jelly"
+      }
+    },
+    "category": "organic",
+    "icon": "__space-age__/graphics/icons/fluid/biolubricant.png",
+    "subgroup": "agriculture-products",
+    "energy_required": 3,
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "carbon-fiber"
+      }
+    },
+    "name": "carbon-fiber",
+    "order": "a[organic-products]-h[carbon-fiber]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.306,
+        "g": 0.643,
+        "b": 0.684,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.684,
+        "g": 0.684,
+        "b": 0.684,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "yumako-mash"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "carbon"
+      }
+    },
+    "auto_recycle": false,
+    "subgroup": "agriculture-products",
+    "category": "organic",
+    "energy_required": 5,
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 3,
+        "type": "item",
+        "name": "advanced-circuit"
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "carbon-fiber"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "toolbelt-equipment"
+      }
+    },
+    "name": "toolbelt-equipment",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "battery-mk2-equipment"
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "supercapacitor"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "battery-mk3-equipment"
+      }
+    },
+    "name": "battery-mk3-equipment",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "category": "crafting",
+    "ingredients": {
+      "1": {
+        "amount": 20,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "2": {
+        "amount": 20,
+        "type": "item",
+        "name": "copper-cable"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "space-platform-foundation"
+      }
+    },
+    "name": "space-platform-foundation",
+    "enabled": false
+  },
+  {
+    "energy_required": 0.5,
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "bulk-inserter"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "processing-unit"
+      },
+      "3": {
+        "amount": 2,
+        "type": "item",
+        "name": "carbon-fiber"
+      },
+      "4": {
+        "amount": 10,
+        "type": "item",
+        "name": "jelly"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "stack-inserter"
+      }
+    },
+    "name": "stack-inserter",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 4,
+        "type": "item",
+        "name": "rocket-launcher"
+      },
+      "2": {
+        "amount": 4,
+        "type": "item",
+        "name": "processing-unit"
+      },
+      "3": {
+        "amount": 20,
+        "type": "item",
+        "name": "carbon-fiber"
+      },
+      "4": {
+        "amount": 20,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "5": {
+        "amount": 20,
+        "type": "item",
+        "name": "iron-gear-wheel"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "rocket-turret"
+      }
+    },
+    "name": "rocket-turret",
+    "enabled": false
+  },
+  {
+    "energy_required": 0.5,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "infinity-chest"
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "steel-chest"
+      },
+      "2": {
+        "amount": 5,
+        "type": "item",
+        "name": "electronic-circuit"
+      }
+    },
+    "hidden": true,
+    "name": "infinity-chest",
+    "enabled": false
+  },
+  {
+    "energy_required": 0.5,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "infinity-pipe"
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "pipe"
+      },
+      "2": {
+        "amount": 5,
+        "type": "item",
+        "name": "electronic-circuit"
+      }
+    },
+    "hidden": true,
+    "name": "infinity-pipe",
+    "enabled": false
+  },
+  {
+    "energy_required": 0.5,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "heat-interface"
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "heat-pipe"
+      },
+      "2": {
+        "amount": 5,
+        "type": "item",
+        "name": "electronic-circuit"
+      }
+    },
+    "hidden": true,
+    "name": "heat-interface",
+    "enabled": false
+  },
+  {
+    "energy_required": 60,
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 60,
+        "type": "item",
+        "name": "space-platform-foundation"
+      },
+      "2": {
+        "amount": 20,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "3": {
+        "amount": 20,
+        "type": "item",
+        "name": "processing-unit"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "space-platform-starter-pack"
+      }
+    },
+    "name": "space-platform-starter-pack",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 20,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "2": {
+        "amount": 20,
+        "type": "item",
+        "name": "low-density-structure"
+      },
+      "3": {
+        "amount": 5,
+        "type": "item",
+        "name": "processing-unit"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "cargo-bay"
+      }
+    },
+    "name": "cargo-bay",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 20,
+        "type": "item",
+        "name": "low-density-structure"
+      },
+      "2": {
+        "amount": 8,
+        "type": "item",
+        "name": "electric-engine-unit"
+      },
+      "3": {
+        "amount": 5,
+        "type": "item",
+        "name": "processing-unit"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "asteroid-collector"
+      }
+    },
+    "name": "asteroid-collector",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 20,
+        "type": "item",
+        "name": "low-density-structure"
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "3": {
+        "amount": 10,
+        "type": "item",
+        "name": "electric-engine-unit"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "crusher"
+      }
+    },
+    "name": "crusher",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "processing-unit"
+      },
+      "3": {
+        "amount": 5,
+        "type": "item",
+        "name": "electric-engine-unit"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "thruster"
+      }
+    },
+    "name": "thruster",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "gravity",
+        "min": 0,
+        "max": 0
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "space-science-pack"
+      }
+    },
+    "name": "space-science-pack",
+    "energy_required": 15,
+    "icon": "__base__/graphics/icons/space-science-pack.png",
+    "main_product": "space-science-pack",
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "iron-plate"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "carbon"
+      },
+      "3": {
+        "amount": 1,
+        "type": "item",
+        "name": "ice"
+      }
+    },
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 4000,
+        "max": 4000
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "metallurgic-science-pack"
+      }
+    },
+    "name": "metallurgic-science-pack",
+    "energy_required": 10,
+    "ingredients": {
+      "1": {
+        "amount": 3,
+        "type": "item",
+        "name": "tungsten-carbide"
+      },
+      "2": {
+        "amount": 2,
+        "type": "item",
+        "name": "tungsten-plate"
+      },
+      "3": {
+        "amount": 200,
+        "type": "fluid",
+        "name": "molten-copper"
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 2000,
+        "max": 2000
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "agricultural-science-pack"
+      }
+    },
+    "name": "agricultural-science-pack",
+    "energy_required": 4,
+    "crafting_machine_tint": {
+      "primary": {
+        "1": 0.1,
+        "2": 0.2,
+        "3": 0,
+        "4": 1
+      },
+      "secondary": {
+        "1": 0.639,
+        "2": 0.764,
+        "3": 1,
+        "4": 1
+      }
+    },
+    "subgroup": "science-pack",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "bioflux"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "pentapod-egg"
+      }
+    },
+    "category": "organic",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "magnetic-field",
+        "min": 99,
+        "max": 99
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "electromagnetic-science-pack"
+      }
+    },
+    "name": "electromagnetic-science-pack",
+    "energy_required": 10,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "supercapacitor"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "accumulator"
+      },
+      "3": {
+        "amount": 25,
+        "type": "fluid",
+        "name": "electrolyte"
+      },
+      "4": {
+        "amount": 25,
+        "type": "fluid",
+        "name": "holmium-solution"
+      }
+    },
+    "category": "electromagnetics",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 300,
+        "max": 300
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "cryogenic-science-pack"
+      },
+      "2": {
+        "amount": 3,
+        "type": "fluid",
+        "ignored_by_stats": 3,
+        "name": "fluoroketone-hot",
+        "ignored_by_productivity": 3
+      }
+    },
+    "name": "cryogenic-science-pack",
+    "energy_required": 20,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.04,
+        "g": 0.186,
+        "b": 1,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.1,
+        "g": 0.3,
+        "b": 0.5,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.6,
+        "g": 0.651,
+        "b": 1,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.2,
+        "g": 0.4,
+        "b": 1,
+        "a": 1
+      }
+    },
+    "main_product": "cryogenic-science-pack",
+    "ingredients": {
+      "1": {
+        "amount": 3,
+        "type": "item",
+        "name": "ice"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "lithium-plate"
+      },
+      "3": {
+        "ignored_by_stats": 3,
+        "amount": 6,
+        "type": "fluid",
+        "name": "fluoroketone-cold"
+      }
+    },
+    "category": "cryogenics",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 20,
+        "type": "item",
+        "name": "iron-ore"
+      },
+      "2": {
+        "name": "metallic-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.2
+      }
+    },
+    "name": "metallic-asteroid-crushing",
+    "allow_decomposition": false,
+    "order": "b-a-a",
+    "energy_required": 2,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "metallic-asteroid-chunk"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/metallic-asteroid-crushing.png",
+    "subgroup": "space-crushing",
+    "category": "crushing",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "carbon"
+      },
+      "2": {
+        "name": "carbonic-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.2
+      }
+    },
+    "name": "carbonic-asteroid-crushing",
+    "allow_decomposition": false,
+    "order": "b-a-b",
+    "energy_required": 2,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "carbonic-asteroid-chunk"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/carbonic-asteroid-crushing.png",
+    "subgroup": "space-crushing",
+    "category": "crushing",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "ice"
+      },
+      "2": {
+        "name": "oxide-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.2
+      }
+    },
+    "name": "oxide-asteroid-crushing",
+    "allow_decomposition": false,
+    "order": "b-a-c",
+    "energy_required": 2,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "oxide-asteroid-chunk"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/oxide-asteroid-crushing.png",
+    "subgroup": "space-crushing",
+    "category": "crushing",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "allow_decomposition": false,
+    "results": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "iron-ore"
+      },
+      "2": {
+        "amount": 4,
+        "type": "item",
+        "name": "copper-ore"
+      },
+      "3": {
+        "name": "metallic-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.05
+      }
+    },
+    "name": "advanced-metallic-asteroid-crushing",
+    "energy_required": 5,
+    "order": "c-a-b",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "metallic-asteroid-chunk"
+      }
+    },
+    "category": "crushing",
+    "icon": "__space-age__/graphics/icons/advanced-metallic-asteroid-crushing.png",
+    "subgroup": "space-crushing",
+    "localised_name": {
+      "1": "recipe-name.advanced-metallic-asteroid-crushing"
+    },
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "allow_decomposition": false,
+    "results": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "carbon"
+      },
+      "2": {
+        "amount": 2,
+        "type": "item",
+        "name": "sulfur"
+      },
+      "3": {
+        "name": "carbonic-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.05
+      }
+    },
+    "name": "advanced-carbonic-asteroid-crushing",
+    "energy_required": 5,
+    "order": "e[advanced-carbonic-asteroid-crushing]",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "carbonic-asteroid-chunk"
+      }
+    },
+    "category": "crushing",
+    "icon": "__space-age__/graphics/icons/advanced-carbonic-asteroid-crushing.png",
+    "subgroup": "space-crushing",
+    "localised_name": {
+      "1": "recipe-name.advanced-carbonic-asteroid-crushing"
+    },
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "allow_decomposition": false,
+    "results": {
+      "1": {
+        "amount": 3,
+        "type": "item",
+        "name": "ice"
+      },
+      "2": {
+        "amount": 2,
+        "type": "item",
+        "name": "calcite"
+      },
+      "3": {
+        "name": "oxide-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.05
+      }
+    },
+    "name": "advanced-oxide-asteroid-crushing",
+    "energy_required": 5,
+    "order": "f[advanced-oxide-asteroid-crushing]",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "oxide-asteroid-chunk"
+      }
+    },
+    "category": "crushing",
+    "icon": "__space-age__/graphics/icons/advanced-oxide-asteroid-crushing.png",
+    "subgroup": "space-crushing",
+    "localised_name": {
+      "1": "recipe-name.advanced-oxide-asteroid-crushing"
+    },
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": false,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "name": "metallic-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.4
+      },
+      "2": {
+        "name": "carbonic-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.2
+      },
+      "3": {
+        "name": "oxide-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.2
+      }
+    },
+    "name": "metallic-asteroid-reprocessing",
+    "allow_decomposition": false,
+    "order": "b-b-a",
+    "energy_required": 2,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "metallic-asteroid-chunk"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/metallic-asteroid-reprocessing.png",
+    "subgroup": "space-crushing",
+    "category": "crushing",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": false,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "name": "carbonic-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.4
+      },
+      "2": {
+        "name": "metallic-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.2
+      },
+      "3": {
+        "name": "oxide-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.2
+      }
+    },
+    "name": "carbonic-asteroid-reprocessing",
+    "allow_decomposition": false,
+    "order": "b-b-b",
+    "energy_required": 2,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "carbonic-asteroid-chunk"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/carbonic-asteroid-reprocessing.png",
+    "subgroup": "space-crushing",
+    "category": "crushing",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": false,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "name": "oxide-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.4
+      },
+      "2": {
+        "name": "metallic-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.2
+      },
+      "3": {
+        "name": "carbonic-asteroid-chunk",
+        "amount": 1,
+        "type": "item",
+        "probability": 0.2
+      }
+    },
+    "name": "oxide-asteroid-reprocessing",
+    "allow_decomposition": false,
+    "order": "b-b-c",
+    "energy_required": 1,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "oxide-asteroid-chunk"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/oxide-asteroid-reprocessing.png",
+    "subgroup": "space-crushing",
+    "category": "crushing",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "gravity",
+        "min": 0,
+        "max": 0
+      }
+    },
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.881,
+        "g": 0.1,
+        "b": 0,
+        "a": 0.502
+      },
+      "quaternary": {
+        "r": 0.629,
+        "g": 0.174,
+        "b": 0,
+        "a": 0.502
+      },
+      "tertiary": {
+        "r": 0.873,
+        "g": 0.649,
+        "b": 0.542,
+        "a": 0.502
+      },
+      "secondary": {
+        "r": 0.93,
+        "g": 0.767,
+        "b": 0.605,
+        "a": 0.502
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 75,
+        "type": "fluid",
+        "name": "thruster-fuel"
+      }
+    },
+    "name": "thruster-fuel",
+    "always_show_products": true,
+    "order": "a[thruster-fuel]",
+    "show_amount_in_title": false,
+    "energy_required": 2,
+    "auto_recycle": false,
+    "subgroup": "space-processing",
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "carbon"
+      },
+      "2": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "water"
+      }
+    },
+    "category": "chemistry",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "gravity",
+        "min": 0,
+        "max": 0
+      }
+    },
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.082,
+        "g": 0.396,
+        "b": 0.792,
+        "a": 0.502
+      },
+      "quaternary": {
+        "r": 0.683,
+        "g": 0.915,
+        "b": 1,
+        "a": 0.502
+      },
+      "tertiary": {
+        "r": 0.059,
+        "g": 0.376,
+        "b": 0.545,
+        "a": 0.502
+      },
+      "secondary": {
+        "r": 0.161,
+        "g": 0.553,
+        "b": 0.796,
+        "a": 0.502
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 75,
+        "type": "fluid",
+        "name": "thruster-oxidizer"
+      }
+    },
+    "name": "thruster-oxidizer",
+    "always_show_products": true,
+    "order": "c[thruster-oxidizer]",
+    "show_amount_in_title": false,
+    "energy_required": 2,
+    "auto_recycle": false,
+    "subgroup": "space-processing",
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "iron-ore"
+      },
+      "2": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "water"
+      }
+    },
+    "category": "chemistry",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "show_amount_in_title": false,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.433,
+        "g": 0.773,
+        "b": 1,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.499,
+        "g": 0.797,
+        "b": 0.793,
+        "a": 0.733
+      },
+      "tertiary": {
+        "r": 0.381,
+        "g": 0.428,
+        "b": 0.436,
+        "a": 0.502
+      },
+      "secondary": {
+        "r": 0.591,
+        "g": 0.856,
+        "b": 1,
+        "a": 1
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 20,
+        "type": "fluid",
+        "name": "water"
+      }
+    },
+    "name": "ice-melting",
+    "allow_decomposition": false,
+    "order": "d[other-chemistry]-c[ice-melting]",
+    "energy_required": 1,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "ice"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/fluid/ice-melting.png",
+    "subgroup": "fluid-recipes",
+    "category": "chemistry",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1500,
+        "type": "fluid",
+        "name": "thruster-fuel"
+      }
+    },
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.881,
+        "g": 0.1,
+        "b": 0,
+        "a": 0.502
+      },
+      "quaternary": {
+        "r": 0.629,
+        "g": 0.174,
+        "b": 0,
+        "a": 0.502
+      },
+      "tertiary": {
+        "r": 0.873,
+        "g": 0.649,
+        "b": 0.542,
+        "a": 0.502
+      },
+      "secondary": {
+        "r": 0.93,
+        "g": 0.767,
+        "b": 0.605,
+        "a": 0.502
+      }
+    },
+    "energy_required": 10,
+    "show_amount_in_title": false,
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "carbon"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "calcite"
+      },
+      "3": {
+        "amount": 100,
+        "type": "fluid",
+        "name": "water"
+      }
+    },
+    "category": "chemistry",
+    "surface_conditions": {
+      "1": {
+        "property": "gravity",
+        "min": 0,
+        "max": 0
+      }
+    },
+    "name": "advanced-thruster-fuel",
+    "order": "b[advanced-thruster-fuel]",
+    "allow_decomposition": false,
+    "always_show_products": true,
+    "icon": "__space-age__/graphics/icons/advanced-thruster-fuel.png",
+    "subgroup": "space-processing",
+    "localised_name": {
+      "1": "recipe-name.advanced-thruster-fuel"
+    },
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1500,
+        "type": "fluid",
+        "name": "thruster-oxidizer"
+      }
+    },
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.082,
+        "g": 0.396,
+        "b": 0.792,
+        "a": 0.502
+      },
+      "quaternary": {
+        "r": 0.683,
+        "g": 0.915,
+        "b": 1,
+        "a": 0.502
+      },
+      "tertiary": {
+        "r": 0.059,
+        "g": 0.376,
+        "b": 0.545,
+        "a": 0.502
+      },
+      "secondary": {
+        "r": 0.161,
+        "g": 0.553,
+        "b": 0.796,
+        "a": 0.502
+      }
+    },
+    "energy_required": 10,
+    "show_amount_in_title": false,
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "iron-ore"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "calcite"
+      },
+      "3": {
+        "amount": 100,
+        "type": "fluid",
+        "name": "water"
+      }
+    },
+    "category": "chemistry",
+    "surface_conditions": {
+      "1": {
+        "property": "gravity",
+        "min": 0,
+        "max": 0
+      }
+    },
+    "name": "advanced-thruster-oxidizer",
+    "order": "d[advanced-thruster-oxydizer]",
+    "allow_decomposition": false,
+    "always_show_products": true,
+    "icon": "__space-age__/graphics/icons/advanced-thruster-oxidizer.png",
+    "subgroup": "space-processing",
+    "localised_name": {
+      "1": "recipe-name.advanced-thruster-oxidizer"
+    },
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": false,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "temperature": 500,
+        "amount": 10000,
+        "type": "fluid",
+        "name": "steam"
+      }
+    },
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 1,
+        "g": 0.912,
+        "b": 0.036,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 1,
+        "g": 0.804,
+        "b": 0,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.681,
+        "g": 0.635,
+        "b": 0.486,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.707,
+        "g": 0.797,
+        "b": 0.335,
+        "a": 1
+      }
+    },
+    "energy_required": 5,
+    "show_amount_in_title": false,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "calcite"
+      },
+      "2": {
+        "amount": 1000,
+        "type": "fluid",
+        "name": "sulfuric-acid"
+      }
+    },
+    "category": "chemistry-or-cryogenics",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 4000,
+        "max": 4000
+      }
+    },
+    "name": "acid-neutralisation",
+    "order": "d[other-chemistry]-a[acid-neutralisation]",
+    "allow_decomposition": false,
+    "icon": "__space-age__/graphics/icons/fluid/acid-neutralisation.png",
+    "subgroup": "fluid-recipes",
+    "always_show_products": true,
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 90,
+        "type": "fluid",
+        "name": "water"
+      }
+    },
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.409,
+        "g": 0.694,
+        "b": 0.895,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.75,
+        "g": 0.75,
+        "b": 0.75,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.54,
+        "g": 0.52,
+        "b": 0.52,
+        "a": 1
+      },
+      "secondary": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    "energy_required": 1,
+    "show_amount_in_title": false,
+    "allow_quality": false,
+    "ingredients": {
+      "1": {
+        "amount": 1000,
+        "type": "fluid",
+        "name": "steam"
+      }
+    },
+    "category": "chemistry-or-cryogenics",
+    "name": "steam-condensation",
+    "order": "d[other-chemistry]-b[steam-condensation]",
+    "allow_decomposition": false,
+    "always_show_products": true,
+    "icon": "__space-age__/graphics/icons/fluid/steam-condensation.png",
+    "subgroup": "fluid-recipes",
+    "localised_name": {
+      "1": "recipe-name.steam-condensation"
+    },
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "carbon"
+      }
+    },
+    "name": "carbon",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.293,
+        "g": 0.293,
+        "b": 0.293,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.199,
+        "g": 0.179,
+        "b": 0.07,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.293,
+        "g": 0.293,
+        "b": 0.293,
+        "a": 1
+      }
+    },
+    "energy_required": 1,
+    "allow_decomposition": false,
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "coal"
+      },
+      "2": {
+        "amount": 20,
+        "type": "fluid",
+        "name": "sulfuric-acid"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/carbon.png",
+    "subgroup": "raw-material",
+    "category": "chemistry-or-cryogenics",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "tungsten-carbide"
+      }
+    },
+    "name": "tungsten-carbide",
+    "order": "c[tungsten]-b[tungsten-carbide]",
+    "energy_required": 1,
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "tungsten-ore"
+      },
+      "2": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "sulfuric-acid"
+      },
+      "3": {
+        "amount": 1,
+        "type": "item",
+        "name": "carbon"
+      }
+    },
+    "category": "crafting-with-fluid",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "category": "metallurgy-or-assembling",
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 4000,
+        "max": 4000
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 50,
+        "type": "item",
+        "name": "tungsten-carbide"
+      },
+      "2": {
+        "amount": 50,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "3": {
+        "amount": 30,
+        "type": "item",
+        "name": "electronic-circuit"
+      },
+      "4": {
+        "amount": 20,
+        "type": "item",
+        "name": "refined-concrete"
+      },
+      "5": {
+        "amount": 20,
+        "type": "fluid",
+        "name": "lubricant"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "foundry"
+      }
+    },
+    "name": "foundry",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 250,
+        "type": "fluid",
+        "name": "molten-iron"
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "stone"
+      }
+    },
+    "name": "molten-iron-from-lava",
+    "order": "a[melting]-a[lava-a]",
+    "energy_required": 16,
+    "ingredients": {
+      "1": {
+        "amount": 500,
+        "type": "fluid",
+        "name": "lava"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "calcite"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/fluid/molten-iron-from-lava.png",
+    "subgroup": "vulcanus-processes",
+    "category": "metallurgy",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 250,
+        "type": "fluid",
+        "name": "molten-copper"
+      },
+      "2": {
+        "amount": 15,
+        "type": "item",
+        "name": "stone"
+      }
+    },
+    "name": "molten-copper-from-lava",
+    "order": "a[melting]-a[lava-b]",
+    "energy_required": 16,
+    "ingredients": {
+      "1": {
+        "amount": 500,
+        "type": "fluid",
+        "name": "lava"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "calcite"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/fluid/molten-copper-from-lava.png",
+    "subgroup": "vulcanus-processes",
+    "category": "metallurgy",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 500,
+        "type": "fluid",
+        "name": "molten-iron"
+      }
+    },
+    "name": "molten-iron",
+    "main_product": "molten-iron",
+    "order": "a[melting]-b[molten-iron]",
+    "hide_from_signal_gui": false,
+    "energy_required": 32,
+    "auto_recycle": false,
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "amount": 50,
+        "type": "item",
+        "name": "iron-ore"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "calcite"
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 500,
+        "type": "fluid",
+        "name": "molten-copper"
+      }
+    },
+    "name": "molten-copper",
+    "main_product": "molten-copper",
+    "order": "a[melting]-c[molten-copper]",
+    "hide_from_signal_gui": false,
+    "energy_required": 32,
+    "auto_recycle": false,
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "amount": 50,
+        "type": "item",
+        "name": "copper-ore"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "calcite"
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "iron-plate"
+      }
+    },
+    "name": "casting-iron",
+    "order": "b[casting]-a[casting-iron]",
+    "allow_decomposition": false,
+    "energy_required": 3.2,
+    "icon": "__space-age__/graphics/icons/casting-iron.png",
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "name": "molten-iron",
+        "amount": 20,
+        "type": "fluid",
+        "fluidbox_multiplier": 10
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "steel-plate"
+      }
+    },
+    "name": "casting-steel",
+    "order": "b[casting]-c[casting-steel]",
+    "allow_decomposition": false,
+    "energy_required": 3.2,
+    "icon": "__space-age__/graphics/icons/casting-steel.png",
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "name": "molten-iron",
+        "amount": 30,
+        "type": "fluid",
+        "fluidbox_multiplier": 10
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "copper-plate"
+      }
+    },
+    "name": "casting-copper",
+    "order": "b[casting]-b[casting-copper]",
+    "allow_decomposition": false,
+    "energy_required": 3.2,
+    "icon": "__space-age__/graphics/icons/casting-copper.png",
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "name": "molten-copper",
+        "amount": 20,
+        "type": "fluid",
+        "fluidbox_multiplier": 10
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "iron-gear-wheel"
+      }
+    },
+    "name": "casting-iron-gear-wheel",
+    "order": "b[casting]-d[casting-iron-gear-wheel]",
+    "allow_decomposition": false,
+    "energy_required": 1,
+    "icon": "__space-age__/graphics/icons/casting-iron-gear-wheel.png",
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "name": "molten-iron",
+        "amount": 10,
+        "type": "fluid",
+        "fluidbox_multiplier": 10
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 4,
+        "type": "item",
+        "name": "iron-stick"
+      }
+    },
+    "name": "casting-iron-stick",
+    "order": "b[casting]-e[casting-iron-stick]",
+    "allow_decomposition": false,
+    "energy_required": 1,
+    "icon": "__space-age__/graphics/icons/casting-iron-stick.png",
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "name": "molten-iron",
+        "amount": 20,
+        "type": "fluid",
+        "fluidbox_multiplier": 10
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": false,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "pipe"
+      }
+    },
+    "name": "casting-pipe",
+    "order": "b[casting]-f[casting-pipe]",
+    "allow_decomposition": false,
+    "energy_required": 1,
+    "icon": "__space-age__/graphics/icons/casting-pipe.png",
+    "subgroup": "energy-pipe-distribution",
+    "ingredients": {
+      "1": {
+        "name": "molten-iron",
+        "amount": 10,
+        "type": "fluid",
+        "fluidbox_multiplier": 10
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": false,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "pipe-to-ground"
+      }
+    },
+    "name": "casting-pipe-to-ground",
+    "order": "b[casting]-g[casting-pipe-to-ground]",
+    "allow_decomposition": false,
+    "energy_required": 1,
+    "icon": "__space-age__/graphics/icons/casting-pipe-to-ground.png",
+    "subgroup": "energy-pipe-distribution",
+    "ingredients": {
+      "1": {
+        "name": "molten-iron",
+        "amount": 50,
+        "type": "fluid",
+        "fluidbox_multiplier": 10
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "pipe"
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "low-density-structure"
+      }
+    },
+    "name": "casting-low-density-structure",
+    "auto_recycle": false,
+    "order": "b[casting]-f[low-density-structure]",
+    "allow_decomposition": false,
+    "energy_required": 15,
+    "icon": "__space-age__/graphics/icons/casting-low-density-structure.png",
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "amount": 80,
+        "type": "fluid",
+        "name": "molten-iron"
+      },
+      "2": {
+        "amount": 250,
+        "type": "fluid",
+        "name": "molten-copper"
+      },
+      "3": {
+        "amount": 5,
+        "type": "item",
+        "name": "plastic-bar"
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "concrete"
+      }
+    },
+    "name": "concrete-from-molten-iron",
+    "order": "b[casting]-g[concrete]",
+    "allow_decomposition": false,
+    "energy_required": 10,
+    "icon": "__space-age__/graphics/icons/concrete-from-molten-iron.png",
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "amount": 20,
+        "type": "fluid",
+        "name": "molten-iron"
+      },
+      "2": {
+        "amount": 100,
+        "type": "fluid",
+        "name": "water"
+      },
+      "3": {
+        "amount": 5,
+        "type": "item",
+        "name": "stone-brick"
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "copper-cable"
+      }
+    },
+    "name": "casting-copper-cable",
+    "order": "b[casting]-h[casting-copper-cable]",
+    "allow_decomposition": false,
+    "energy_required": 1,
+    "icon": "__space-age__/graphics/icons/casting-copper-cable.png",
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "name": "molten-copper",
+        "amount": 5,
+        "type": "fluid",
+        "fluidbox_multiplier": 5
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "tungsten-plate"
+      }
+    },
+    "name": "tungsten-plate",
+    "order": "c[tungsten]-c[tungsten-plate]",
+    "energy_required": 10,
+    "subgroup": "vulcanus-processes",
+    "ingredients": {
+      "1": {
+        "amount": 4,
+        "type": "item",
+        "name": "tungsten-ore"
+      },
+      "2": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "molten-iron"
+      }
+    },
+    "category": "metallurgy",
+    "enabled": false
+  },
+  {
+    "category": "metallurgy",
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 4000,
+        "max": 4000
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "tungsten-plate"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "express-transport-belt"
+      },
+      "3": {
+        "amount": 20,
+        "type": "fluid",
+        "name": "lubricant"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "turbo-transport-belt"
+      }
+    },
+    "name": "turbo-transport-belt",
+    "enabled": false
+  },
+  {
+    "energy_required": 2,
+    "category": "metallurgy",
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 4000,
+        "max": 4000
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 40,
+        "type": "item",
+        "name": "tungsten-plate"
+      },
+      "2": {
+        "amount": 2,
+        "type": "item",
+        "name": "express-underground-belt"
+      },
+      "3": {
+        "amount": 40,
+        "type": "fluid",
+        "name": "lubricant"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "turbo-underground-belt"
+      }
+    },
+    "name": "turbo-underground-belt",
+    "enabled": false
+  },
+  {
+    "energy_required": 2,
+    "category": "metallurgy",
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 4000,
+        "max": 4000
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "express-splitter"
+      },
+      "2": {
+        "amount": 15,
+        "type": "item",
+        "name": "tungsten-plate"
+      },
+      "3": {
+        "amount": 2,
+        "type": "item",
+        "name": "processing-unit"
+      },
+      "4": {
+        "amount": 80,
+        "type": "fluid",
+        "name": "lubricant"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "turbo-splitter"
+      }
+    },
+    "name": "turbo-splitter",
+    "enabled": false
+  },
+  {
+    "energy_required": 20,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "turbo-loader"
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "turbo-transport-belt"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "express-loader"
+      }
+    },
+    "hidden": true,
+    "name": "turbo-loader",
+    "enabled": false
+  },
+  {
+    "energy_required": 30,
+    "category": "metallurgy",
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 4000,
+        "max": 4000
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "electric-mining-drill"
+      },
+      "2": {
+        "amount": 200,
+        "type": "fluid",
+        "name": "molten-iron"
+      },
+      "3": {
+        "amount": 20,
+        "type": "item",
+        "name": "tungsten-carbide"
+      },
+      "4": {
+        "amount": 10,
+        "type": "item",
+        "name": "electric-engine-unit"
+      },
+      "5": {
+        "amount": 10,
+        "type": "item",
+        "name": "advanced-circuit"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "big-mining-drill"
+      }
+    },
+    "name": "big-mining-drill",
+    "enabled": false
+  },
+  {
+    "energy_required": 60,
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "power-armor-mk2"
+      },
+      "2": {
+        "amount": 200,
+        "type": "item",
+        "name": "holmium-plate"
+      },
+      "3": {
+        "amount": 100,
+        "type": "item",
+        "name": "processing-unit"
+      },
+      "4": {
+        "amount": 50,
+        "type": "item",
+        "name": "superconductor"
+      },
+      "5": {
+        "amount": 50,
+        "type": "item",
+        "name": "supercapacitor"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "mech-armor"
+      }
+    },
+    "name": "mech-armor",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.504,
+        "g": 0.448,
+        "b": 0.321,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.246,
+        "g": 0.246,
+        "b": 0.246,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.402,
+        "g": 0.558,
+        "b": 0.88,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.312,
+        "g": 0.519,
+        "b": 0.601,
+        "a": 1
+      }
+    },
+    "type": "recipe",
+    "category": "cryogenics",
+    "ingredients": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "tungsten-plate"
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "superconductor"
+      },
+      "3": {
+        "amount": 20,
+        "type": "item",
+        "name": "quantum-processor"
+      },
+      "4": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "fluoroketone-cold"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "railgun"
+      }
+    },
+    "name": "railgun",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.504,
+        "g": 0.448,
+        "b": 0.321,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.246,
+        "g": 0.246,
+        "b": 0.246,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.402,
+        "g": 0.558,
+        "b": 0.88,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.312,
+        "g": 0.519,
+        "b": 0.601,
+        "a": 1
+      }
+    },
+    "type": "recipe",
+    "category": "cryogenics",
+    "ingredients": {
+      "1": {
+        "amount": 100,
+        "type": "item",
+        "name": "quantum-processor"
+      },
+      "2": {
+        "amount": 30,
+        "type": "item",
+        "name": "tungsten-plate"
+      },
+      "3": {
+        "amount": 50,
+        "type": "item",
+        "name": "superconductor"
+      },
+      "4": {
+        "amount": 20,
+        "type": "item",
+        "name": "carbon-fiber"
+      },
+      "5": {
+        "amount": 100,
+        "type": "fluid",
+        "name": "fluoroketone-cold"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "railgun-turret"
+      }
+    },
+    "name": "railgun-turret",
+    "enabled": false
+  },
+  {
+    "energy_required": 25,
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "copper-cable"
+      },
+      "3": {
+        "amount": 2,
+        "type": "item",
+        "name": "explosives"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "railgun-ammo"
+      }
+    },
+    "name": "railgun-ammo",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "enabled": false,
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "agricultural-tower"
+      }
+    },
+    "name": "agricultural-tower",
+    "ingredients": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "2": {
+        "amount": 3,
+        "type": "item",
+        "name": "electronic-circuit"
+      },
+      "3": {
+        "amount": 20,
+        "type": "item",
+        "name": "spoilage"
+      },
+      "4": {
+        "amount": 1,
+        "type": "item",
+        "name": "landfill"
+      }
+    }
+  },
+  {
+    "energy_required": 20,
+    "enabled": false,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 2000,
+        "max": 2000
+      }
+    },
+    "category": "organic-or-assembling",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "biochamber"
+      }
+    },
+    "name": "biochamber",
+    "ingredients": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "nutrients"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "pentapod-egg"
+      },
+      "3": {
+        "amount": 20,
+        "type": "item",
+        "name": "iron-plate"
+      },
+      "4": {
+        "amount": 5,
+        "type": "item",
+        "name": "electronic-circuit"
+      },
+      "5": {
+        "amount": 1,
+        "type": "item",
+        "name": "landfill"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "carbon"
+      }
+    },
+    "name": "burnt-spoilage",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.134,
+        "g": 0.009,
+        "b": 0.009,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.377,
+        "g": 0.255,
+        "b": 0.255,
+        "a": 1
+      }
+    },
+    "order": "a[organic-products]-h[burnt-spoilage]",
+    "enabled": false,
+    "category": "organic",
+    "icon": "__space-age__/graphics/icons/burnt-spoilage.png",
+    "subgroup": "agriculture-products",
+    "energy_required": 12,
+    "auto_recycle": false,
+    "ingredients": {
+      "1": {
+        "amount": 6,
+        "type": "item",
+        "name": "spoilage"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.207,
+        "g": 0.177,
+        "b": 0.177,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.554,
+        "g": 0.54,
+        "b": 0.54,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.79,
+        "g": 0.722,
+        "b": 0.478,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.301,
+        "g": 0.276,
+        "b": 0.196,
+        "a": 1
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "coal"
+      }
+    },
+    "name": "coal-synthesis",
+    "allow_decomposition": false,
+    "energy_required": 2,
+    "order": "m",
+    "icon": "__space-age__/graphics/icons/coal-synthesis.png",
+    "auto_recycle": false,
+    "subgroup": "raw-material",
+    "enabled": false,
+    "category": "chemistry",
+    "ingredients": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "carbon"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "sulfur"
+      },
+      "3": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "water"
+      }
+    }
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "enabled": false,
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "capture-robot-rocket"
+      }
+    },
+    "name": "capture-robot-rocket",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "flying-robot-frame"
+      },
+      "2": {
+        "amount": 2,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "3": {
+        "amount": 20,
+        "type": "item",
+        "name": "bioflux"
+      },
+      "4": {
+        "amount": 2,
+        "type": "item",
+        "name": "processing-unit"
+      }
+    }
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "enabled": false,
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "biolab"
+      }
+    },
+    "name": "biolab",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "lab"
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "biter-egg"
+      },
+      "3": {
+        "amount": 25,
+        "type": "item",
+        "name": "refined-concrete"
+      },
+      "4": {
+        "amount": 2,
+        "type": "item",
+        "name": "capture-robot-rocket"
+      },
+      "5": {
+        "amount": 3,
+        "type": "item",
+        "name": "uranium-235"
+      }
+    }
+  },
+  {
+    "energy_required": 10,
+    "category": "cryogenics",
+    "type": "recipe",
+    "ingredients": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "biter-egg"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "capture-robot-rocket"
+      },
+      "3": {
+        "amount": 15,
+        "type": "item",
+        "name": "uranium-235"
+      },
+      "4": {
+        "amount": 100,
+        "type": "fluid",
+        "name": "fluoroketone-cold"
+      }
+    },
+    "result_is_always_fresh": true,
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "captive-biter-spawner"
+      }
+    },
+    "name": "captive-biter-spawner",
+    "enabled": false
+  },
+  {
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "biter-egg"
+      }
+    },
+    "name": "biter-egg",
+    "enabled": false,
+    "order": "c[eggs]-a[biter-egg]",
+    "category": "captive-spawner-process",
+    "energy_required": 10,
+    "icon": "__space-age__/graphics/icons/biter-egg.png",
+    "preserve_products_in_machine_output": true,
+    "auto_recycle": false,
+    "hide_from_player_crafting": true,
+    "ingredients": {}
+  },
+  {
+    "allow_productivity": false,
+    "type": "recipe",
+    "result_is_always_fresh": true,
+    "results": {
+      "1": {
+        "amount": 3,
+        "type": "item",
+        "ignored_by_stats": 2,
+        "name": "raw-fish",
+        "ignored_by_productivity": 2
+      }
+    },
+    "crafting_machine_tint": {
+      "primary": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 1
+      },
+      "secondary": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 1
+      }
+    },
+    "energy_required": 6,
+    "show_amount_in_title": false,
+    "allow_quality": false,
+    "ingredients": {
+      "1": {
+        "ignored_by_stats": 2,
+        "amount": 2,
+        "type": "item",
+        "name": "raw-fish"
+      },
+      "2": {
+        "amount": 100,
+        "type": "item",
+        "name": "nutrients"
+      },
+      "3": {
+        "amount": 100,
+        "type": "fluid",
+        "name": "water"
+      }
+    },
+    "category": "organic-or-chemistry",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 1000,
+        "max": 1000
+      }
+    },
+    "name": "fish-breeding",
+    "order": "b[nauvis-agriculture]-b[fish-breeding]",
+    "icon": "__space-age__/graphics/icons/fish-breeding.png",
+    "subgroup": "nauvis-agriculture",
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": false,
+    "type": "recipe",
+    "crafting_machine_tint": {
+      "primary": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1
+      },
+      "secondary": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 20,
+        "type": "item",
+        "name": "nutrients"
+      }
+    },
+    "name": "nutrients-from-fish",
+    "category": "organic-or-assembling",
+    "order": "b[nauvis-agriculture]-c[nutrients-from-fish]",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "raw-fish"
+      }
+    },
+    "energy_required": 2,
+    "icon": "__space-age__/graphics/icons/nutrients-from-fish.png",
+    "subgroup": "nauvis-agriculture",
+    "allow_quality": false,
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 1,
+        "g": 0,
+        "b": 0.25,
+        "a": 1
+      },
+      "secondary": {
+        "r": 1,
+        "g": 0,
+        "b": 0.25,
+        "a": 1
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 20,
+        "type": "item",
+        "name": "nutrients"
+      }
+    },
+    "name": "nutrients-from-biter-egg",
+    "category": "organic-or-assembling",
+    "order": "b[nauvis-agriculture]-d[nutrients-from-biter-egg]",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "biter-egg"
+      }
+    },
+    "energy_required": 2,
+    "icon": "__space-age__/graphics/icons/nutrients-from-biter-egg.png",
+    "subgroup": "nauvis-agriculture",
+    "allow_quality": false,
+    "auto_recycle": false,
+    "enabled": false
+  },
+  {
+    "type": "recipe",
+    "icons": {
+      "1": {
+        "icon": "__quality__/graphics/icons/recycling.png"
+      },
+      "2": {
+        "scale": 0.4,
+        "icon": "__space-age__/graphics/icons/scrap.png"
+      },
+      "3": {
+        "icon": "__quality__/graphics/icons/recycling-top.png"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "processing-unit",
+        "probability": 0.02
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "advanced-circuit",
+        "probability": 0.03
+      },
+      "3": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "low-density-structure",
+        "probability": 0.01
+      },
+      "4": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "solid-fuel",
+        "probability": 0.07
+      },
+      "5": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "steel-plate",
+        "probability": 0.04
+      },
+      "6": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "concrete",
+        "probability": 0.06
+      },
+      "7": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "battery",
+        "probability": 0.04
+      },
+      "8": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "ice",
+        "probability": 0.05
+      },
+      "9": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "stone",
+        "probability": 0.04
+      },
+      "10": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "holmium-ore",
+        "probability": 0.01
+      },
+      "11": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "iron-gear-wheel",
+        "probability": 0.2
+      },
+      "12": {
+        "amount": 1,
+        "type": "item",
+        "show_details_in_recipe_tooltip": false,
+        "name": "copper-cable",
+        "probability": 0.03
+      }
+    },
+    "name": "scrap-recycling",
+    "order": "a[trash]-a[trash-recycling]",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "scrap"
+      }
+    },
+    "auto_recycle": false,
+    "subgroup": "fulgora-processes",
+    "energy_required": 0.2,
+    "category": "recycling-or-hand-crafting",
+    "enabled": false
+  },
+  {
+    "energy_required": 5,
+    "enabled": false,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "magnetic-field",
+        "min": 99,
+        "max": 99
+      }
+    },
+    "category": "electronics",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "lightning-rod"
+      }
+    },
+    "name": "lightning-rod",
+    "ingredients": {
+      "1": {
+        "amount": 12,
+        "type": "item",
+        "name": "copper-cable"
+      },
+      "2": {
+        "amount": 8,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "3": {
+        "amount": 4,
+        "type": "item",
+        "name": "stone-brick"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 100,
+        "type": "fluid",
+        "name": "holmium-solution"
+      }
+    },
+    "name": "holmium-solution",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.598,
+        "g": 0.274,
+        "b": 0.501,
+        "a": 0.502
+      },
+      "quaternary": {
+        "r": 0.768,
+        "g": 0.487,
+        "b": 0.684,
+        "a": 0.502
+      },
+      "tertiary": {
+        "r": 0.716,
+        "g": 0.716,
+        "b": 0.716,
+        "a": 0.502
+      },
+      "secondary": {
+        "r": 0.524,
+        "g": 0.499,
+        "b": 0.521,
+        "a": 0.502
+      }
+    },
+    "order": "b[holmium]-b[holmium-solution]",
+    "enabled": false,
+    "main_product": "holmium-solution",
+    "auto_recycle": false,
+    "subgroup": "fulgora-processes",
+    "category": "chemistry",
+    "energy_required": 10,
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "holmium-ore"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "stone"
+      },
+      "3": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "water"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "holmium-plate"
+      }
+    },
+    "name": "holmium-plate",
+    "energy_required": 1,
+    "auto_recycle": false,
+    "subgroup": "fulgora-processes",
+    "ingredients": {
+      "1": {
+        "name": "holmium-solution",
+        "amount": 20,
+        "type": "fluid",
+        "fluidbox_multiplier": 10
+      }
+    },
+    "category": "crafting-with-fluid-or-metallurgy",
+    "enabled": false
+  },
+  {
+    "energy_required": 10,
+    "enabled": false,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "magnetic-field",
+        "min": 99
+      }
+    },
+    "category": "electronics-or-assembling",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "electromagnetic-plant"
+      }
+    },
+    "name": "electromagnetic-plant",
+    "ingredients": {
+      "1": {
+        "amount": 150,
+        "type": "item",
+        "name": "holmium-plate"
+      },
+      "2": {
+        "amount": 50,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "3": {
+        "amount": 50,
+        "type": "item",
+        "name": "processing-unit"
+      },
+      "4": {
+        "amount": 50,
+        "type": "item",
+        "name": "refined-concrete"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "superconductor"
+      }
+    },
+    "name": "superconductor",
+    "order": "b[holmium]-d[superconductor]",
+    "enabled": false,
+    "subgroup": "fulgora-processes",
+    "category": "electromagnetics",
+    "energy_required": 5,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "holmium-plate"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "copper-plate"
+      },
+      "3": {
+        "amount": 1,
+        "type": "item",
+        "name": "plastic-bar"
+      },
+      "4": {
+        "amount": 5,
+        "type": "fluid",
+        "name": "light-oil"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "supercapacitor"
+      }
+    },
+    "name": "supercapacitor",
+    "order": "b[holmium]-f[supercapacitor]",
+    "enabled": false,
+    "subgroup": "fulgora-processes",
+    "category": "electromagnetics",
+    "energy_required": 10,
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "holmium-plate"
+      },
+      "2": {
+        "amount": 2,
+        "type": "item",
+        "name": "superconductor"
+      },
+      "3": {
+        "amount": 4,
+        "type": "item",
+        "name": "electronic-circuit"
+      },
+      "4": {
+        "amount": 1,
+        "type": "item",
+        "name": "battery"
+      },
+      "5": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "electrolyte"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "electrolyte"
+      }
+    },
+    "name": "electrolyte",
+    "order": "b[holmium]-e[electrolyte]",
+    "enabled": false,
+    "subgroup": "fulgora-processes",
+    "category": "electromagnetics",
+    "energy_required": 5,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "stone"
+      },
+      "2": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "heavy-oil"
+      },
+      "3": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "holmium-solution"
+      }
+    }
+  },
+  {
+    "energy_required": 5,
+    "enabled": false,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "magnetic-field",
+        "min": 99,
+        "max": 99
+      }
+    },
+    "category": "electromagnetics",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "lightning-collector"
+      }
+    },
+    "name": "lightning-collector",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "lightning-rod"
+      },
+      "2": {
+        "amount": 8,
+        "type": "item",
+        "name": "supercapacitor"
+      },
+      "3": {
+        "amount": 1,
+        "type": "item",
+        "name": "accumulator"
+      },
+      "4": {
+        "amount": 80,
+        "type": "fluid",
+        "name": "electrolyte"
+      }
+    }
+  },
+  {
+    "energy_required": 30,
+    "type": "recipe",
+    "enabled": false,
+    "category": "electromagnetics",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "teslagun"
+      }
+    },
+    "name": "teslagun",
+    "ingredients": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "holmium-plate"
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "superconductor"
+      },
+      "3": {
+        "amount": 30,
+        "type": "item",
+        "name": "plastic-bar"
+      },
+      "4": {
+        "amount": 100,
+        "type": "fluid",
+        "name": "electrolyte"
+      }
+    }
+  },
+  {
+    "energy_required": 30,
+    "type": "recipe",
+    "enabled": false,
+    "category": "electromagnetics",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "tesla-turret"
+      }
+    },
+    "name": "tesla-turret",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "teslagun"
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "supercapacitor"
+      },
+      "3": {
+        "amount": 10,
+        "type": "item",
+        "name": "processing-unit"
+      },
+      "4": {
+        "amount": 50,
+        "type": "item",
+        "name": "superconductor"
+      },
+      "5": {
+        "amount": 500,
+        "type": "fluid",
+        "name": "electrolyte"
+      }
+    }
+  },
+  {
+    "energy_required": 30,
+    "type": "recipe",
+    "enabled": false,
+    "category": "electromagnetics",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "tesla-ammo"
+      }
+    },
+    "name": "tesla-ammo",
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "supercapacitor"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "plastic-bar"
+      },
+      "3": {
+        "amount": 10,
+        "type": "fluid",
+        "name": "electrolyte"
+      }
+    }
+  },
+  {
+    "energy_required": 10,
+    "type": "recipe",
+    "enabled": false,
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "heating-tower"
+      }
+    },
+    "name": "heating-tower",
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "boiler"
+      },
+      "2": {
+        "amount": 5,
+        "type": "item",
+        "name": "heat-pipe"
+      },
+      "3": {
+        "amount": 20,
+        "type": "item",
+        "name": "concrete"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "lithium"
+      }
+    },
+    "name": "lithium",
+    "order": "c[lithium]-a[lithium]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.455,
+        "g": 0.837,
+        "b": 0.563,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.591,
+        "g": 0.556,
+        "b": 0.556,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.643,
+        "g": 0.668,
+        "b": 0.739,
+        "a": 1
+      }
+    },
+    "enabled": false,
+    "auto_recycle": false,
+    "subgroup": "aquilo-processes",
+    "category": "chemistry-or-cryogenics",
+    "energy_required": 20,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "holmium-plate"
+      },
+      "2": {
+        "amount": 50,
+        "type": "fluid",
+        "name": "lithium-brine"
+      },
+      "3": {
+        "amount": 50,
+        "type": "fluid",
+        "name": "ammonia"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "lithium-plate"
+      }
+    },
+    "name": "lithium-plate",
+    "order": "c[lithium]-b[lithium-plate]",
+    "enabled": false,
+    "auto_recycle": false,
+    "subgroup": "aquilo-processes",
+    "category": "smelting",
+    "energy_required": 6.4,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "lithium"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "temperature": 180,
+        "amount": 50,
+        "type": "fluid",
+        "name": "fluoroketone-hot"
+      }
+    },
+    "name": "fluoroketone",
+    "order": "b[fluoroketone]-a[fluoroketone]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.365,
+        "g": 0.815,
+        "b": 0.334,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.395,
+        "g": 0.717,
+        "b": 0.563,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.116,
+        "g": 0.116,
+        "b": 0.111,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.772,
+        "g": 0.394,
+        "b": 0.394,
+        "a": 1
+      }
+    },
+    "enabled": false,
+    "auto_recycle": false,
+    "subgroup": "aquilo-processes",
+    "category": "cryogenics",
+    "energy_required": 10,
+    "ingredients": {
+      "1": {
+        "amount": 50,
+        "type": "fluid",
+        "name": "fluorine"
+      },
+      "2": {
+        "amount": 50,
+        "type": "fluid",
+        "name": "ammonia"
+      },
+      "3": {
+        "amount": 1,
+        "type": "item",
+        "name": "solid-fuel"
+      },
+      "4": {
+        "amount": 1,
+        "type": "item",
+        "name": "lithium"
+      }
+    }
+  },
+  {
+    "allow_productivity": false,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.455,
+        "g": 0.837,
+        "b": 0.563,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.436,
+        "g": 0.743,
+        "b": 0.711,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.337,
+        "g": 0.306,
+        "b": 0.306,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.398,
+        "g": 0.732,
+        "b": 0.681,
+        "a": 1
+      }
+    },
+    "type": "recipe",
+    "enabled": false,
+    "always_show_products": true,
+    "results": {
+      "1": {
+        "amount": 10,
+        "type": "fluid",
+        "ignored_by_stats": 10,
+        "name": "fluoroketone-cold",
+        "temperature": -150
+      }
+    },
+    "name": "fluoroketone-cooling",
+    "show_amount_in_title": false,
+    "order": "b[fluoroketone]-b[fluoroketone-cooling]",
+    "category": "cryogenics",
+    "energy_required": 5,
+    "icon": "__space-age__/graphics/icons/fluid/fluoroketone-cooling.png",
+    "subgroup": "aquilo-processes",
+    "localised_name": {
+      "1": "recipe-name.fluoroketone-cooling"
+    },
+    "auto_recycle": false,
+    "ingredients": {
+      "1": {
+        "ignored_by_stats": 10,
+        "amount": 10,
+        "type": "fluid",
+        "name": "fluoroketone-hot"
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 100,
+        "max": 600
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "cryogenic-plant"
+      }
+    },
+    "name": "cryogenic-plant",
+    "energy_required": 10,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.294,
+        "g": 0.368,
+        "b": 0.862,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.566,
+        "g": 0.841,
+        "b": 0.769,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.26,
+        "g": 0.245,
+        "b": 0.301,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.42,
+        "g": 0.851,
+        "b": 0.767,
+        "a": 1
+      }
+    },
+    "enabled": false,
+    "category": "cryogenics-or-assembling",
+    "ingredients": {
+      "1": {
+        "amount": 40,
+        "type": "item",
+        "name": "refined-concrete"
+      },
+      "2": {
+        "amount": 20,
+        "type": "item",
+        "name": "superconductor"
+      },
+      "3": {
+        "amount": 20,
+        "type": "item",
+        "name": "processing-unit"
+      },
+      "4": {
+        "amount": 20,
+        "type": "item",
+        "name": "lithium-plate"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "max": 600
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "quantum-processor"
+      },
+      "2": {
+        "amount": 5,
+        "type": "fluid",
+        "ignored_by_stats": 5,
+        "ignored_by_productivity": 5,
+        "name": "fluoroketone-hot",
+        "temperature": 180
+      }
+    },
+    "name": "quantum-processor",
+    "order": "c[lithium]-c[quantum-processor]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.46,
+        "g": 0.188,
+        "b": 0.649,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.518,
+        "g": 0.539,
+        "b": 0.993,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.196,
+        "g": 0.101,
+        "b": 0.101,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.489,
+        "g": 0.484,
+        "b": 0.381,
+        "a": 1
+      }
+    },
+    "enabled": false,
+    "main_product": "quantum-processor",
+    "subgroup": "aquilo-processes",
+    "category": "electromagnetics",
+    "energy_required": 30,
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "tungsten-carbide"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "processing-unit"
+      },
+      "3": {
+        "amount": 1,
+        "type": "item",
+        "name": "superconductor"
+      },
+      "4": {
+        "amount": 1,
+        "type": "item",
+        "name": "carbon-fiber"
+      },
+      "5": {
+        "amount": 2,
+        "type": "item",
+        "name": "lithium-plate"
+      },
+      "6": {
+        "ignored_by_stats": 5,
+        "amount": 10,
+        "type": "fluid",
+        "name": "fluoroketone-cold"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.596,
+        "g": 0.764,
+        "b": 0.78,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.29,
+        "g": 0.734,
+        "b": 1,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.596,
+        "g": 0.773,
+        "b": 0.895,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.551,
+        "g": 0.762,
+        "b": 0.844,
+        "a": 1
+      }
+    },
+    "type": "recipe",
+    "allow_decomposition": false,
+    "always_show_products": true,
+    "results": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "ice"
+      },
+      "2": {
+        "amount": 50,
+        "type": "fluid",
+        "name": "ammonia"
+      }
+    },
+    "name": "ammoniacal-solution-separation",
+    "always_show_made_in": true,
+    "order": "a[ammonia]-a[ammoniacal-solution-separation]",
+    "enabled": false,
+    "category": "chemistry-or-cryogenics",
+    "icon": "__space-age__/graphics/icons/fluid/ammoniacal-solution-separation.png",
+    "subgroup": "aquilo-processes",
+    "energy_required": 1,
+    "auto_recycle": false,
+    "ingredients": {
+      "1": {
+        "amount": 50,
+        "type": "fluid",
+        "name": "ammoniacal-solution"
+      }
+    }
+  },
+  {
+    "energy_required": 30,
+    "type": "recipe",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.298,
+        "g": 0.442,
+        "b": 0.518,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.945,
+        "g": 0.37,
+        "b": 1,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.159,
+        "g": 0.136,
+        "b": 0.207,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.864,
+        "g": 0.706,
+        "b": 0.902,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "fission-reactor-equipment"
+      },
+      "2": {
+        "amount": 10,
+        "type": "item",
+        "name": "fusion-power-cell"
+      },
+      "3": {
+        "amount": 250,
+        "type": "item",
+        "name": "tungsten-plate"
+      },
+      "4": {
+        "amount": 100,
+        "type": "item",
+        "name": "carbon-fiber"
+      },
+      "5": {
+        "amount": 25,
+        "type": "item",
+        "name": "supercapacitor"
+      },
+      "6": {
+        "amount": 250,
+        "type": "item",
+        "name": "quantum-processor"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "fusion-reactor-equipment"
+      }
+    },
+    "name": "fusion-reactor-equipment",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "fusion-power-cell"
+      }
+    },
+    "name": "fusion-power-cell",
+    "order": "c[lithium]-d[fusion-power-cell]",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.054,
+        "g": 0.897,
+        "b": 1,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.761,
+        "g": 0.312,
+        "b": 1,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.497,
+        "g": 0.655,
+        "b": 0.757,
+        "a": 1
+      },
+      "secondary": {
+        "r": 1,
+        "g": 0.779,
+        "b": 0.974,
+        "a": 1
+      }
+    },
+    "enabled": false,
+    "auto_recycle": false,
+    "subgroup": "aquilo-processes",
+    "category": "cryogenics",
+    "energy_required": 10,
+    "ingredients": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "lithium-plate"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "holmium-plate"
+      },
+      "3": {
+        "amount": 100,
+        "type": "fluid",
+        "name": "ammonia"
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 100,
+        "max": 600
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "fusion-reactor"
+      }
+    },
+    "name": "fusion-reactor",
+    "energy_required": 60,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.298,
+        "g": 0.442,
+        "b": 0.518,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.945,
+        "g": 0.37,
+        "b": 1,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.159,
+        "g": 0.136,
+        "b": 0.207,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.864,
+        "g": 0.706,
+        "b": 0.902,
+        "a": 1
+      }
+    },
+    "requester_paste_multiplier": 1,
+    "ingredients": {
+      "1": {
+        "amount": 200,
+        "type": "item",
+        "name": "tungsten-plate"
+      },
+      "2": {
+        "amount": 200,
+        "type": "item",
+        "name": "superconductor"
+      },
+      "3": {
+        "amount": 250,
+        "type": "item",
+        "name": "quantum-processor"
+      }
+    },
+    "category": "cryogenics",
+    "enabled": false
+  },
+  {
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 100,
+        "max": 600
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "fusion-generator"
+      }
+    },
+    "name": "fusion-generator",
+    "energy_required": 30,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.298,
+        "g": 0.442,
+        "b": 0.518,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.945,
+        "g": 0.37,
+        "b": 1,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.159,
+        "g": 0.136,
+        "b": 0.207,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.864,
+        "g": 0.706,
+        "b": 0.902,
+        "a": 1
+      }
+    },
+    "requester_paste_multiplier": 1,
+    "ingredients": {
+      "1": {
+        "amount": 100,
+        "type": "item",
+        "name": "tungsten-plate"
+      },
+      "2": {
+        "amount": 100,
+        "type": "item",
+        "name": "superconductor"
+      },
+      "3": {
+        "amount": 50,
+        "type": "item",
+        "name": "quantum-processor"
+      }
+    },
+    "category": "cryogenics",
+    "enabled": false
+  },
+  {
+    "energy_required": 30,
+    "enabled": false,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "ice-platform"
+      }
+    },
+    "category": "crafting-with-fluid",
+    "always_show_made_in": true,
+    "name": "ice-platform",
+    "ingredients": {
+      "1": {
+        "amount": 400,
+        "type": "fluid",
+        "name": "ammonia"
+      },
+      "2": {
+        "amount": 50,
+        "type": "item",
+        "name": "ice"
+      }
+    }
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "solid-fuel"
+      }
+    },
+    "name": "solid-fuel-from-ammonia",
+    "energy_required": 0.5,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.222,
+        "g": 0.188,
+        "b": 0.344,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.192,
+        "g": 0.21,
+        "b": 0.308,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.37,
+        "g": 0.362,
+        "b": 0.362,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.394,
+        "g": 0.481,
+        "b": 0.594,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 15,
+        "type": "fluid",
+        "name": "ammonia"
+      },
+      "2": {
+        "amount": 6,
+        "type": "fluid",
+        "name": "crude-oil"
+      }
+    },
+    "icon": "__space-age__/graphics/icons/solid-fuel-from-ammonia.png",
+    "subgroup": "aquilo-processes",
+    "order": "a[ammonia]-b[solid-fuel-from-ammonia]",
+    "category": "chemistry-or-cryogenics",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "rocket-fuel"
+      }
+    },
+    "name": "ammonia-rocket-fuel",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.996,
+        "g": 0.742,
+        "b": 0.408,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0.656,
+        "g": 0.562,
+        "b": 0.264,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.347,
+        "g": 0.388,
+        "b": 0.387,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0.446,
+        "g": 0.392,
+        "b": 0.168,
+        "a": 1
+      }
+    },
+    "energy_required": 10,
+    "ingredients": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "solid-fuel"
+      },
+      "2": {
+        "amount": 50,
+        "type": "fluid",
+        "name": "water"
+      },
+      "3": {
+        "amount": 500,
+        "type": "fluid",
+        "name": "ammonia"
+      }
+    },
+    "order": "a[ammonia]-c[ammonia-rocket-fuel]",
+    "icon": "__space-age__/graphics/icons/ammonia-rocket-fuel.png",
+    "subgroup": "aquilo-processes",
+    "localised_name": {
+      "1": "recipe-name.ammonia-rocket-fuel"
+    },
+    "category": "chemistry-or-cryogenics",
+    "enabled": false
+  },
+  {
+    "energy_required": 30,
+    "type": "recipe",
+    "category": "crafting-with-fluid",
+    "ingredients": {
+      "1": {
+        "amount": 4,
+        "type": "item",
+        "name": "tungsten-plate"
+      },
+      "2": {
+        "amount": 4,
+        "type": "item",
+        "name": "lithium-plate"
+      },
+      "3": {
+        "amount": 4,
+        "type": "item",
+        "name": "carbon-fiber"
+      },
+      "4": {
+        "amount": 20,
+        "type": "item",
+        "name": "stone"
+      },
+      "5": {
+        "amount": 20,
+        "type": "fluid",
+        "name": "fluoroketone-cold"
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "foundation"
+      }
+    },
+    "name": "foundation",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "gravity",
+        "min": 0,
+        "max": 0
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 10,
+        "type": "item",
+        "name": "promethium-science-pack"
+      }
+    },
+    "name": "promethium-science-pack",
+    "energy_required": 5,
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0,
+        "g": 0,
+        "b": 0.1,
+        "a": 1
+      },
+      "quaternary": {
+        "r": 0,
+        "g": 0,
+        "b": 0.1,
+        "a": 1
+      },
+      "tertiary": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.4,
+        "a": 1
+      },
+      "secondary": {
+        "r": 0,
+        "g": 0,
+        "b": 0.4,
+        "a": 1
+      }
+    },
+    "ingredients": {
+      "1": {
+        "amount": 25,
+        "type": "item",
+        "name": "promethium-asteroid-chunk"
+      },
+      "2": {
+        "amount": 1,
+        "type": "item",
+        "name": "quantum-processor"
+      },
+      "3": {
+        "amount": 10,
+        "type": "item",
+        "name": "biter-egg"
+      }
+    },
+    "category": "cryogenics",
+    "enabled": false
+  },
+  {
+    "allow_productivity": true,
+    "type": "recipe",
+    "surface_conditions": {
+      "1": {
+        "property": "pressure",
+        "min": 1000,
+        "max": 1000
+      }
+    },
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "tree-seed"
+      }
+    },
+    "name": "wood-processing",
+    "crafting_machine_tint": {
+      "primary": {
+        "r": 0.442,
+        "g": 0.205,
+        "b": 0.09,
+        "a": 1
+      },
+      "secondary": {
+        "r": 1,
+        "g": 0.5,
+        "b": 0,
+        "a": 1
+      }
+    },
+    "order": "b[nauvis-agriculture]-a[wood-processing]",
+    "auto_recycle": false,
+    "ingredients": {
+      "1": {
+        "amount": 2,
+        "type": "item",
+        "name": "wood"
+      }
+    },
+    "icon": "__base__/graphics/icons/tree-08.png",
+    "subgroup": "nauvis-agriculture",
+    "energy_required": 2,
+    "category": "organic-or-assembling",
+    "enabled": false
+  }
+]

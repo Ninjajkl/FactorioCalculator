@@ -1,0 +1,122 @@
+[
+  {
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "quality-module"
+      }
+    },
+    "enabled": false,
+    "energy_required": 15,
+    "ingredients": {
+      "1": {
+        "amount": 5,
+        "type": "item",
+        "name": "electronic-circuit"
+      },
+      "2": {
+        "amount": 5,
+        "type": "item",
+        "name": "advanced-circuit"
+      }
+    },
+    "type": "recipe",
+    "name": "quality-module"
+  },
+  {
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "quality-module-2"
+      }
+    },
+    "enabled": false,
+    "energy_required": 30,
+    "ingredients": {
+      "1": {
+        "amount": 4,
+        "type": "item",
+        "name": "quality-module"
+      },
+      "2": {
+        "amount": 5,
+        "type": "item",
+        "name": "advanced-circuit"
+      },
+      "3": {
+        "amount": 5,
+        "type": "item",
+        "name": "processing-unit"
+      }
+    },
+    "type": "recipe",
+    "name": "quality-module-2"
+  },
+  {
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "quality-module-3"
+      }
+    },
+    "enabled": false,
+    "energy_required": 60,
+    "ingredients": {
+      "1": {
+        "amount": 4,
+        "type": "item",
+        "name": "quality-module-2"
+      },
+      "2": {
+        "amount": 5,
+        "type": "item",
+        "name": "advanced-circuit"
+      },
+      "3": {
+        "amount": 5,
+        "type": "item",
+        "name": "processing-unit"
+      }
+    },
+    "type": "recipe",
+    "name": "quality-module-3"
+  },
+  {
+    "results": {
+      "1": {
+        "amount": 1,
+        "type": "item",
+        "name": "recycler"
+      }
+    },
+    "enabled": false,
+    "energy_required": 3,
+    "ingredients": {
+      "1": {
+        "amount": 6,
+        "type": "item",
+        "name": "processing-unit"
+      },
+      "2": {
+        "amount": 20,
+        "type": "item",
+        "name": "steel-plate"
+      },
+      "3": {
+        "amount": 40,
+        "type": "item",
+        "name": "iron-gear-wheel"
+      },
+      "4": {
+        "amount": 20,
+        "type": "item",
+        "name": "concrete"
+      }
+    },
+    "type": "recipe",
+    "name": "recycler"
+  }
+]

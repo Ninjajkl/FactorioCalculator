@@ -1,18 +1,19 @@
-﻿using NLua;
+﻿using FactorioCalculator;
+using NLua;
 using System.Text.Json;
 
-class ConvertLuaFile
+internal class ProcessLua
 {
-    public static void convertFile()
+    public static List<Recipe> LoadModRecipesData(string modName)
     {
         // Path to the Lua file
-        string luaFilePath = "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\baseRecipe.lua";
+        string luaFilePath = $"..\\..\\..\\{modName}.lua";
 
         // Read the Lua script from the file
         string luaScript = File.ReadAllText(luaFilePath);
 
         // Initialize the Lua interpreter
-        using (var lua = new Lua())
+        using (Lua lua = new())
         {
             // Create a 'data' table to collect the results
             lua.NewTable("data");
@@ -31,33 +32,33 @@ class ConvertLuaFile
             lua.DoString(luaScript);
 
             // Retrieve the 'data.extendedData' table
-            var luaTable = lua["data.extendedData"] as LuaTable;
 
-            if (luaTable != null)
+            if (lua["data.extendedData"] is LuaTable luaTable)
             {
                 // Convert Lua table to a C# object
-                var dataObject = ConvertLuaTableToList(luaTable);
+                List<object> dataObject = ConvertLuaTableToList(luaTable);
 
                 // Serialize the object to JSON
                 string jsonOutput = JsonSerializer.Serialize(dataObject, new JsonSerializerOptions { WriteIndented = true });
 
                 // Write the JSON to a file or console
                 Console.WriteLine(jsonOutput);
-                File.WriteAllText("C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\baseRecipes.json", jsonOutput);
+                File.WriteAllText("..\\..\\..\\qualityRecipes.json", jsonOutput);
             }
             else
             {
                 Console.WriteLine("No data found in the Lua file.");
             }
         }
+        return null;
     }
 
     // Convert LuaTable to a C# List (supports nested tables)
-    static List<object> ConvertLuaTableToList(LuaTable table)
+    private static List<object> ConvertLuaTableToList(LuaTable table)
     {
-        var list = new List<object>();
+        List<object> list = [];
 
-        foreach (var value in table.Values)
+        foreach (object? value in table.Values)
         {
             if (value is LuaTable subTable)
             {
@@ -74,13 +75,13 @@ class ConvertLuaFile
     }
 
     // Convert LuaTable to a C# Dictionary
-    static Dictionary<string, object> ConvertLuaTableToDictionary(LuaTable table)
+    private static Dictionary<string, object> ConvertLuaTableToDictionary(LuaTable table)
     {
-        var dictionary = new Dictionary<string, object>();
+        Dictionary<string, object> dictionary = [];
 
-        foreach (var key in table.Keys)
+        foreach (object? key in table.Keys)
         {
-            var value = table[key];
+            object value = table[key];
 
             if (value is LuaTable subTable)
             {

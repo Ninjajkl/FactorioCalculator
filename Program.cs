@@ -1,11 +1,37 @@
-﻿using FactorioCalculator.Items;
+﻿using FactorioCalculator;
+using FactorioCalculator.Items;
 
-var itemManager = ItemManager.Instance;
+ItemManager itemManager = ItemManager.Instance;
 
-ConvertLuaFile.convertFile();
-//FindMostEfficentCombo.Find();
+List<string> mods = [];
+
+Console.WriteLine("Mods?");
+if (Console.ReadLine().ToLower() is "y" or "yes")
+{
+    Console.WriteLine("Use All Mods?");
+    if (Console.ReadLine().ToLower() is "y" or "yes")
+    {
+        mods = ["elevatedRails", "quality", "spaceAge"];
+    }
+    else
+    {
+        Console.WriteLine("Individual mod selection not implemented");
+        return;
+    }
+}
+
+RecipeManager recipeManager = new(mods);
+
+Dictionary<string, Recipe> recipes = recipeManager.GetAllRecipes();
+
+foreach (KeyValuePair<string, Recipe> kvp in recipes)
+{
+    Console.WriteLine($"{kvp.Value}");
+}
+
 return;
 
+/*
 while (true)
 {
     Console.Write("Enter the item name (or type 'exit' to quit): ");
@@ -19,7 +45,7 @@ while (true)
     Console.Write("Enter the quantity needed per second: ");
     if (float.TryParse(Console.ReadLine(), out float quantity))
     {
-        var item = itemManager.GetItem(itemName);
+        Item item = itemManager.GetItem(itemName);
         if (item != null)
         {
             Console.WriteLine(item.CalculateMachines(quantity));
@@ -34,3 +60,4 @@ while (true)
         Console.WriteLine("Invalid quantity. Please enter a valid number.");
     }
 }
+*/

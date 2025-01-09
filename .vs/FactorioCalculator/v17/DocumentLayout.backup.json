@@ -1,18 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\",
+  "WorkspaceRootPath": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\convertluafile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\recipemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:recipemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\convertluafile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:convertluafile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\baserecipe.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:baserecipe.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\baserecipes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:baserecipes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\qualityrecipes.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:qualityrecipes.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\baserecipes.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:baserecipes.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +38,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeManager.cs",
+              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\RecipeManager.cs",
+              "RelativeDocumentMoniker": "RecipeManager.cs",
+              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\RecipeManager.cs",
+              "RelativeToolTip": "RecipeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T19:01:45.306Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "baseRecipe.lua",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\baseRecipe.lua",
-              "RelativeDocumentMoniker": "baseRecipe.lua",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\baseRecipe.lua",
-              "RelativeToolTip": "baseRecipe.lua",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAHMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-09T03:44:34.666Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T18:33:35.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConvertLuaFile.cs",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\ConvertLuaFile.cs",
-              "RelativeDocumentMoniker": "ConvertLuaFile.cs",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\ConvertLuaFile.cs",
-              "RelativeToolTip": "ConvertLuaFile.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwCYAAABBAAAAAAAAAA==",
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Recipe.cs",
+              "RelativeDocumentMoniker": "Recipe.cs",
+              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Recipe.cs",
+              "RelativeToolTip": "Recipe.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAxwHcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T03:42:14.206Z",
+              "WhenOpened": "2025-01-09T18:33:01.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ConvertLuaFile.cs",
+              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\ConvertLuaFile.cs",
+              "RelativeDocumentMoniker": "ConvertLuaFile.cs",
+              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\ConvertLuaFile.cs",
+              "RelativeToolTip": "ConvertLuaFile.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T03:42:01.158Z",
+              "WhenOpened": "2025-01-09T18:14:27.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "qualityRecipes.lua",
+              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\qualityRecipes.lua",
+              "RelativeDocumentMoniker": "qualityRecipes.lua",
+              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\qualityRecipes.lua",
+              "RelativeToolTip": "qualityRecipes.lua",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-09T18:17:14.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "baseRecipes.lua",
+              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\baseRecipes.lua",
+              "RelativeDocumentMoniker": "baseRecipes.lua",
+              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\baseRecipes.lua",
+              "RelativeToolTip": "baseRecipes.lua",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-09T18:16:57.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "baseRecipes.json",
+              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\baseRecipes.json",
+              "RelativeDocumentMoniker": "baseRecipes.json",
+              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\baseRecipes.json",
+              "RelativeToolTip": "baseRecipes.json",
+              "ViewState": "AgIAAIEWAAAAQGJgHU8TwMYWAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-09T18:12:22.715Z",
               "EditorCaption": ""
             }
           ]
