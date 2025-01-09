@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FactorioCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cdb4de01b4af089df113da1fe3f3358bfdf496c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FactorioCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FactorioCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

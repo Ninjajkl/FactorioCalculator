@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\items\\electromagnetic science pack.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:items\\electromagnetic science pack.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\elevatedrailsrecipes.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:elevatedrailsrecipes.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\items\\holmium solution.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:items\\holmium solution.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\convertluafile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:convertluafile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\items\\electrolyte.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:items\\electrolyte.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\items\\holmium ore.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:items\\holmium ore.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\items\\ice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:items\\ice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\items\\holmium plate.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:items\\holmium plate.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\items\\water.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:items\\water.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\items\\light oil.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:items\\light oil.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\items\\superconductor.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:items\\superconductor.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\ninja\\documents\\programming\\random\\factorio\\factoriocalculator\\baserecipes.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:baserecipes.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,111 +31,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Electromagnetic Science Pack.json",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Electromagnetic Science Pack.json",
-              "RelativeDocumentMoniker": "Items\\Electromagnetic Science Pack.json",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Electromagnetic Science Pack.json",
-              "RelativeToolTip": "Items\\Electromagnetic Science Pack.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-31T00:03:17.862Z",
+              "Title": "elevatedRailsRecipes.lua",
+              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\elevatedRailsRecipes.lua",
+              "RelativeDocumentMoniker": "elevatedRailsRecipes.lua",
+              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\elevatedRailsRecipes.lua",
+              "RelativeToolTip": "elevatedRailsRecipes.lua",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-09T04:03:57.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Holmium Ore.json",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Holmium Ore.json",
-              "RelativeDocumentMoniker": "Items\\Holmium Ore.json",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Holmium Ore.json",
-              "RelativeToolTip": "Items\\Holmium Ore.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T23:56:44.958Z"
+              "Title": "baseRecipes.lua",
+              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\baseRecipes.lua",
+              "RelativeDocumentMoniker": "baseRecipes.lua",
+              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\baseRecipes.lua",
+              "RelativeToolTip": "baseRecipes.lua",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAHMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-09T03:44:34.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Holmium Solution.json",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Holmium Solution.json",
-              "RelativeDocumentMoniker": "Items\\Holmium Solution.json",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Holmium Solution.json",
-              "RelativeToolTip": "Items\\Holmium Solution.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T23:55:49.608Z"
+              "Title": "ConvertLuaFile.cs",
+              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\ConvertLuaFile.cs",
+              "RelativeDocumentMoniker": "ConvertLuaFile.cs",
+              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\ConvertLuaFile.cs",
+              "RelativeToolTip": "ConvertLuaFile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAgAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T03:42:14.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Electrolyte.json",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Electrolyte.json",
-              "RelativeDocumentMoniker": "Items\\Electrolyte.json",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Electrolyte.json",
-              "RelativeToolTip": "Items\\Electrolyte.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T23:54:19.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Holmium Plate.json",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Holmium Plate.json",
-              "RelativeDocumentMoniker": "Items\\Holmium Plate.json",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Holmium Plate.json",
-              "RelativeToolTip": "Items\\Holmium Plate.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T23:53:10.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ice.json",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Ice.json",
-              "RelativeDocumentMoniker": "Items\\Ice.json",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Ice.json",
-              "RelativeToolTip": "Items\\Ice.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T23:52:09.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Water.json",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Water.json",
-              "RelativeDocumentMoniker": "Items\\Water.json",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Water.json",
-              "RelativeToolTip": "Items\\Water.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T23:50:27.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Light Oil.json",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Light Oil.json",
-              "RelativeDocumentMoniker": "Items\\Light Oil.json",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Light Oil.json",
-              "RelativeToolTip": "Items\\Light Oil.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T23:45:08.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Superconductor.json",
-              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Superconductor.json",
-              "RelativeDocumentMoniker": "Items\\Superconductor.json",
-              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Items\\Superconductor.json",
-              "RelativeToolTip": "Items\\Superconductor.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T23:43:20.937Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Ninja\\Documents\\Programming\\Random\\Factorio\\FactorioCalculator\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T03:42:01.158Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -2,8 +2,9 @@
 
 var itemManager = ItemManager.Instance;
 
+ConvertLuaFile.convertFile();
 //FindMostEfficentCombo.Find();
-//return;
+return;
 
 while (true)
 {
