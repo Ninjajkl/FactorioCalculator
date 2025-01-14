@@ -1,6 +1,11 @@
 ﻿using FactorioCalculator;
-using FactorioCalculator.Items;
 
+List<Recipe> recipes = ProcessLua.LoadModRecipesData("base");
+recipes.AddRange(ProcessLua.LoadModRecipesData("spaceAge"));
+ProcessLua.UpdateRecipesData("spaceAge", recipes);
+
+return;
+/*
 ItemManager itemManager = ItemManager.Instance;
 
 List<string> mods = [];
@@ -30,6 +35,7 @@ foreach (KeyValuePair<string, Recipe> kvp in recipes)
 }
 
 return;
+*/
 
 /*
 while (true)

@@ -7,7 +7,7 @@ internal class ProcessLua
     public static List<Recipe> LoadModRecipesData(string modName)
     {
         // Path to the Lua file
-        string luaFilePath = $"..\\..\\..\\{modName}.lua";
+        string luaFilePath = $"..\\..\\..\\{modName}Recipes.lua";
 
         // Read the Lua script from the file
         string luaScript = File.ReadAllText(luaFilePath);
@@ -43,7 +43,10 @@ internal class ProcessLua
 
                 // Write the JSON to a file or console
                 Console.WriteLine(jsonOutput);
-                File.WriteAllText("..\\..\\..\\qualityRecipes.json", jsonOutput);
+                File.WriteAllText($"..\\..\\..\\{modName}Recipes.json", jsonOutput);
+
+                // Return the deserialized list of recipes
+                return JsonSerializer.Deserialize<List<Recipe>>(jsonOutput, Converter.Settings); ;
             }
             else
             {
@@ -52,6 +55,96 @@ internal class ProcessLua
         }
         return null;
     }
+
+    public static void UpdateRecipesData(string modName, List<Recipe> recipes)
+    {
+        // Read the Lua script from the update file
+        string[] luaScriptLines = File.ReadAllLines($"..\\..\\..\\{modName}DataUpdates.lua");
+
+        // Filter lines that contain 'data.raw.recipe' and handle multi-line entries
+        List<string> filteredLines = [];
+        bool inRecipeSection = false;
+        int openBracesCount = 0;
+
+        foreach (string line in luaScriptLines)
+        {
+            if (line.Contains("data.raw.recipe"))
+            {
+                inRecipeSection = true;
+            }
+
+            if (inRecipeSection)
+            {
+                filteredLines.Add(line);
+
+                // Count opening and closing braces to determine when a section ends
+                openBracesCount += line.Count(c => c == '{');
+                openBracesCount -= line.Count(c => c == '}');
+
+                if (openBracesCount == 0 && line.Trim().EndsWith("}"))
+                {
+                    inRecipeSection = false;
+                }
+            }
+        }
+
+        // Join the filtered lines back into a single script
+        string filteredLuaScript = string.Join("\n", filteredLines);
+
+        // Initialize the Lua interpreter
+        using (Lua lua = new())
+        {
+            // Load the existing recipes into the Lua environment
+            lua["data"] = new { raw = new { recipe = recipes } };
+
+            // Execute the Lua script to update the recipes
+            lua.DoString(filteredLuaScript);
+
+            // Retrieve the updated recipes
+            if (lua["data.raw.recipe"] is LuaTable luaTable)
+            {
+                // Convert Lua table to a C# object
+                List<object> updatedDataObject = ConvertLuaTableToList(luaTable);
+
+                // Serialize the object to JSON
+                string updatedJsonOutput = JsonSerializer.Serialize(updatedDataObject, new JsonSerializerOptions { WriteIndented = true });
+
+                // Write the updated JSON to a file or console
+                Console.WriteLine(updatedJsonOutput);
+                File.WriteAllText($"..\\..\\..\\{modName}DataUpdates.json", updatedJsonOutput);
+            }
+            else
+            {
+                Console.WriteLine("No data found in the Lua file.");
+            }
+        }
+    }
+
+    public static void PrintLuaTable(LuaTable luaTable)
+    {
+        foreach (object? key in luaTable.Keys)
+        {
+            Console.WriteLine($"{key}: {luaTable[key]}");
+        }
+    }
+
+    public static void LoadAndPrintRecipes(LuaTable recipes)
+    {
+        using (Lua lua = new())
+        {
+            // Load the existing recipes into the Lua environment
+            lua["data"] = new { raw = new { recipe = recipes } };
+
+            // Print the contents of lua["data"]
+            if (lua["data"] is LuaTable dataTable)
+            {
+                PrintLuaTable(dataTable);
+            }
+            else
+            {
+                Console.WriteLine("No data found in the Lua environment.");
+            }
+        }
 
     // Convert LuaTable to a C# List (supports nested tables)
     private static List<object> ConvertLuaTableToList(LuaTable table)
