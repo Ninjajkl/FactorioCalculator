@@ -4,6 +4,88 @@ using System.Text.Json;
 
 internal class ProcessLua
 {
+    public static List<Recipe> LoadRecipesData(Lua lua, List<string> modNames)
+    {
+        // Create a 'data' table to collect the results
+        lua.NewTable("data");
+
+        // Define a stub for 'data:extend'
+        lua.DoString(@"
+            data.raw = { recipe = {} }
+            function data:extend(entries)
+                for _, entry in ipairs(entries) do
+                    table.insert(data.raw.recipe, entry)
+                end
+            end
+
+            function printRecipes()
+                for key, value in pairs(data.raw.recipe) do
+                    print('Recipe ' .. key .. ':')
+                    for k, v in pairs(value) do
+                        print('  ' .. k .. ': ' .. tostring(v))
+                    end
+                end
+            end
+        ");
+
+        foreach (string modName in modNames)
+        {
+            // Path to the Lua file
+            string dataFilePath = $"..\\..\\..\\{modName}Recipes.lua";
+
+            // Read the Lua script from the file
+            string dataScript = File.ReadAllText(dataFilePath);
+
+            // Execute the Lua script
+            lua.DoString(dataScript);
+
+            // Check if this Mod has updates
+            string path = $"..\\..\\..\\{modName}DataUpdates.lua";
+            if (File.Exists(path))
+            {
+                // Read the Lua script from the update file
+                string[] updateScriptLines = File.ReadAllLines(path);
+
+                // Filter lines that contain 'data.raw.recipe' and handle multi-line entries
+                List<string> filteredLines = [];
+                bool inRecipeSection = false;
+                int openBracesCount = 0;
+
+                foreach (string line in updateScriptLines)
+                {
+                    if (line.Contains("data.raw.recipe"))
+                    {
+                        inRecipeSection = true;
+                    }
+
+                    if (inRecipeSection)
+                    {
+                        filteredLines.Add(line);
+
+                        // Count opening and closing braces to determine when a section ends
+                        openBracesCount += line.Count(c => c == '{');
+                        openBracesCount -= line.Count(c => c == '}');
+
+                        if (openBracesCount == 0)
+                        {
+                            inRecipeSection = false;
+                        }
+                    }
+                }
+
+                // Join the filtered lines back into a single script
+                string filteredLuaScript = string.Join("\n", filteredLines);
+
+                lua.DoString("printRecipes()");
+                // Execute the Lua script to update the recipes
+                lua.DoString(filteredLuaScript);
+            }
+        }
+        return null;
+    }
+
+
+
     public static List<Recipe> LoadModRecipesData(string modName)
     {
         // Path to the Lua file
@@ -119,32 +201,6 @@ internal class ProcessLua
             }
         }
     }
-
-    public static void PrintLuaTable(LuaTable luaTable)
-    {
-        foreach (object? key in luaTable.Keys)
-        {
-            Console.WriteLine($"{key}: {luaTable[key]}");
-        }
-    }
-
-    public static void LoadAndPrintRecipes(LuaTable recipes)
-    {
-        using (Lua lua = new())
-        {
-            // Load the existing recipes into the Lua environment
-            lua["data"] = new { raw = new { recipe = recipes } };
-
-            // Print the contents of lua["data"]
-            if (lua["data"] is LuaTable dataTable)
-            {
-                PrintLuaTable(dataTable);
-            }
-            else
-            {
-                Console.WriteLine("No data found in the Lua environment.");
-            }
-        }
 
     // Convert LuaTable to a C# List (supports nested tables)
     private static List<object> ConvertLuaTableToList(LuaTable table)

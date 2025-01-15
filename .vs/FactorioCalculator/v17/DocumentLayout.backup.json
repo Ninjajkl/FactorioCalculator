@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T18:33:35.942Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "ProcessLua.cs",
               "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\ProcessLua.cs",
               "RelativeToolTip": "ProcessLua.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T18:14:27.902Z",
               "EditorCaption": ""
@@ -93,8 +93,7 @@
               "RelativeToolTip": "RecipeManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T19:01:45.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T19:01:45.306Z"
             },
             {
               "$type": "Document",
@@ -106,8 +105,7 @@
               "RelativeToolTip": "qualityRecipes.lua",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-09T18:17:14.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T18:17:14.208Z"
             },
             {
               "$type": "Document",
@@ -119,8 +117,7 @@
               "RelativeToolTip": "baseRecipes.lua",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-09T18:16:57.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T18:16:57.734Z"
             },
             {
               "$type": "Document",
@@ -130,10 +127,9 @@
               "RelativeDocumentMoniker": "baseRecipes.json",
               "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\baseRecipes.json",
               "RelativeToolTip": "baseRecipes.json",
-              "ViewState": "AgIAAHcWAAAAQGJgHU8TwMMWAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAHQWAAAAQGJgHU8TwMQWAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-09T18:12:22.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T18:12:22.715Z"
             }
           ]
         }

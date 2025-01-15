@@ -1,8 +1,11 @@
 ﻿using FactorioCalculator;
+using NLua;
 
+List<Recipe> recipes = ProcessLua.LoadRecipesData(new Lua(), ["base", "elevatedRails", "quality", "spaceAge"]);
+/*
 List<Recipe> recipes = ProcessLua.LoadModRecipesData("base");
 recipes.AddRange(ProcessLua.LoadModRecipesData("spaceAge"));
-ProcessLua.UpdateRecipesData("spaceAge", recipes);
+ProcessLua.UpdateRecipesData("spaceAge", recipes);*/
 
 return;
 /*
