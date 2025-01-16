@@ -1,0 +1,651 @@
+uranium-rounds-magazine:
+	uranium-rounds-magazine
+rocket-fuel:
+	ammonia-rocket-fuel
+	rocket-fuel-from-jelly
+	rocket-fuel
+nutrients:
+	nutrients-from-yumako-mash
+	nutrients-from-fish
+	nutrients-from-biter-egg
+	nutrients-from-bioflux
+	nutrients-from-spoilage
+boiler:
+	boiler
+tesla-ammo:
+	tesla-ammo
+bioflux:
+	bioflux
+efficiency-module:
+	efficiency-module
+cryogenic-science-pack:
+	cryogenic-science-pack
+fluoroketone-hot:
+	cryogenic-science-pack
+	fluoroketone
+	quantum-processor
+solar-panel:
+	solar-panel
+iron-bacteria:
+	iron-bacteria
+	iron-bacteria-cultivation
+spoilage:
+	iron-bacteria
+	copper-bacteria
+personal-roboport-equipment:
+	personal-roboport-equipment
+underground-belt:
+	underground-belt
+energy-shield-equipment:
+	energy-shield-equipment
+lithium:
+	lithium
+firearm-magazine:
+	firearm-magazine
+bulk-inserter:
+	bulk-inserter
+engine-unit:
+	engine-unit
+flamethrower:
+	flamethrower
+laser-turret:
+	laser-turret
+transport-belt:
+	transport-belt
+heat-exchanger:
+	heat-exchanger
+oxide-asteroid-chunk:
+	oxide-asteroid-reprocessing
+	advanced-oxide-asteroid-crushing
+	oxide-asteroid-crushing
+	carbonic-asteroid-reprocessing
+	metallic-asteroid-reprocessing
+metallic-asteroid-chunk:
+	oxide-asteroid-reprocessing
+	carbonic-asteroid-reprocessing
+	metallic-asteroid-crushing
+	metallic-asteroid-reprocessing
+	advanced-metallic-asteroid-crushing
+carbonic-asteroid-chunk:
+	oxide-asteroid-reprocessing
+	advanced-carbonic-asteroid-crushing
+	carbonic-asteroid-reprocessing
+	carbonic-asteroid-crushing
+	metallic-asteroid-reprocessing
+night-vision-equipment:
+	night-vision-equipment
+fast-loader:
+	fast-loader
+foundry:
+	foundry
+yumako-seed:
+	yumako-processing
+yumako-mash:
+	yumako-processing
+carbon:
+	advanced-carbonic-asteroid-crushing
+	carbonic-asteroid-crushing
+	carbon
+	burnt-spoilage
+sulfur:
+	advanced-carbonic-asteroid-crushing
+	biosulfur
+	sulfur
+gate:
+	gate
+cargo-wagon:
+	cargo-wagon
+loader:
+	loader
+molten-copper:
+	molten-copper-from-lava
+	molten-copper
+stone:
+	molten-copper-from-lava
+	scrap-recycling
+	molten-iron-from-lava
+captive-biter-spawner:
+	captive-biter-spawner
+copper-cable:
+	casting-copper-cable
+	scrap-recycling
+	copper-cable
+buffer-chest:
+	buffer-chest
+construction-robot:
+	construction-robot
+quality-module-2:
+	quality-module-2
+express-underground-belt:
+	express-underground-belt
+lithium-plate:
+	lithium-plate
+processing-unit:
+	scrap-recycling
+	processing-unit
+advanced-circuit:
+	scrap-recycling
+	advanced-circuit
+low-density-structure:
+	scrap-recycling
+	casting-low-density-structure
+	low-density-structure
+solid-fuel:
+	scrap-recycling
+	solid-fuel-from-ammonia
+	solid-fuel-from-heavy-oil
+	solid-fuel-from-light-oil
+	solid-fuel-from-petroleum-gas
+steel-plate:
+	scrap-recycling
+	steel-plate
+	casting-steel
+concrete:
+	scrap-recycling
+	concrete-from-molten-iron
+	concrete
+battery:
+	scrap-recycling
+	battery
+ice:
+	scrap-recycling
+	advanced-oxide-asteroid-crushing
+	oxide-asteroid-crushing
+	ammoniacal-solution-separation
+holmium-ore:
+	scrap-recycling
+iron-gear-wheel:
+	scrap-recycling
+	casting-iron-gear-wheel
+	iron-gear-wheel
+heating-tower:
+	heating-tower
+thruster-oxidizer:
+	thruster-oxidizer
+	advanced-thruster-oxidizer
+water:
+	steam-condensation
+	ice-melting
+iron-plate:
+	iron-plate
+	casting-iron
+pipe:
+	pipe
+	casting-pipe
+tank:
+	tank
+artillery-shell:
+	artillery-shell
+grenade:
+	grenade
+cliff-explosives:
+	cliff-explosives
+speed-module-3:
+	speed-module-3
+railgun-ammo:
+	railgun-ammo
+refined-concrete:
+	refined-concrete
+agricultural-science-pack:
+	agricultural-science-pack
+nuclear-fuel:
+	nuclear-fuel
+fluid-wagon:
+	fluid-wagon
+beacon:
+	beacon
+automation-science-pack:
+	automation-science-pack
+cargo-bay:
+	cargo-bay
+piercing-shotgun-shell:
+	piercing-shotgun-shell
+chemical-plant:
+	chemical-plant
+calcite:
+	advanced-oxide-asteroid-crushing
+power-armor-mk2:
+	power-armor-mk2
+fusion-reactor:
+	fusion-reactor
+tungsten-plate:
+	tungsten-plate
+iron-chest:
+	iron-chest
+constant-combinator:
+	constant-combinator
+holmium-plate:
+	holmium-plate
+refined-hazard-concrete:
+	refined-hazard-concrete
+quality-module-3:
+	quality-module-3
+stone-wall:
+	stone-wall
+roboport:
+	roboport
+overgrowth-jellynut-soil:
+	overgrowth-jellynut-soil
+productivity-module:
+	productivity-module
+space-science-pack:
+	space-science-pack
+crusher:
+	crusher
+medium-electric-pole:
+	medium-electric-pole
+quantum-processor:
+	quantum-processor
+explosive-uranium-cannon-shell:
+	explosive-uranium-cannon-shell
+petroleum-gas:
+	light-oil-cracking
+	advanced-oil-processing
+	basic-oil-processing
+	coal-liquefaction
+cluster-grenade:
+	cluster-grenade
+thruster:
+	thruster
+heavy-oil:
+	advanced-oil-processing
+	coal-liquefaction
+	simple-coal-liquefaction
+light-oil:
+	advanced-oil-processing
+	coal-liquefaction
+	heavy-oil-cracking
+power-switch:
+	power-switch
+battery-mk3-equipment:
+	battery-mk3-equipment
+lightning-collector:
+	lightning-collector
+copper-bacteria:
+	copper-bacteria-cultivation
+	copper-bacteria
+electromagnetic-science-pack:
+	electromagnetic-science-pack
+power-armor:
+	power-armor
+metallurgic-science-pack:
+	metallurgic-science-pack
+electric-engine-unit:
+	electric-engine-unit
+ammonia:
+	ammoniacal-solution-separation
+flamethrower-turret:
+	flamethrower-turret
+cryogenic-plant:
+	cryogenic-plant
+infinity-chest:
+	infinity-chest
+thruster-fuel:
+	thruster-fuel
+	advanced-thruster-fuel
+rail-support:
+	rail-support
+uranium-235:
+	kovarex-enrichment-process
+	uranium-processing
+uranium-238:
+	kovarex-enrichment-process
+	uranium-processing
+	nuclear-fuel-reprocessing
+destroyer-capsule:
+	destroyer-capsule
+landfill:
+	landfill
+tungsten-carbide:
+	tungsten-carbide
+iron-stick:
+	casting-iron-stick
+	iron-stick
+artillery-turret:
+	artillery-turret
+small-electric-pole:
+	small-electric-pole
+logistic-robot:
+	logistic-robot
+heat-interface:
+	heat-interface
+fast-transport-belt:
+	fast-transport-belt
+centrifuge:
+	centrifuge
+pipe-to-ground:
+	casting-pipe-to-ground
+	pipe-to-ground
+wooden-chest:
+	wooden-chest
+radar:
+	radar
+assembling-machine-1:
+	assembling-machine-1
+rocket:
+	rocket
+jellynut-seed:
+	jellynut-processing
+jelly:
+	jellynut-processing
+rocket-launcher:
+	rocket-launcher
+storage-chest:
+	storage-chest
+steam-engine:
+	steam-engine
+lubricant:
+	lubricant
+	biolubricant
+active-provider-chest:
+	active-provider-chest
+steam:
+	acid-neutralisation
+small-lamp:
+	small-lamp
+pump:
+	pump
+poison-capsule:
+	poison-capsule
+shotgun:
+	shotgun
+burner-mining-drill:
+	burner-mining-drill
+rocket-part:
+	rocket-part
+electronic-circuit:
+	electronic-circuit
+pumpjack:
+	pumpjack
+infinity-pipe:
+	infinity-pipe
+fast-inserter:
+	fast-inserter
+quality-module:
+	quality-module
+flying-robot-frame:
+	flying-robot-frame
+mech-armor:
+	mech-armor
+offshore-pump:
+	offshore-pump
+passive-provider-chest:
+	passive-provider-chest
+lightning-rod:
+	lightning-rod
+explosives:
+	explosives
+asteroid-collector:
+	asteroid-collector
+locomotive:
+	locomotive
+burner-inserter:
+	burner-inserter
+iron-ore:
+	metallic-asteroid-crushing
+	advanced-metallic-asteroid-crushing
+recycler:
+	recycler
+supercapacitor:
+	supercapacitor
+tree-seed:
+	wood-processing
+fusion-generator:
+	fusion-generator
+uranium-cannon-shell:
+	uranium-cannon-shell
+logistic-science-pack:
+	logistic-science-pack
+oil-refinery:
+	oil-refinery
+ice-platform:
+	ice-platform
+arithmetic-combinator:
+	arithmetic-combinator
+gun-turret:
+	gun-turret
+lab:
+	lab
+foundation:
+	foundation
+promethium-science-pack:
+	promethium-science-pack
+substation:
+	substation
+fusion-reactor-equipment:
+	fusion-reactor-equipment
+inserter:
+	inserter
+cannon-shell:
+	cannon-shell
+programmable-speaker:
+	programmable-speaker
+car:
+	car
+artillery-wagon:
+	artillery-wagon
+copper-plate:
+	copper-plate
+	casting-copper
+tesla-turret:
+	tesla-turret
+teslagun:
+	teslagun
+express-loader:
+	express-loader
+energy-shield-mk2-equipment:
+	energy-shield-mk2-equipment
+solar-panel-equipment:
+	solar-panel-equipment
+superconductor:
+	superconductor
+coal:
+	coal-synthesis
+electromagnetic-plant:
+	electromagnetic-plant
+turbo-loader:
+	turbo-loader
+fusion-power-cell:
+	fusion-power-cell
+flamethrower-ammo:
+	flamethrower-ammo
+raw-fish:
+	fish-breeding
+heavy-armor:
+	heavy-armor
+land-mine:
+	land-mine
+biter-egg:
+	biter-egg
+fast-splitter:
+	fast-splitter
+plastic-bar:
+	plastic-bar
+	bioplastic
+electric-furnace:
+	electric-furnace
+piercing-rounds-magazine:
+	piercing-rounds-magazine
+heat-pipe:
+	heat-pipe
+assembling-machine-2:
+	assembling-machine-2
+toolbelt-equipment:
+	toolbelt-equipment
+explosive-rocket:
+	explosive-rocket
+battery-mk2-equipment:
+	battery-mk2-equipment
+railgun-turret:
+	railgun-turret
+modular-armor:
+	modular-armor
+big-electric-pole:
+	big-electric-pole
+holmium-solution:
+	holmium-solution
+turbo-splitter:
+	turbo-splitter
+turbo-underground-belt:
+	turbo-underground-belt
+rocket-turret:
+	rocket-turret
+turbo-transport-belt:
+	turbo-transport-belt
+satellite:
+	satellite
+train-stop:
+	train-stop
+artificial-yumako-soil:
+	artificial-yumako-soil
+productivity-module-3:
+	productivity-module-3
+battery-equipment:
+	battery-equipment
+steam-turbine:
+	steam-turbine
+electrolyte:
+	electrolyte
+carbon-fiber:
+	carbon-fiber
+steel-chest:
+	steel-chest
+molten-iron:
+	molten-iron
+	molten-iron-from-lava
+personal-roboport-mk2-equipment:
+	personal-roboport-mk2-equipment
+accumulator:
+	accumulator
+selector-combinator:
+	selector-combinator
+steel-furnace:
+	steel-furnace
+decider-combinator:
+	decider-combinator
+requester-chest:
+	requester-chest
+chemical-science-pack:
+	chemical-science-pack
+biolab:
+	biolab
+rail-ramp:
+	rail-ramp
+overgrowth-yumako-soil:
+	overgrowth-yumako-soil
+railgun:
+	railgun
+discharge-defense-equipment:
+	discharge-defense-equipment
+hazard-concrete:
+	hazard-concrete
+biochamber:
+	biochamber
+speed-module-2:
+	speed-module-2
+capture-robot-rocket:
+	capture-robot-rocket
+sulfuric-acid:
+	sulfuric-acid
+express-transport-belt:
+	express-transport-belt
+rail-signal:
+	rail-signal
+efficiency-module-3:
+	efficiency-module-3
+defender-capsule:
+	defender-capsule
+exoskeleton-equipment:
+	exoskeleton-equipment
+fission-reactor-equipment:
+	fission-reactor-equipment
+explosive-cannon-shell:
+	explosive-cannon-shell
+belt-immunity-equipment:
+	belt-immunity-equipment
+combat-shotgun:
+	combat-shotgun
+submachine-gun:
+	submachine-gun
+rocket-silo:
+	rocket-silo
+agricultural-tower:
+	agricultural-tower
+display-panel:
+	display-panel
+fast-underground-belt:
+	fast-underground-belt
+light-armor:
+	light-armor
+barrel:
+	barrel
+stone-furnace:
+	stone-furnace
+production-science-pack:
+	production-science-pack
+splitter:
+	splitter
+rail-chain-signal:
+	rail-chain-signal
+personal-laser-defense-equipment:
+	personal-laser-defense-equipment
+uranium-fuel-cell:
+	uranium-fuel-cell
+repair-pack:
+	repair-pack
+long-handed-inserter:
+	long-handed-inserter
+assembling-machine-3:
+	assembling-machine-3
+spidertron:
+	spidertron
+rail:
+	rail
+utility-science-pack:
+	utility-science-pack
+military-science-pack:
+	military-science-pack
+atomic-bomb:
+	atomic-bomb
+express-splitter:
+	express-splitter
+fluoroketone-cold:
+	fluoroketone-cooling
+nuclear-reactor:
+	nuclear-reactor
+distractor-capsule:
+	distractor-capsule
+electric-mining-drill:
+	electric-mining-drill
+productivity-module-2:
+	productivity-module-2
+shotgun-shell:
+	shotgun-shell
+storage-tank:
+	storage-tank
+pentapod-egg:
+	pentapod-egg
+copper-ore:
+	advanced-metallic-asteroid-crushing
+efficiency-module-2:
+	efficiency-module-2
+pistol:
+	pistol
+stone-brick:
+	stone-brick
+artificial-jellynut-soil:
+	artificial-jellynut-soil
+cargo-landing-pad:
+	cargo-landing-pad
+speed-module:
+	speed-module
+big-mining-drill:
+	big-mining-drill
+stack-inserter:
+	stack-inserter
+space-platform-starter-pack:
+	space-platform-starter-pack
+slowdown-capsule:
+	slowdown-capsule
+space-platform-foundation:
+	space-platform-foundation

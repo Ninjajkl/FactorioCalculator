@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\recipemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:recipemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\recipes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:recipes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\profiles\\default.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:profiles\\default.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\processlua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:processlua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\recipemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:recipemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\processlua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:processlua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|c:\\users\\p3194927\\onedrive - charter communications\\documents\\projects\\personal\\factoriocalculator\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B260A7C-B873-4E6D-96F2-1EBD4A4B84FA}|FactorioCalculator.csproj|solutionrelative:recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,39 +42,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Recipes.json",
-              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Recipes.json",
-              "RelativeDocumentMoniker": "Recipes.json",
-              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Recipes.json",
-              "RelativeToolTip": "Recipes.json",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAAAIMAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "default.json",
+              "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Profiles\\default.json",
+              "RelativeDocumentMoniker": "Profiles\\default.json",
+              "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Profiles\\default.json",
+              "RelativeToolTip": "Profiles\\default.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-16T19:42:17.386Z",
+              "WhenOpened": "2025-01-16T20:44:00.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T18:33:35.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "RecipeManager.cs",
               "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\RecipeManager.cs",
               "RelativeDocumentMoniker": "RecipeManager.cs",
               "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\RecipeManager.cs",
               "RelativeToolTip": "RecipeManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCMAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T19:47:22.663Z",
               "EditorCaption": ""
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Recipe.cs",
               "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\Recipe.cs",
               "RelativeDocumentMoniker": "Recipe.cs",
@@ -107,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ProcessLua.cs",
               "DocumentMoniker": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\ProcessLua.cs",
               "RelativeDocumentMoniker": "ProcessLua.cs",
               "ToolTip": "C:\\Users\\P3194927\\OneDrive - Charter Communications\\Documents\\Projects\\Personal\\FactorioCalculator\\ProcessLua.cs",
               "RelativeToolTip": "ProcessLua.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAQwBYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwGUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T18:14:27.902Z",
               "EditorCaption": ""

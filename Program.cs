@@ -18,25 +18,28 @@ if (Console.ReadLine().ToLower() is "y" or "yes")
 }
 
 RecipeManager recipeManager = new(mods);
+Dictionary<string, Recipe> recipes = recipeManager.GetAllRecipes();
+Dictionary<string, List<Recipe>> itemRecipesMap = recipeManager.GetAllItemRecipes();
 
+/*
 Dictionary<string, Recipe> recipes = recipeManager.GetAllRecipes();
 
 foreach (KeyValuePair<string, Recipe> kvp in recipes)
 {
-    //Console.WriteLine($"{kvp.Value}");
+    Console.WriteLine($"{kvp.Value}");
 }
 
 Dictionary<string, List<Recipe>> itemRecipesMap = recipeManager.GetAllItemRecipes();
 
 foreach (KeyValuePair<string, List<Recipe>> itemRecipes in itemRecipesMap)
 {
-    //Console.WriteLine($"{itemRecipes.Key}:");
+    Console.WriteLine($"{itemRecipes.Key}:");
     foreach (Recipe recipe in itemRecipes.Value)
     {
-        //Console.WriteLine($"\t{recipe.Name}");
+        Console.WriteLine($"\t{recipe.Name}");
     }
 }
-
+*/
 return;
 
 

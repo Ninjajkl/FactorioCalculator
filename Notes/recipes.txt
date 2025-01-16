@@ -1,0 +1,2804 @@
+Recipe Name: uranium-rounds-magazine
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	1x piercing-rounds-magazine (Item)
+	1x uranium-238 (Item)
+Results:
+	1x uranium-rounds-magazine (Item)
+Recipe Name: ammonia-rocket-fuel
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	10x solid-fuel (Item)
+	50x water (Fluid)
+	500x ammonia (Fluid)
+Results:
+	1x rocket-fuel (Item)
+Recipe Name: nutrients-from-yumako-mash
+Type: Recipe
+Energy Required: 4
+Ingredients:
+	4x yumako-mash (Item)
+Results:
+	6x nutrients (Item)
+Recipe Name: boiler
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x stone-furnace (Item)
+	4x pipe (Item)
+Results:
+	1x boiler (Item)
+Recipe Name: tesla-ammo
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	1x supercapacitor (Item)
+	1x plastic-bar (Item)
+	10x electrolyte (Fluid)
+Results:
+	1x tesla-ammo (Item)
+Recipe Name: bioflux
+Type: Recipe
+Energy Required: 6
+Ingredients:
+	15x yumako-mash (Item)
+	12x jelly (Item)
+Results:
+	4x bioflux (Item)
+Recipe Name: efficiency-module
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	5x advanced-circuit (Item)
+	5x electronic-circuit (Item)
+Results:
+	1x efficiency-module (Item)
+Recipe Name: cryogenic-science-pack
+Type: Recipe
+Energy Required: 20
+Ingredients:
+	3x ice (Item)
+	1x lithium-plate (Item)
+	6x fluoroketone-cold (Fluid)
+Results:
+	1x cryogenic-science-pack (Item)
+	3x fluoroketone-hot (Fluid)
+Recipe Name: solar-panel
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x steel-plate (Item)
+	15x electronic-circuit (Item)
+	5x copper-plate (Item)
+Results:
+	1x solar-panel (Item)
+Recipe Name: iron-bacteria
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	6x jelly (Item)
+Results:
+	1x iron-bacteria (Item)
+	4x spoilage (Item)
+Recipe Name: personal-roboport-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	10x advanced-circuit (Item)
+	40x iron-gear-wheel (Item)
+	20x steel-plate (Item)
+	45x battery (Item)
+Results:
+	1x personal-roboport-equipment (Item)
+Recipe Name: underground-belt
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	10x iron-plate (Item)
+	5x transport-belt (Item)
+Results:
+	2x underground-belt (Item)
+Recipe Name: energy-shield-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x advanced-circuit (Item)
+	10x steel-plate (Item)
+Results:
+	1x energy-shield-equipment (Item)
+Recipe Name: fluoroketone
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	50x fluorine (Fluid)
+	50x ammonia (Fluid)
+	1x solid-fuel (Item)
+	1x lithium (Item)
+Results:
+	50x fluoroketone-hot (Fluid)
+Recipe Name: lithium
+Type: Recipe
+Energy Required: 20
+Ingredients:
+	1x holmium-plate (Item)
+	50x lithium-brine (Fluid)
+	50x ammonia (Fluid)
+Results:
+	5x lithium (Item)
+Recipe Name: firearm-magazine
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	4x iron-plate (Item)
+Results:
+	1x firearm-magazine (Item)
+Recipe Name: bulk-inserter
+Type: Recipe
+Energy Required: 
+Ingredients:
+	15x iron-gear-wheel (Item)
+	15x electronic-circuit (Item)
+	1x advanced-circuit (Item)
+	1x fast-inserter (Item)
+Results:
+	1x bulk-inserter (Item)
+Recipe Name: engine-unit
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	1x steel-plate (Item)
+	1x iron-gear-wheel (Item)
+	2x pipe (Item)
+Results:
+	1x engine-unit (Item)
+Recipe Name: flamethrower
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x steel-plate (Item)
+	10x iron-gear-wheel (Item)
+Results:
+	1x flamethrower (Item)
+Recipe Name: laser-turret
+Type: Recipe
+Energy Required: 20
+Ingredients:
+	20x steel-plate (Item)
+	20x electronic-circuit (Item)
+	12x battery (Item)
+Results:
+	1x laser-turret (Item)
+Recipe Name: transport-belt
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x iron-plate (Item)
+	1x iron-gear-wheel (Item)
+Results:
+	2x transport-belt (Item)
+Recipe Name: heat-exchanger
+Type: Recipe
+Energy Required: 3
+Ingredients:
+	10x steel-plate (Item)
+	100x copper-plate (Item)
+	10x pipe (Item)
+Results:
+	1x heat-exchanger (Item)
+Recipe Name: oxide-asteroid-reprocessing
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	1x oxide-asteroid-chunk (Item)
+Results:
+	1x oxide-asteroid-chunk (Item)
+	1x metallic-asteroid-chunk (Item)
+	1x carbonic-asteroid-chunk (Item)
+Recipe Name: night-vision-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x advanced-circuit (Item)
+	10x steel-plate (Item)
+Results:
+	1x night-vision-equipment (Item)
+Recipe Name: fast-loader
+Type: Recipe
+Energy Required: 3
+Ingredients:
+	5x fast-transport-belt (Item)
+	1x loader (Item)
+Results:
+	1x fast-loader (Item)
+Recipe Name: foundry
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	50x tungsten-carbide (Item)
+	50x steel-plate (Item)
+	30x electronic-circuit (Item)
+	20x refined-concrete (Item)
+	20x lubricant (Fluid)
+Results:
+	1x foundry (Item)
+Recipe Name: yumako-processing
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	1x yumako (Item)
+Results:
+	1x yumako-seed (Item)
+	2x yumako-mash (Item)
+Recipe Name: advanced-carbonic-asteroid-crushing
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	1x carbonic-asteroid-chunk (Item)
+Results:
+	5x carbon (Item)
+	2x sulfur (Item)
+	1x carbonic-asteroid-chunk (Item)
+Recipe Name: gate
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x stone-wall (Item)
+	2x steel-plate (Item)
+	2x electronic-circuit (Item)
+Results:
+	1x gate (Item)
+Recipe Name: cargo-wagon
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	10x iron-gear-wheel (Item)
+	20x iron-plate (Item)
+	20x steel-plate (Item)
+Results:
+	1x cargo-wagon (Item)
+Recipe Name: rocket-fuel-from-jelly
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	30x water (Fluid)
+	30x jelly (Item)
+	2x bioflux (Item)
+Results:
+	1x rocket-fuel (Item)
+Recipe Name: loader
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	5x inserter (Item)
+	5x electronic-circuit (Item)
+	5x iron-gear-wheel (Item)
+	5x iron-plate (Item)
+	5x transport-belt (Item)
+Results:
+	1x loader (Item)
+Recipe Name: molten-copper-from-lava
+Type: Recipe
+Energy Required: 16
+Ingredients:
+	500x lava (Fluid)
+	1x calcite (Item)
+Results:
+	250x molten-copper (Fluid)
+	15x stone (Item)
+Recipe Name: captive-biter-spawner
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	10x biter-egg (Item)
+	1x capture-robot-rocket (Item)
+	15x uranium-235 (Item)
+	100x fluoroketone-cold (Fluid)
+Results:
+	1x captive-biter-spawner (Item)
+Recipe Name: casting-copper-cable
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	5x molten-copper (Fluid)
+Results:
+	2x copper-cable (Item)
+Recipe Name: buffer-chest
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x steel-chest (Item)
+	3x electronic-circuit (Item)
+	1x advanced-circuit (Item)
+Results:
+	1x buffer-chest (Item)
+Recipe Name: construction-robot
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x flying-robot-frame (Item)
+	2x electronic-circuit (Item)
+Results:
+	1x construction-robot (Item)
+Recipe Name: quality-module-2
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	4x quality-module (Item)
+	5x advanced-circuit (Item)
+	5x processing-unit (Item)
+Results:
+	1x quality-module-2 (Item)
+Recipe Name: express-underground-belt
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	80x iron-gear-wheel (Item)
+	2x fast-underground-belt (Item)
+	40x lubricant (Fluid)
+Results:
+	2x express-underground-belt (Item)
+Recipe Name: nutrients-from-fish
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x raw-fish (Item)
+Results:
+	20x nutrients (Item)
+Recipe Name: lithium-plate
+Type: Recipe
+Energy Required: 6.4
+Ingredients:
+	1x lithium (Item)
+Results:
+	1x lithium-plate (Item)
+Recipe Name: scrap-recycling
+Type: Recipe
+Energy Required: 0.2
+Ingredients:
+	1x scrap (Item)
+Results:
+	1x processing-unit (Item)
+	1x advanced-circuit (Item)
+	1x low-density-structure (Item)
+	1x solid-fuel (Item)
+	1x steel-plate (Item)
+	1x concrete (Item)
+	1x battery (Item)
+	1x ice (Item)
+	1x stone (Item)
+	1x holmium-ore (Item)
+	1x iron-gear-wheel (Item)
+	1x copper-cable (Item)
+Recipe Name: heating-tower
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	2x boiler (Item)
+	5x heat-pipe (Item)
+	20x concrete (Item)
+Results:
+	1x heating-tower (Item)
+Recipe Name: thruster-oxidizer
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	2x iron-ore (Item)
+	10x water (Fluid)
+Results:
+	75x thruster-oxidizer (Fluid)
+Recipe Name: steam-condensation
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	1000x steam (Fluid)
+Results:
+	90x water (Fluid)
+Recipe Name: iron-plate
+Type: Recipe
+Energy Required: 3.2
+Ingredients:
+	1x iron-ore (Item)
+Results:
+	1x iron-plate (Item)
+Recipe Name: pipe
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x iron-plate (Item)
+Results:
+	1x pipe (Item)
+Recipe Name: tank
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	32x engine-unit (Item)
+	50x steel-plate (Item)
+	15x iron-gear-wheel (Item)
+	10x advanced-circuit (Item)
+Results:
+	1x tank (Item)
+Recipe Name: artillery-shell
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	1x radar (Item)
+	1x calcite (Item)
+	4x tungsten-plate (Item)
+	8x explosives (Item)
+Results:
+	1x artillery-shell (Item)
+Recipe Name: grenade
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	5x iron-plate (Item)
+	10x coal (Item)
+Results:
+	1x grenade (Item)
+Recipe Name: cliff-explosives
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	10x explosives (Item)
+	10x calcite (Item)
+	1x grenade (Item)
+	1x barrel (Item)
+Results:
+	1x cliff-explosives (Item)
+Recipe Name: speed-module-3
+Type: Recipe
+Energy Required: 60
+Ingredients:
+	4x speed-module-2 (Item)
+	5x advanced-circuit (Item)
+	5x processing-unit (Item)
+	1x tungsten-carbide (Item)
+Results:
+	1x speed-module-3 (Item)
+Recipe Name: railgun-ammo
+Type: Recipe
+Energy Required: 25
+Ingredients:
+	5x steel-plate (Item)
+	10x copper-cable (Item)
+	2x explosives (Item)
+Results:
+	1x railgun-ammo (Item)
+Recipe Name: refined-concrete
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	20x concrete (Item)
+	8x iron-stick (Item)
+	1x steel-plate (Item)
+	100x water (Fluid)
+Results:
+	10x refined-concrete (Item)
+Recipe Name: agricultural-science-pack
+Type: Recipe
+Energy Required: 4
+Ingredients:
+	1x bioflux (Item)
+	1x pentapod-egg (Item)
+Results:
+	1x agricultural-science-pack (Item)
+Recipe Name: nuclear-fuel
+Type: Recipe
+Energy Required: 90
+Ingredients:
+	1x uranium-235 (Item)
+	1x rocket-fuel (Item)
+Results:
+	1x nuclear-fuel (Item)
+Recipe Name: fluid-wagon
+Type: Recipe
+Energy Required: 1.5
+Ingredients:
+	10x iron-gear-wheel (Item)
+	16x steel-plate (Item)
+	8x pipe (Item)
+	1x storage-tank (Item)
+Results:
+	1x fluid-wagon (Item)
+Recipe Name: beacon
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	20x electronic-circuit (Item)
+	20x advanced-circuit (Item)
+	10x steel-plate (Item)
+	10x copper-cable (Item)
+Results:
+	1x beacon (Item)
+Recipe Name: automation-science-pack
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	1x copper-plate (Item)
+	1x iron-gear-wheel (Item)
+Results:
+	1x automation-science-pack (Item)
+Recipe Name: rocket-fuel
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	10x solid-fuel (Item)
+	10x light-oil (Fluid)
+Results:
+	1x rocket-fuel (Item)
+Recipe Name: cargo-bay
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	20x steel-plate (Item)
+	20x low-density-structure (Item)
+	5x processing-unit (Item)
+Results:
+	1x cargo-bay (Item)
+Recipe Name: piercing-shotgun-shell
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	2x shotgun-shell (Item)
+	5x copper-plate (Item)
+	2x steel-plate (Item)
+Results:
+	1x piercing-shotgun-shell (Item)
+Recipe Name: chemical-plant
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	5x steel-plate (Item)
+	5x iron-gear-wheel (Item)
+	5x electronic-circuit (Item)
+	5x pipe (Item)
+Results:
+	1x chemical-plant (Item)
+Recipe Name: advanced-oxide-asteroid-crushing
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	1x oxide-asteroid-chunk (Item)
+Results:
+	3x ice (Item)
+	2x calcite (Item)
+	1x oxide-asteroid-chunk (Item)
+Recipe Name: power-armor-mk2
+Type: Recipe
+Energy Required: 25
+Ingredients:
+	100x efficiency-module (Item)
+	100x speed-module (Item)
+	60x processing-unit (Item)
+	40x electric-engine-unit (Item)
+	30x low-density-structure (Item)
+Results:
+	1x power-armor-mk2 (Item)
+Recipe Name: fusion-reactor
+Type: Recipe
+Energy Required: 60
+Ingredients:
+	200x tungsten-plate (Item)
+	200x superconductor (Item)
+	250x quantum-processor (Item)
+Results:
+	1x fusion-reactor (Item)
+Recipe Name: casting-iron-gear-wheel
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	10x molten-iron (Fluid)
+Results:
+	1x iron-gear-wheel (Item)
+Recipe Name: tungsten-plate
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	4x tungsten-ore (Item)
+	10x molten-iron (Fluid)
+Results:
+	1x tungsten-plate (Item)
+Recipe Name: iron-chest
+Type: Recipe
+Energy Required: 
+Ingredients:
+	8x iron-plate (Item)
+Results:
+	1x iron-chest (Item)
+Recipe Name: constant-combinator
+Type: Recipe
+Energy Required: 
+Ingredients:
+	5x copper-cable (Item)
+	2x electronic-circuit (Item)
+Results:
+	1x constant-combinator (Item)
+Recipe Name: oxide-asteroid-crushing
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x oxide-asteroid-chunk (Item)
+Results:
+	5x ice (Item)
+	1x oxide-asteroid-chunk (Item)
+Recipe Name: holmium-plate
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	20x holmium-solution (Fluid)
+Results:
+	1x holmium-plate (Item)
+Recipe Name: refined-hazard-concrete
+Type: Recipe
+Energy Required: 0.25
+Ingredients:
+	10x refined-concrete (Item)
+Results:
+	10x refined-hazard-concrete (Item)
+Recipe Name: quality-module-3
+Type: Recipe
+Energy Required: 60
+Ingredients:
+	4x quality-module-2 (Item)
+	5x advanced-circuit (Item)
+	5x processing-unit (Item)
+	1x superconductor (Item)
+Results:
+	1x quality-module-3 (Item)
+Recipe Name: stone-wall
+Type: Recipe
+Energy Required: 
+Ingredients:
+	5x stone-brick (Item)
+Results:
+	1x stone-wall (Item)
+Recipe Name: iron-gear-wheel
+Type: Recipe
+Energy Required: 
+Ingredients:
+	2x iron-plate (Item)
+Results:
+	1x iron-gear-wheel (Item)
+Recipe Name: roboport
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	45x steel-plate (Item)
+	45x iron-gear-wheel (Item)
+	45x advanced-circuit (Item)
+Results:
+	1x roboport (Item)
+Recipe Name: overgrowth-jellynut-soil
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	2x artificial-jellynut-soil (Item)
+	5x jellynut-seed (Item)
+	10x biter-egg (Item)
+	50x spoilage (Item)
+	100x water (Fluid)
+Results:
+	1x overgrowth-jellynut-soil (Item)
+Recipe Name: productivity-module
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	5x advanced-circuit (Item)
+	5x electronic-circuit (Item)
+Results:
+	1x productivity-module (Item)
+Recipe Name: space-science-pack
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	2x iron-plate (Item)
+	1x carbon (Item)
+	1x ice (Item)
+Results:
+	5x space-science-pack (Item)
+Recipe Name: crusher
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	20x low-density-structure (Item)
+	10x steel-plate (Item)
+	10x electric-engine-unit (Item)
+Results:
+	1x crusher (Item)
+Recipe Name: medium-electric-pole
+Type: Recipe
+Energy Required: 
+Ingredients:
+	4x iron-stick (Item)
+	2x steel-plate (Item)
+	2x copper-cable (Item)
+Results:
+	1x medium-electric-pole (Item)
+Recipe Name: quantum-processor
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	1x tungsten-carbide (Item)
+	1x processing-unit (Item)
+	1x superconductor (Item)
+	1x carbon-fiber (Item)
+	2x lithium-plate (Item)
+	10x fluoroketone-cold (Fluid)
+Results:
+	1x quantum-processor (Item)
+	5x fluoroketone-hot (Fluid)
+Recipe Name: explosive-uranium-cannon-shell
+Type: Recipe
+Energy Required: 12
+Ingredients:
+	1x explosive-cannon-shell (Item)
+	1x uranium-238 (Item)
+Results:
+	1x explosive-uranium-cannon-shell (Item)
+Recipe Name: light-oil-cracking
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	30x water (Fluid)
+	30x light-oil (Fluid)
+Results:
+	20x petroleum-gas (Fluid)
+Recipe Name: cluster-grenade
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	7x grenade (Item)
+	5x explosives (Item)
+	5x steel-plate (Item)
+Results:
+	1x cluster-grenade (Item)
+Recipe Name: thruster
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	10x steel-plate (Item)
+	10x processing-unit (Item)
+	5x electric-engine-unit (Item)
+Results:
+	1x thruster (Item)
+Recipe Name: advanced-oil-processing
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	50x water (Fluid)
+	100x crude-oil (Fluid)
+Results:
+	25x heavy-oil (Fluid)
+	45x light-oil (Fluid)
+	55x petroleum-gas (Fluid)
+Recipe Name: power-switch
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	5x iron-plate (Item)
+	5x copper-cable (Item)
+	2x electronic-circuit (Item)
+Results:
+	1x power-switch (Item)
+Recipe Name: carbonic-asteroid-reprocessing
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x carbonic-asteroid-chunk (Item)
+Results:
+	1x carbonic-asteroid-chunk (Item)
+	1x metallic-asteroid-chunk (Item)
+	1x oxide-asteroid-chunk (Item)
+Recipe Name: battery-mk3-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x battery-mk2-equipment (Item)
+	10x supercapacitor (Item)
+Results:
+	1x battery-mk3-equipment (Item)
+Recipe Name: lightning-collector
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	1x lightning-rod (Item)
+	8x supercapacitor (Item)
+	1x accumulator (Item)
+	80x electrolyte (Fluid)
+Results:
+	1x lightning-collector (Item)
+Recipe Name: copper-bacteria-cultivation
+Type: Recipe
+Energy Required: 4
+Ingredients:
+	1x copper-bacteria (Item)
+	1x bioflux (Item)
+Results:
+	4x copper-bacteria (Item)
+Recipe Name: solid-fuel-from-ammonia
+Type: Recipe
+Energy Required: 0.5
+Ingredients:
+	15x ammonia (Fluid)
+	6x crude-oil (Fluid)
+Results:
+	1x solid-fuel (Item)
+Recipe Name: electromagnetic-science-pack
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	1x supercapacitor (Item)
+	1x accumulator (Item)
+	25x electrolyte (Fluid)
+	25x holmium-solution (Fluid)
+Results:
+	1x electromagnetic-science-pack (Item)
+Recipe Name: basic-oil-processing
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	100x crude-oil (Fluid)
+Results:
+	45x petroleum-gas (Fluid)
+Recipe Name: power-armor
+Type: Recipe
+Energy Required: 20
+Ingredients:
+	40x processing-unit (Item)
+	20x electric-engine-unit (Item)
+	40x steel-plate (Item)
+Results:
+	1x power-armor (Item)
+Recipe Name: metallurgic-science-pack
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	3x tungsten-carbide (Item)
+	2x tungsten-plate (Item)
+	200x molten-copper (Fluid)
+Results:
+	1x metallurgic-science-pack (Item)
+Recipe Name: copper-bacteria
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	3x yumako-mash (Item)
+Results:
+	1x copper-bacteria (Item)
+	1x spoilage (Item)
+Recipe Name: electric-engine-unit
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	1x engine-unit (Item)
+	15x lubricant (Fluid)
+	2x electronic-circuit (Item)
+Results:
+	1x electric-engine-unit (Item)
+Recipe Name: ammoniacal-solution-separation
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	50x ammoniacal-solution (Fluid)
+Results:
+	5x ice (Item)
+	50x ammonia (Fluid)
+Recipe Name: flamethrower-turret
+Type: Recipe
+Energy Required: 20
+Ingredients:
+	30x steel-plate (Item)
+	15x iron-gear-wheel (Item)
+	10x pipe (Item)
+	5x engine-unit (Item)
+Results:
+	1x flamethrower-turret (Item)
+Recipe Name: cryogenic-plant
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	40x refined-concrete (Item)
+	20x superconductor (Item)
+	20x processing-unit (Item)
+	20x lithium-plate (Item)
+Results:
+	1x cryogenic-plant (Item)
+Recipe Name: infinity-chest
+Type: Recipe
+Energy Required: 0.5
+Ingredients:
+	1x steel-chest (Item)
+	5x electronic-circuit (Item)
+Results:
+	1x infinity-chest (Item)
+Recipe Name: thruster-fuel
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	2x carbon (Item)
+	10x water (Fluid)
+Results:
+	75x thruster-fuel (Fluid)
+Recipe Name: rail-support
+Type: Recipe
+Energy Required: 
+Ingredients:
+	20x refined-concrete (Item)
+	10x steel-plate (Item)
+Results:
+	1x rail-support (Item)
+Recipe Name: kovarex-enrichment-process
+Type: Recipe
+Energy Required: 60
+Ingredients:
+	40x uranium-235 (Item)
+	5x uranium-238 (Item)
+Results:
+	41x uranium-235 (Item)
+	2x uranium-238 (Item)
+Recipe Name: destroyer-capsule
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	4x distractor-capsule (Item)
+	4x steel-plate (Item)
+	1x processing-unit (Item)
+Results:
+	1x destroyer-capsule (Item)
+Recipe Name: landfill
+Type: Recipe
+Energy Required: 0.5
+Ingredients:
+	50x stone (Item)
+Results:
+	1x landfill (Item)
+Recipe Name: tungsten-carbide
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	2x tungsten-ore (Item)
+	10x sulfuric-acid (Fluid)
+	1x carbon (Item)
+Results:
+	1x tungsten-carbide (Item)
+Recipe Name: casting-iron-stick
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	20x molten-iron (Fluid)
+Results:
+	4x iron-stick (Item)
+Recipe Name: artillery-turret
+Type: Recipe
+Energy Required: 40
+Ingredients:
+	60x tungsten-plate (Item)
+	60x refined-concrete (Item)
+	40x iron-gear-wheel (Item)
+	10x processing-unit (Item)
+Results:
+	1x artillery-turret (Item)
+Recipe Name: small-electric-pole
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x wood (Item)
+	2x copper-cable (Item)
+Results:
+	2x small-electric-pole (Item)
+Recipe Name: logistic-robot
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x flying-robot-frame (Item)
+	2x advanced-circuit (Item)
+Results:
+	1x logistic-robot (Item)
+Recipe Name: heat-interface
+Type: Recipe
+Energy Required: 0.5
+Ingredients:
+	1x heat-pipe (Item)
+	5x electronic-circuit (Item)
+Results:
+	1x heat-interface (Item)
+Recipe Name: fast-transport-belt
+Type: Recipe
+Energy Required: 
+Ingredients:
+	5x iron-gear-wheel (Item)
+	1x transport-belt (Item)
+Results:
+	1x fast-transport-belt (Item)
+Recipe Name: coal-liquefaction
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	10x coal (Item)
+	25x heavy-oil (Fluid)
+	50x steam (Fluid)
+Results:
+	90x heavy-oil (Fluid)
+	20x light-oil (Fluid)
+	10x petroleum-gas (Fluid)
+Recipe Name: heavy-oil-cracking
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	30x water (Fluid)
+	40x heavy-oil (Fluid)
+Results:
+	30x light-oil (Fluid)
+Recipe Name: centrifuge
+Type: Recipe
+Energy Required: 4
+Ingredients:
+	100x concrete (Item)
+	50x steel-plate (Item)
+	100x advanced-circuit (Item)
+	100x iron-gear-wheel (Item)
+Results:
+	1x centrifuge (Item)
+Recipe Name: casting-pipe-to-ground
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	50x molten-iron (Fluid)
+	10x pipe (Item)
+Results:
+	2x pipe-to-ground (Item)
+Recipe Name: wooden-chest
+Type: Recipe
+Energy Required: 
+Ingredients:
+	2x wood (Item)
+Results:
+	1x wooden-chest (Item)
+Recipe Name: radar
+Type: Recipe
+Energy Required: 
+Ingredients:
+	5x electronic-circuit (Item)
+	5x iron-gear-wheel (Item)
+	10x iron-plate (Item)
+Results:
+	1x radar (Item)
+Recipe Name: assembling-machine-1
+Type: Recipe
+Energy Required: 
+Ingredients:
+	3x electronic-circuit (Item)
+	5x iron-gear-wheel (Item)
+	9x iron-plate (Item)
+Results:
+	1x assembling-machine-1 (Item)
+Recipe Name: rocket
+Type: Recipe
+Energy Required: 4
+Ingredients:
+	1x explosives (Item)
+	2x iron-plate (Item)
+Results:
+	1x rocket (Item)
+Recipe Name: jellynut-processing
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	1x jellynut (Item)
+Results:
+	1x jellynut-seed (Item)
+	4x jelly (Item)
+Recipe Name: rocket-launcher
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x iron-plate (Item)
+	5x iron-gear-wheel (Item)
+	5x electronic-circuit (Item)
+Results:
+	1x rocket-launcher (Item)
+Recipe Name: copper-cable
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x copper-plate (Item)
+Results:
+	2x copper-cable (Item)
+Recipe Name: storage-chest
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x steel-chest (Item)
+	3x electronic-circuit (Item)
+	1x advanced-circuit (Item)
+Results:
+	1x storage-chest (Item)
+Recipe Name: steam-engine
+Type: Recipe
+Energy Required: 
+Ingredients:
+	8x iron-gear-wheel (Item)
+	5x pipe (Item)
+	10x iron-plate (Item)
+Results:
+	1x steam-engine (Item)
+Recipe Name: lubricant
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	10x heavy-oil (Fluid)
+Results:
+	10x lubricant (Fluid)
+Recipe Name: active-provider-chest
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x steel-chest (Item)
+	3x electronic-circuit (Item)
+	1x advanced-circuit (Item)
+Results:
+	1x active-provider-chest (Item)
+Recipe Name: acid-neutralisation
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	1x calcite (Item)
+	1000x sulfuric-acid (Fluid)
+Results:
+	10000x steam (Fluid)
+Recipe Name: small-lamp
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x electronic-circuit (Item)
+	3x copper-cable (Item)
+	1x iron-plate (Item)
+Results:
+	1x small-lamp (Item)
+Recipe Name: steel-plate
+Type: Recipe
+Energy Required: 16
+Ingredients:
+	5x iron-plate (Item)
+Results:
+	1x steel-plate (Item)
+Recipe Name: pump
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x engine-unit (Item)
+	1x steel-plate (Item)
+	1x pipe (Item)
+Results:
+	1x pump (Item)
+Recipe Name: poison-capsule
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	3x steel-plate (Item)
+	3x electronic-circuit (Item)
+	10x coal (Item)
+Results:
+	1x poison-capsule (Item)
+Recipe Name: shotgun
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	15x iron-plate (Item)
+	5x iron-gear-wheel (Item)
+	10x copper-plate (Item)
+	5x wood (Item)
+Results:
+	1x shotgun (Item)
+Recipe Name: burner-mining-drill
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	3x iron-gear-wheel (Item)
+	1x stone-furnace (Item)
+	3x iron-plate (Item)
+Results:
+	1x burner-mining-drill (Item)
+Recipe Name: advanced-thruster-fuel
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	2x carbon (Item)
+	1x calcite (Item)
+	100x water (Fluid)
+Results:
+	1500x thruster-fuel (Fluid)
+Recipe Name: rocket-part
+Type: Recipe
+Energy Required: 3
+Ingredients:
+	1x processing-unit (Item)
+	1x low-density-structure (Item)
+	1x rocket-fuel (Item)
+Results:
+	1x rocket-part (Item)
+Recipe Name: electronic-circuit
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x iron-plate (Item)
+	3x copper-cable (Item)
+Results:
+	1x electronic-circuit (Item)
+Recipe Name: pumpjack
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	5x steel-plate (Item)
+	10x iron-gear-wheel (Item)
+	5x electronic-circuit (Item)
+	10x pipe (Item)
+Results:
+	1x pumpjack (Item)
+Recipe Name: infinity-pipe
+Type: Recipe
+Energy Required: 0.5
+Ingredients:
+	1x pipe (Item)
+	5x electronic-circuit (Item)
+Results:
+	1x infinity-pipe (Item)
+Recipe Name: fast-inserter
+Type: Recipe
+Energy Required: 
+Ingredients:
+	2x electronic-circuit (Item)
+	2x iron-plate (Item)
+	1x inserter (Item)
+Results:
+	1x fast-inserter (Item)
+Recipe Name: quality-module
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	5x electronic-circuit (Item)
+	5x advanced-circuit (Item)
+Results:
+	1x quality-module (Item)
+Recipe Name: flying-robot-frame
+Type: Recipe
+Energy Required: 20
+Ingredients:
+	1x electric-engine-unit (Item)
+	2x battery (Item)
+	1x steel-plate (Item)
+	3x electronic-circuit (Item)
+Results:
+	1x flying-robot-frame (Item)
+Recipe Name: mech-armor
+Type: Recipe
+Energy Required: 60
+Ingredients:
+	1x power-armor-mk2 (Item)
+	200x holmium-plate (Item)
+	100x processing-unit (Item)
+	50x superconductor (Item)
+	50x supercapacitor (Item)
+Results:
+	1x mech-armor (Item)
+Recipe Name: offshore-pump
+Type: Recipe
+Energy Required: 
+Ingredients:
+	3x pipe (Item)
+	2x iron-gear-wheel (Item)
+Results:
+	1x offshore-pump (Item)
+Recipe Name: passive-provider-chest
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x steel-chest (Item)
+	3x electronic-circuit (Item)
+	1x advanced-circuit (Item)
+Results:
+	1x passive-provider-chest (Item)
+Recipe Name: lightning-rod
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	12x copper-cable (Item)
+	8x steel-plate (Item)
+	4x stone-brick (Item)
+Results:
+	1x lightning-rod (Item)
+Recipe Name: explosives
+Type: Recipe
+Energy Required: 4
+Ingredients:
+	1x sulfur (Item)
+	1x coal (Item)
+	10x water (Fluid)
+Results:
+	2x explosives (Item)
+Recipe Name: asteroid-collector
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	20x low-density-structure (Item)
+	8x electric-engine-unit (Item)
+	5x processing-unit (Item)
+Results:
+	1x asteroid-collector (Item)
+Recipe Name: locomotive
+Type: Recipe
+Energy Required: 4
+Ingredients:
+	20x engine-unit (Item)
+	10x electronic-circuit (Item)
+	30x steel-plate (Item)
+Results:
+	1x locomotive (Item)
+Recipe Name: burner-inserter
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x iron-plate (Item)
+	1x iron-gear-wheel (Item)
+Results:
+	1x burner-inserter (Item)
+Recipe Name: uranium-processing
+Type: Recipe
+Energy Required: 12
+Ingredients:
+	10x uranium-ore (Item)
+Results:
+	1x uranium-235 (Item)
+	1x uranium-238 (Item)
+Recipe Name: carbonic-asteroid-crushing
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x carbonic-asteroid-chunk (Item)
+Results:
+	10x carbon (Item)
+	1x carbonic-asteroid-chunk (Item)
+Recipe Name: metallic-asteroid-crushing
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x metallic-asteroid-chunk (Item)
+Results:
+	20x iron-ore (Item)
+	1x metallic-asteroid-chunk (Item)
+Recipe Name: recycler
+Type: Recipe
+Energy Required: 3
+Ingredients:
+	6x processing-unit (Item)
+	20x steel-plate (Item)
+	40x iron-gear-wheel (Item)
+	20x concrete (Item)
+Results:
+	1x recycler (Item)
+Recipe Name: supercapacitor
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	2x holmium-plate (Item)
+	2x superconductor (Item)
+	4x electronic-circuit (Item)
+	1x battery (Item)
+	10x electrolyte (Fluid)
+Results:
+	1x supercapacitor (Item)
+Recipe Name: wood-processing
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	2x wood (Item)
+Results:
+	1x tree-seed (Item)
+Recipe Name: fusion-generator
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	100x tungsten-plate (Item)
+	100x superconductor (Item)
+	50x quantum-processor (Item)
+Results:
+	1x fusion-generator (Item)
+Recipe Name: uranium-cannon-shell
+Type: Recipe
+Energy Required: 12
+Ingredients:
+	1x cannon-shell (Item)
+	1x uranium-238 (Item)
+Results:
+	1x uranium-cannon-shell (Item)
+Recipe Name: battery
+Type: Recipe
+Energy Required: 4
+Ingredients:
+	20x sulfuric-acid (Fluid)
+	1x iron-plate (Item)
+	1x copper-plate (Item)
+Results:
+	1x battery (Item)
+Recipe Name: logistic-science-pack
+Type: Recipe
+Energy Required: 6
+Ingredients:
+	1x inserter (Item)
+	1x transport-belt (Item)
+Results:
+	1x logistic-science-pack (Item)
+Recipe Name: oil-refinery
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	15x steel-plate (Item)
+	10x iron-gear-wheel (Item)
+	10x stone-brick (Item)
+	10x electronic-circuit (Item)
+	10x pipe (Item)
+Results:
+	1x oil-refinery (Item)
+Recipe Name: ice-platform
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	400x ammonia (Fluid)
+	50x ice (Item)
+Results:
+	1x ice-platform (Item)
+Recipe Name: arithmetic-combinator
+Type: Recipe
+Energy Required: 
+Ingredients:
+	5x copper-cable (Item)
+	5x electronic-circuit (Item)
+Results:
+	1x arithmetic-combinator (Item)
+Recipe Name: gun-turret
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	10x iron-gear-wheel (Item)
+	10x copper-plate (Item)
+	20x iron-plate (Item)
+Results:
+	1x gun-turret (Item)
+Recipe Name: lab
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	10x electronic-circuit (Item)
+	10x iron-gear-wheel (Item)
+	4x transport-belt (Item)
+Results:
+	1x lab (Item)
+Recipe Name: foundation
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	4x tungsten-plate (Item)
+	4x lithium-plate (Item)
+	4x carbon-fiber (Item)
+	20x stone (Item)
+	20x fluoroketone-cold (Fluid)
+Results:
+	1x foundation (Item)
+Recipe Name: promethium-science-pack
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	25x promethium-asteroid-chunk (Item)
+	1x quantum-processor (Item)
+	10x biter-egg (Item)
+Results:
+	10x promethium-science-pack (Item)
+Recipe Name: substation
+Type: Recipe
+Energy Required: 
+Ingredients:
+	10x steel-plate (Item)
+	5x advanced-circuit (Item)
+	6x copper-cable (Item)
+Results:
+	1x substation (Item)
+Recipe Name: fusion-reactor-equipment
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	1x fission-reactor-equipment (Item)
+	10x fusion-power-cell (Item)
+	250x tungsten-plate (Item)
+	100x carbon-fiber (Item)
+	25x supercapacitor (Item)
+	250x quantum-processor (Item)
+Results:
+	1x fusion-reactor-equipment (Item)
+Recipe Name: inserter
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x electronic-circuit (Item)
+	1x iron-gear-wheel (Item)
+	1x iron-plate (Item)
+Results:
+	1x inserter (Item)
+Recipe Name: cannon-shell
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	2x steel-plate (Item)
+	2x plastic-bar (Item)
+	1x explosives (Item)
+Results:
+	1x cannon-shell (Item)
+Recipe Name: programmable-speaker
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	3x iron-plate (Item)
+	4x iron-stick (Item)
+	5x copper-cable (Item)
+	4x electronic-circuit (Item)
+Results:
+	1x programmable-speaker (Item)
+Recipe Name: car
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	8x engine-unit (Item)
+	20x iron-plate (Item)
+	5x steel-plate (Item)
+Results:
+	1x car (Item)
+Recipe Name: artillery-wagon
+Type: Recipe
+Energy Required: 4
+Ingredients:
+	60x engine-unit (Item)
+	60x tungsten-plate (Item)
+	60x refined-concrete (Item)
+	40x iron-gear-wheel (Item)
+	10x processing-unit (Item)
+Results:
+	1x artillery-wagon (Item)
+Recipe Name: copper-plate
+Type: Recipe
+Energy Required: 3.2
+Ingredients:
+	1x copper-ore (Item)
+Results:
+	1x copper-plate (Item)
+Recipe Name: tesla-turret
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	1x teslagun (Item)
+	10x supercapacitor (Item)
+	10x processing-unit (Item)
+	50x superconductor (Item)
+	500x electrolyte (Fluid)
+Results:
+	1x tesla-turret (Item)
+Recipe Name: teslagun
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	10x holmium-plate (Item)
+	10x superconductor (Item)
+	30x plastic-bar (Item)
+	100x electrolyte (Fluid)
+Results:
+	1x teslagun (Item)
+Recipe Name: express-loader
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x express-transport-belt (Item)
+	1x fast-loader (Item)
+Results:
+	1x express-loader (Item)
+Recipe Name: energy-shield-mk2-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	10x energy-shield-equipment (Item)
+	5x processing-unit (Item)
+	5x low-density-structure (Item)
+Results:
+	1x energy-shield-mk2-equipment (Item)
+Recipe Name: solar-panel-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	1x solar-panel (Item)
+	2x advanced-circuit (Item)
+	5x steel-plate (Item)
+Results:
+	1x solar-panel-equipment (Item)
+Recipe Name: superconductor
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	1x holmium-plate (Item)
+	1x copper-plate (Item)
+	1x plastic-bar (Item)
+	5x light-oil (Fluid)
+Results:
+	2x superconductor (Item)
+Recipe Name: coal-synthesis
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	5x carbon (Item)
+	1x sulfur (Item)
+	10x water (Fluid)
+Results:
+	1x coal (Item)
+Recipe Name: electromagnetic-plant
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	150x holmium-plate (Item)
+	50x steel-plate (Item)
+	50x processing-unit (Item)
+	50x refined-concrete (Item)
+Results:
+	1x electromagnetic-plant (Item)
+Recipe Name: turbo-loader
+Type: Recipe
+Energy Required: 20
+Ingredients:
+	5x turbo-transport-belt (Item)
+	1x express-loader (Item)
+Results:
+	1x turbo-loader (Item)
+Recipe Name: fusion-power-cell
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x lithium-plate (Item)
+	1x holmium-plate (Item)
+	100x ammonia (Fluid)
+Results:
+	1x fusion-power-cell (Item)
+Recipe Name: flamethrower-ammo
+Type: Recipe
+Energy Required: 6
+Ingredients:
+	5x steel-plate (Item)
+	100x crude-oil (Fluid)
+Results:
+	1x flamethrower-ammo (Item)
+Recipe Name: metallic-asteroid-reprocessing
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x metallic-asteroid-chunk (Item)
+Results:
+	1x metallic-asteroid-chunk (Item)
+	1x carbonic-asteroid-chunk (Item)
+	1x oxide-asteroid-chunk (Item)
+Recipe Name: fish-breeding
+Type: Recipe
+Energy Required: 6
+Ingredients:
+	2x raw-fish (Item)
+	100x nutrients (Item)
+	100x water (Fluid)
+Results:
+	3x raw-fish (Item)
+Recipe Name: heavy-armor
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	100x copper-plate (Item)
+	50x steel-plate (Item)
+Results:
+	1x heavy-armor (Item)
+Recipe Name: land-mine
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	1x steel-plate (Item)
+	2x explosives (Item)
+Results:
+	4x land-mine (Item)
+Recipe Name: biter-egg
+Type: Recipe
+Energy Required: 10
+Ingredients:
+
+Results:
+	5x biter-egg (Item)
+Recipe Name: carbon
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	2x coal (Item)
+	20x sulfuric-acid (Fluid)
+Results:
+	1x carbon (Item)
+Recipe Name: fast-splitter
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x splitter (Item)
+	10x iron-gear-wheel (Item)
+	10x electronic-circuit (Item)
+Results:
+	1x fast-splitter (Item)
+Recipe Name: plastic-bar
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	20x petroleum-gas (Fluid)
+	1x coal (Item)
+Results:
+	2x plastic-bar (Item)
+Recipe Name: advanced-circuit
+Type: Recipe
+Energy Required: 6
+Ingredients:
+	2x electronic-circuit (Item)
+	2x plastic-bar (Item)
+	4x copper-cable (Item)
+Results:
+	1x advanced-circuit (Item)
+Recipe Name: electric-furnace
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	10x steel-plate (Item)
+	5x advanced-circuit (Item)
+	10x stone-brick (Item)
+Results:
+	1x electric-furnace (Item)
+Recipe Name: piercing-rounds-magazine
+Type: Recipe
+Energy Required: 3
+Ingredients:
+	1x firearm-magazine (Item)
+	1x steel-plate (Item)
+	5x copper-plate (Item)
+Results:
+	1x piercing-rounds-magazine (Item)
+Recipe Name: heat-pipe
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	10x steel-plate (Item)
+	20x copper-plate (Item)
+Results:
+	1x heat-pipe (Item)
+Recipe Name: assembling-machine-2
+Type: Recipe
+Energy Required: 
+Ingredients:
+	2x steel-plate (Item)
+	3x electronic-circuit (Item)
+	5x iron-gear-wheel (Item)
+	1x assembling-machine-1 (Item)
+Results:
+	1x assembling-machine-2 (Item)
+Recipe Name: toolbelt-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	3x advanced-circuit (Item)
+	10x carbon-fiber (Item)
+Results:
+	1x toolbelt-equipment (Item)
+Recipe Name: nuclear-fuel-reprocessing
+Type: Recipe
+Energy Required: 60
+Ingredients:
+	5x depleted-uranium-fuel-cell (Item)
+Results:
+	3x uranium-238 (Item)
+Recipe Name: explosive-rocket
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	1x rocket (Item)
+	2x explosives (Item)
+Results:
+	1x explosive-rocket (Item)
+Recipe Name: battery-mk2-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	10x battery-equipment (Item)
+	15x processing-unit (Item)
+	5x low-density-structure (Item)
+Results:
+	1x battery-mk2-equipment (Item)
+Recipe Name: railgun-turret
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	100x quantum-processor (Item)
+	30x tungsten-plate (Item)
+	50x superconductor (Item)
+	20x carbon-fiber (Item)
+	100x fluoroketone-cold (Fluid)
+Results:
+	1x railgun-turret (Item)
+Recipe Name: pipe-to-ground
+Type: Recipe
+Energy Required: 
+Ingredients:
+	10x pipe (Item)
+	5x iron-plate (Item)
+Results:
+	2x pipe-to-ground (Item)
+Recipe Name: nutrients-from-biter-egg
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x biter-egg (Item)
+Results:
+	20x nutrients (Item)
+Recipe Name: modular-armor
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	30x advanced-circuit (Item)
+	50x steel-plate (Item)
+Results:
+	1x modular-armor (Item)
+Recipe Name: big-electric-pole
+Type: Recipe
+Energy Required: 
+Ingredients:
+	8x iron-stick (Item)
+	5x steel-plate (Item)
+	4x copper-cable (Item)
+Results:
+	1x big-electric-pole (Item)
+Recipe Name: holmium-solution
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	2x holmium-ore (Item)
+	1x stone (Item)
+	10x water (Fluid)
+Results:
+	100x holmium-solution (Fluid)
+Recipe Name: turbo-splitter
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x express-splitter (Item)
+	15x tungsten-plate (Item)
+	2x processing-unit (Item)
+	80x lubricant (Fluid)
+Results:
+	1x turbo-splitter (Item)
+Recipe Name: turbo-underground-belt
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	40x tungsten-plate (Item)
+	2x express-underground-belt (Item)
+	40x lubricant (Fluid)
+Results:
+	2x turbo-underground-belt (Item)
+Recipe Name: rocket-turret
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	4x rocket-launcher (Item)
+	4x processing-unit (Item)
+	20x carbon-fiber (Item)
+	20x steel-plate (Item)
+	20x iron-gear-wheel (Item)
+Results:
+	1x rocket-turret (Item)
+Recipe Name: nutrients-from-bioflux
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	5x bioflux (Item)
+Results:
+	40x nutrients (Item)
+Recipe Name: turbo-transport-belt
+Type: Recipe
+Energy Required: 
+Ingredients:
+	5x tungsten-plate (Item)
+	1x express-transport-belt (Item)
+	20x lubricant (Fluid)
+Results:
+	1x turbo-transport-belt (Item)
+Recipe Name: satellite
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	100x low-density-structure (Item)
+	100x solar-panel (Item)
+	100x accumulator (Item)
+	5x radar (Item)
+	100x processing-unit (Item)
+	50x rocket-fuel (Item)
+Results:
+	1x satellite (Item)
+Recipe Name: train-stop
+Type: Recipe
+Energy Required: 
+Ingredients:
+	5x electronic-circuit (Item)
+	6x iron-plate (Item)
+	6x iron-stick (Item)
+	3x steel-plate (Item)
+Results:
+	1x train-stop (Item)
+Recipe Name: biosulfur
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	5x spoilage (Item)
+	1x bioflux (Item)
+Results:
+	2x sulfur (Item)
+Recipe Name: artificial-yumako-soil
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	2x yumako-seed (Item)
+	50x nutrients (Item)
+	5x landfill (Item)
+Results:
+	10x artificial-yumako-soil (Item)
+Recipe Name: productivity-module-3
+Type: Recipe
+Energy Required: 60
+Ingredients:
+	4x productivity-module-2 (Item)
+	5x advanced-circuit (Item)
+	5x processing-unit (Item)
+	1x biter-egg (Item)
+Results:
+	1x productivity-module-3 (Item)
+Recipe Name: casting-low-density-structure
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	80x molten-iron (Fluid)
+	250x molten-copper (Fluid)
+	5x plastic-bar (Item)
+Results:
+	1x low-density-structure (Item)
+Recipe Name: sulfur
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	30x water (Fluid)
+	30x petroleum-gas (Fluid)
+Results:
+	2x sulfur (Item)
+Recipe Name: battery-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x battery (Item)
+	10x steel-plate (Item)
+Results:
+	1x battery-equipment (Item)
+Recipe Name: casting-copper
+Type: Recipe
+Energy Required: 3.2
+Ingredients:
+	20x molten-copper (Fluid)
+Results:
+	2x copper-plate (Item)
+Recipe Name: steam-turbine
+Type: Recipe
+Energy Required: 3
+Ingredients:
+	50x iron-gear-wheel (Item)
+	50x copper-plate (Item)
+	20x pipe (Item)
+Results:
+	1x steam-turbine (Item)
+Recipe Name: casting-iron
+Type: Recipe
+Energy Required: 3.2
+Ingredients:
+	20x molten-iron (Fluid)
+Results:
+	2x iron-plate (Item)
+Recipe Name: electrolyte
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	1x stone (Item)
+	10x heavy-oil (Fluid)
+	10x holmium-solution (Fluid)
+Results:
+	10x electrolyte (Fluid)
+Recipe Name: carbon-fiber
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	10x yumako-mash (Item)
+	1x carbon (Item)
+Results:
+	1x carbon-fiber (Item)
+Recipe Name: steel-chest
+Type: Recipe
+Energy Required: 
+Ingredients:
+	8x steel-plate (Item)
+Results:
+	1x steel-chest (Item)
+Recipe Name: molten-iron
+Type: Recipe
+Energy Required: 32
+Ingredients:
+	50x iron-ore (Item)
+	1x calcite (Item)
+Results:
+	500x molten-iron (Fluid)
+Recipe Name: personal-roboport-mk2-equipment
+Type: Recipe
+Energy Required: 20
+Ingredients:
+	5x personal-roboport-equipment (Item)
+	50x processing-unit (Item)
+	50x superconductor (Item)
+Results:
+	1x personal-roboport-mk2-equipment (Item)
+Recipe Name: accumulator
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	2x iron-plate (Item)
+	5x battery (Item)
+Results:
+	1x accumulator (Item)
+Recipe Name: molten-iron-from-lava
+Type: Recipe
+Energy Required: 16
+Ingredients:
+	500x lava (Fluid)
+	1x calcite (Item)
+Results:
+	250x molten-iron (Fluid)
+	10x stone (Item)
+Recipe Name: solid-fuel-from-heavy-oil
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	20x heavy-oil (Fluid)
+Results:
+	1x solid-fuel (Item)
+Recipe Name: selector-combinator
+Type: Recipe
+Energy Required: 
+Ingredients:
+	2x advanced-circuit (Item)
+	5x decider-combinator (Item)
+Results:
+	1x selector-combinator (Item)
+Recipe Name: bioplastic
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x bioflux (Item)
+	4x yumako-mash (Item)
+Results:
+	3x plastic-bar (Item)
+Recipe Name: steel-furnace
+Type: Recipe
+Energy Required: 3
+Ingredients:
+	6x steel-plate (Item)
+	10x stone-brick (Item)
+Results:
+	1x steel-furnace (Item)
+Recipe Name: decider-combinator
+Type: Recipe
+Energy Required: 
+Ingredients:
+	5x copper-cable (Item)
+	5x electronic-circuit (Item)
+Results:
+	1x decider-combinator (Item)
+Recipe Name: requester-chest
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x steel-chest (Item)
+	3x electronic-circuit (Item)
+	1x advanced-circuit (Item)
+Results:
+	1x requester-chest (Item)
+Recipe Name: chemical-science-pack
+Type: Recipe
+Energy Required: 24
+Ingredients:
+	2x engine-unit (Item)
+	3x advanced-circuit (Item)
+	1x sulfur (Item)
+Results:
+	2x chemical-science-pack (Item)
+Recipe Name: biolab
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	1x lab (Item)
+	10x biter-egg (Item)
+	25x refined-concrete (Item)
+	2x capture-robot-rocket (Item)
+	3x uranium-235 (Item)
+Results:
+	1x biolab (Item)
+Recipe Name: rail-ramp
+Type: Recipe
+Energy Required: 
+Ingredients:
+	100x refined-concrete (Item)
+	8x rail (Item)
+	10x steel-plate (Item)
+Results:
+	1x rail-ramp (Item)
+Recipe Name: overgrowth-yumako-soil
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	2x artificial-yumako-soil (Item)
+	5x yumako-seed (Item)
+	10x biter-egg (Item)
+	50x spoilage (Item)
+	100x water (Fluid)
+Results:
+	1x overgrowth-yumako-soil (Item)
+Recipe Name: railgun
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	10x tungsten-plate (Item)
+	10x superconductor (Item)
+	20x quantum-processor (Item)
+	10x fluoroketone-cold (Fluid)
+Results:
+	1x railgun (Item)
+Recipe Name: simple-coal-liquefaction
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	10x coal (Item)
+	2x calcite (Item)
+	25x sulfuric-acid (Fluid)
+Results:
+	50x heavy-oil (Fluid)
+Recipe Name: casting-steel
+Type: Recipe
+Energy Required: 3.2
+Ingredients:
+	30x molten-iron (Fluid)
+Results:
+	1x steel-plate (Item)
+Recipe Name: discharge-defense-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x processing-unit (Item)
+	20x steel-plate (Item)
+	10x laser-turret (Item)
+Results:
+	1x discharge-defense-equipment (Item)
+Recipe Name: hazard-concrete
+Type: Recipe
+Energy Required: 0.25
+Ingredients:
+	10x concrete (Item)
+Results:
+	10x hazard-concrete (Item)
+Recipe Name: biochamber
+Type: Recipe
+Energy Required: 20
+Ingredients:
+	5x nutrients (Item)
+	1x pentapod-egg (Item)
+	20x iron-plate (Item)
+	5x electronic-circuit (Item)
+	1x landfill (Item)
+Results:
+	1x biochamber (Item)
+Recipe Name: solid-fuel-from-light-oil
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	10x light-oil (Fluid)
+Results:
+	1x solid-fuel (Item)
+Recipe Name: burnt-spoilage
+Type: Recipe
+Energy Required: 12
+Ingredients:
+	6x spoilage (Item)
+Results:
+	1x carbon (Item)
+Recipe Name: speed-module-2
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	4x speed-module (Item)
+	5x advanced-circuit (Item)
+	5x processing-unit (Item)
+Results:
+	1x speed-module-2 (Item)
+Recipe Name: capture-robot-rocket
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	1x flying-robot-frame (Item)
+	2x steel-plate (Item)
+	20x bioflux (Item)
+	2x processing-unit (Item)
+Results:
+	1x capture-robot-rocket (Item)
+Recipe Name: sulfuric-acid
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	5x sulfur (Item)
+	1x iron-plate (Item)
+	100x water (Fluid)
+Results:
+	50x sulfuric-acid (Fluid)
+Recipe Name: express-transport-belt
+Type: Recipe
+Energy Required: 
+Ingredients:
+	10x iron-gear-wheel (Item)
+	1x fast-transport-belt (Item)
+	20x lubricant (Fluid)
+Results:
+	1x express-transport-belt (Item)
+Recipe Name: solid-fuel-from-petroleum-gas
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	20x petroleum-gas (Fluid)
+Results:
+	1x solid-fuel (Item)
+Recipe Name: rail-signal
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x electronic-circuit (Item)
+	5x iron-plate (Item)
+Results:
+	1x rail-signal (Item)
+Recipe Name: efficiency-module-3
+Type: Recipe
+Energy Required: 60
+Ingredients:
+	4x efficiency-module-2 (Item)
+	5x advanced-circuit (Item)
+	5x processing-unit (Item)
+	5x spoilage (Item)
+Results:
+	1x efficiency-module-3 (Item)
+Recipe Name: defender-capsule
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	3x piercing-rounds-magazine (Item)
+	3x electronic-circuit (Item)
+	3x iron-gear-wheel (Item)
+Results:
+	1x defender-capsule (Item)
+Recipe Name: exoskeleton-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	10x processing-unit (Item)
+	30x electric-engine-unit (Item)
+	20x steel-plate (Item)
+Results:
+	1x exoskeleton-equipment (Item)
+Recipe Name: fission-reactor-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	200x processing-unit (Item)
+	50x low-density-structure (Item)
+	4x uranium-fuel-cell (Item)
+Results:
+	1x fission-reactor-equipment (Item)
+Recipe Name: molten-copper
+Type: Recipe
+Energy Required: 32
+Ingredients:
+	50x copper-ore (Item)
+	1x calcite (Item)
+Results:
+	500x molten-copper (Fluid)
+Recipe Name: explosive-cannon-shell
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	2x steel-plate (Item)
+	2x plastic-bar (Item)
+	2x explosives (Item)
+Results:
+	1x explosive-cannon-shell (Item)
+Recipe Name: concrete-from-molten-iron
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	20x molten-iron (Fluid)
+	100x water (Fluid)
+	5x stone-brick (Item)
+Results:
+	10x concrete (Item)
+Recipe Name: belt-immunity-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x advanced-circuit (Item)
+	10x steel-plate (Item)
+Results:
+	1x belt-immunity-equipment (Item)
+Recipe Name: combat-shotgun
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	15x steel-plate (Item)
+	5x iron-gear-wheel (Item)
+	10x copper-plate (Item)
+	10x wood (Item)
+Results:
+	1x combat-shotgun (Item)
+Recipe Name: submachine-gun
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	10x iron-gear-wheel (Item)
+	5x copper-plate (Item)
+	10x iron-plate (Item)
+Results:
+	1x submachine-gun (Item)
+Recipe Name: rocket-silo
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	1000x steel-plate (Item)
+	1000x concrete (Item)
+	100x pipe (Item)
+	200x processing-unit (Item)
+	200x electric-engine-unit (Item)
+Results:
+	1x rocket-silo (Item)
+Recipe Name: agricultural-tower
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	10x steel-plate (Item)
+	3x electronic-circuit (Item)
+	20x spoilage (Item)
+	1x landfill (Item)
+Results:
+	1x agricultural-tower (Item)
+Recipe Name: concrete
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	5x stone-brick (Item)
+	1x iron-ore (Item)
+	100x water (Fluid)
+Results:
+	10x concrete (Item)
+Recipe Name: display-panel
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x iron-plate (Item)
+	1x electronic-circuit (Item)
+Results:
+	1x display-panel (Item)
+Recipe Name: fast-underground-belt
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	40x iron-gear-wheel (Item)
+	2x underground-belt (Item)
+Results:
+	2x fast-underground-belt (Item)
+Recipe Name: light-armor
+Type: Recipe
+Energy Required: 3
+Ingredients:
+	40x iron-plate (Item)
+Results:
+	1x light-armor (Item)
+Recipe Name: barrel
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	1x steel-plate (Item)
+Results:
+	1x barrel (Item)
+Recipe Name: stone-furnace
+Type: Recipe
+Energy Required: 
+Ingredients:
+	5x stone (Item)
+Results:
+	1x stone-furnace (Item)
+Recipe Name: production-science-pack
+Type: Recipe
+Energy Required: 21
+Ingredients:
+	1x electric-furnace (Item)
+	1x productivity-module (Item)
+	30x rail (Item)
+Results:
+	3x production-science-pack (Item)
+Recipe Name: splitter
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	5x electronic-circuit (Item)
+	5x iron-plate (Item)
+	4x transport-belt (Item)
+Results:
+	1x splitter (Item)
+Recipe Name: rail-chain-signal
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x electronic-circuit (Item)
+	5x iron-plate (Item)
+Results:
+	1x rail-chain-signal (Item)
+Recipe Name: personal-laser-defense-equipment
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	20x processing-unit (Item)
+	5x low-density-structure (Item)
+	5x laser-turret (Item)
+Results:
+	1x personal-laser-defense-equipment (Item)
+Recipe Name: uranium-fuel-cell
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	10x iron-plate (Item)
+	1x uranium-235 (Item)
+	19x uranium-238 (Item)
+Results:
+	10x uranium-fuel-cell (Item)
+Recipe Name: repair-pack
+Type: Recipe
+Energy Required: 
+Ingredients:
+	2x electronic-circuit (Item)
+	2x iron-gear-wheel (Item)
+Results:
+	1x repair-pack (Item)
+Recipe Name: long-handed-inserter
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x iron-gear-wheel (Item)
+	1x iron-plate (Item)
+	1x inserter (Item)
+Results:
+	1x long-handed-inserter (Item)
+Recipe Name: assembling-machine-3
+Type: Recipe
+Energy Required: 
+Ingredients:
+	2x assembling-machine-2 (Item)
+	4x speed-module (Item)
+Results:
+	1x assembling-machine-3 (Item)
+Recipe Name: spidertron
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	4x exoskeleton-equipment (Item)
+	2x fission-reactor-equipment (Item)
+	1x rocket-turret (Item)
+	2x radar (Item)
+	1x raw-fish (Item)
+Results:
+	1x spidertron (Item)
+Recipe Name: rail
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x stone (Item)
+	1x iron-stick (Item)
+	1x steel-plate (Item)
+Results:
+	2x rail (Item)
+Recipe Name: utility-science-pack
+Type: Recipe
+Energy Required: 21
+Ingredients:
+	3x low-density-structure (Item)
+	2x processing-unit (Item)
+	1x flying-robot-frame (Item)
+Results:
+	3x utility-science-pack (Item)
+Recipe Name: military-science-pack
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	1x piercing-rounds-magazine (Item)
+	1x grenade (Item)
+	2x stone-wall (Item)
+Results:
+	2x military-science-pack (Item)
+Recipe Name: atomic-bomb
+Type: Recipe
+Energy Required: 50
+Ingredients:
+	10x processing-unit (Item)
+	10x explosives (Item)
+	100x uranium-235 (Item)
+Results:
+	1x atomic-bomb (Item)
+Recipe Name: express-splitter
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	1x fast-splitter (Item)
+	10x iron-gear-wheel (Item)
+	10x advanced-circuit (Item)
+	80x lubricant (Fluid)
+Results:
+	1x express-splitter (Item)
+Recipe Name: processing-unit
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	20x electronic-circuit (Item)
+	2x advanced-circuit (Item)
+	5x sulfuric-acid (Fluid)
+Results:
+	1x processing-unit (Item)
+Recipe Name: fluoroketone-cooling
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	10x fluoroketone-hot (Fluid)
+Results:
+	10x fluoroketone-cold (Fluid)
+Recipe Name: nuclear-reactor
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	500x concrete (Item)
+	500x steel-plate (Item)
+	500x advanced-circuit (Item)
+	500x copper-plate (Item)
+Results:
+	1x nuclear-reactor (Item)
+Recipe Name: distractor-capsule
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	4x defender-capsule (Item)
+	3x advanced-circuit (Item)
+Results:
+	1x distractor-capsule (Item)
+Recipe Name: electric-mining-drill
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	3x electronic-circuit (Item)
+	5x iron-gear-wheel (Item)
+	10x iron-plate (Item)
+Results:
+	1x electric-mining-drill (Item)
+Recipe Name: productivity-module-2
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	4x productivity-module (Item)
+	5x advanced-circuit (Item)
+	5x processing-unit (Item)
+Results:
+	1x productivity-module-2 (Item)
+Recipe Name: shotgun-shell
+Type: Recipe
+Energy Required: 3
+Ingredients:
+	2x copper-plate (Item)
+	2x iron-plate (Item)
+Results:
+	1x shotgun-shell (Item)
+Recipe Name: storage-tank
+Type: Recipe
+Energy Required: 3
+Ingredients:
+	20x iron-plate (Item)
+	5x steel-plate (Item)
+Results:
+	1x storage-tank (Item)
+Recipe Name: ice-melting
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	1x ice (Item)
+Results:
+	20x water (Fluid)
+Recipe Name: low-density-structure
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	2x steel-plate (Item)
+	20x copper-plate (Item)
+	5x plastic-bar (Item)
+Results:
+	1x low-density-structure (Item)
+Recipe Name: casting-pipe
+Type: Recipe
+Energy Required: 1
+Ingredients:
+	10x molten-iron (Fluid)
+Results:
+	1x pipe (Item)
+Recipe Name: pentapod-egg
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	1x pentapod-egg (Item)
+	30x nutrients (Item)
+	60x water (Fluid)
+Results:
+	2x pentapod-egg (Item)
+Recipe Name: iron-stick
+Type: Recipe
+Energy Required: 
+Ingredients:
+	1x iron-plate (Item)
+Results:
+	2x iron-stick (Item)
+Recipe Name: advanced-metallic-asteroid-crushing
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	1x metallic-asteroid-chunk (Item)
+Results:
+	10x iron-ore (Item)
+	4x copper-ore (Item)
+	1x metallic-asteroid-chunk (Item)
+Recipe Name: efficiency-module-2
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	4x efficiency-module (Item)
+	5x advanced-circuit (Item)
+	5x processing-unit (Item)
+Results:
+	1x efficiency-module-2 (Item)
+Recipe Name: pistol
+Type: Recipe
+Energy Required: 5
+Ingredients:
+	5x copper-plate (Item)
+	5x iron-plate (Item)
+Results:
+	1x pistol (Item)
+Recipe Name: advanced-thruster-oxidizer
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	2x iron-ore (Item)
+	1x calcite (Item)
+	100x water (Fluid)
+Results:
+	1500x thruster-oxidizer (Fluid)
+Recipe Name: stone-brick
+Type: Recipe
+Energy Required: 3.2
+Ingredients:
+	2x stone (Item)
+Results:
+	1x stone-brick (Item)
+Recipe Name: iron-bacteria-cultivation
+Type: Recipe
+Energy Required: 4
+Ingredients:
+	1x iron-bacteria (Item)
+	1x bioflux (Item)
+Results:
+	4x iron-bacteria (Item)
+Recipe Name: artificial-jellynut-soil
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	2x jellynut-seed (Item)
+	50x nutrients (Item)
+	5x landfill (Item)
+Results:
+	10x artificial-jellynut-soil (Item)
+Recipe Name: nutrients-from-spoilage
+Type: Recipe
+Energy Required: 2
+Ingredients:
+	10x spoilage (Item)
+Results:
+	1x nutrients (Item)
+Recipe Name: cargo-landing-pad
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	200x concrete (Item)
+	25x steel-plate (Item)
+	10x processing-unit (Item)
+Results:
+	1x cargo-landing-pad (Item)
+Recipe Name: speed-module
+Type: Recipe
+Energy Required: 15
+Ingredients:
+	5x advanced-circuit (Item)
+	5x electronic-circuit (Item)
+Results:
+	1x speed-module (Item)
+Recipe Name: biolubricant
+Type: Recipe
+Energy Required: 3
+Ingredients:
+	60x jelly (Item)
+Results:
+	20x lubricant (Fluid)
+Recipe Name: big-mining-drill
+Type: Recipe
+Energy Required: 30
+Ingredients:
+	1x electric-mining-drill (Item)
+	200x molten-iron (Fluid)
+	20x tungsten-carbide (Item)
+	10x electric-engine-unit (Item)
+	10x advanced-circuit (Item)
+Results:
+	1x big-mining-drill (Item)
+Recipe Name: stack-inserter
+Type: Recipe
+Energy Required: 0.5
+Ingredients:
+	1x bulk-inserter (Item)
+	1x processing-unit (Item)
+	2x carbon-fiber (Item)
+	10x jelly (Item)
+Results:
+	1x stack-inserter (Item)
+Recipe Name: space-platform-starter-pack
+Type: Recipe
+Energy Required: 60
+Ingredients:
+	60x space-platform-foundation (Item)
+	20x steel-plate (Item)
+	20x processing-unit (Item)
+Results:
+	1x space-platform-starter-pack (Item)
+Recipe Name: slowdown-capsule
+Type: Recipe
+Energy Required: 8
+Ingredients:
+	2x steel-plate (Item)
+	2x electronic-circuit (Item)
+	5x coal (Item)
+Results:
+	1x slowdown-capsule (Item)
+Recipe Name: space-platform-foundation
+Type: Recipe
+Energy Required: 10
+Ingredients:
+	20x steel-plate (Item)
+	20x copper-cable (Item)
+Results:
+	1x space-platform-foundation (Item)
