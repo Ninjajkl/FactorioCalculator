@@ -1,12 +1,19 @@
-﻿using System.Text.Json;
+﻿using NLua;
 
 namespace FactorioCalculator;
 public class RecipeManager
 {
     private readonly Dictionary<string, Recipe> _recipes;
+    private readonly Dictionary<string, List<Recipe>> _itemRecipesMap;
+
     public Dictionary<string, Recipe> GetAllRecipes()
     {
         return _recipes;
+    }
+
+    public Dictionary<string, List<Recipe>> GetAllItemRecipes()
+    {
+        return _itemRecipesMap;
     }
 
     public RecipeManager(List<string> modList = null)
@@ -15,56 +22,21 @@ public class RecipeManager
         //ORDER MATTERS! 
         modList.Insert(0, "base");
         _recipes = [];
-        foreach (string mod in modList)
+        _itemRecipesMap = [];
+
+        List<Recipe> recipesList = ProcessLua.LoadRecipesData(new Lua(), modList);
+        foreach (Recipe r in recipesList)
         {
-            string jsonFilePath = $"../../../{mod}Recipes.json";
-            string jsonString = File.ReadAllText(jsonFilePath);
-            List<Recipe>? recipes = JsonSerializer.Deserialize<List<Recipe>>(jsonString, Converter.Settings);
-            foreach (Recipe recipe in recipes)
+            _recipes[r.Name] = r;
+
+            foreach (Result result in r.Results.Values)
             {
-                _recipes[recipe.Name] = recipe;
+                if (!_itemRecipesMap.ContainsKey(result.Name))
+                {
+                    _itemRecipesMap[result.Name] = [];
+                }
+                _itemRecipesMap[result.Name].Add(r);
             }
         }
     }
-
-    /*
-    //Method to load an recipe by name; if already loaded, it retrieves from the cache
-    public Recipe GetRecipe(string recipeName)
-    {
-        if (_recipes.TryGetValue(recipeName, out Recipe? recipe))
-        {
-            return recipe;
-        }
-
-        try
-        {
-            string json = File.ReadAllText($"../../../Recipes/{recipeName}.json");
-            var recipeData = JsonSerializer.Deserialize<RecipeData>(json);
-
-            recipe = new Recipe
-            {
-                Name = recipeData.Name,
-                BaseTimeToCraft = recipeData.BaseTimeToCraft,
-                NumCreatedPerCraft = recipeData.NumCreatedPerCraft,
-                IsRawMaterial = recipeData.IsRawMaterial
-            };
-
-            _recipes[recipeName] = recipe;
-
-            // Convert components from Dictionary<string, int> to Dictionary<Recipe, int>
-            foreach (var component in recipeData.Components)
-            {
-                Recipe componentRecipe = GetRecipe(component.Key);
-                recipe.Components[componentRecipe] = component.Value;
-            }
-
-            return recipe;
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error reading or deserializing file for recipe '{recipeName}': {ex.Message}");
-            return null;
-        }
-    }
-    */
 }

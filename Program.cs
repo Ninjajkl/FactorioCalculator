@@ -1,15 +1,4 @@
 ﻿using FactorioCalculator;
-using NLua;
-
-List<Recipe> recipes = ProcessLua.LoadRecipesData(new Lua(), ["base", "elevatedRails", "quality", "spaceAge"]);
-/*
-List<Recipe> recipes = ProcessLua.LoadModRecipesData("base");
-recipes.AddRange(ProcessLua.LoadModRecipesData("spaceAge"));
-ProcessLua.UpdateRecipesData("spaceAge", recipes);*/
-
-return;
-/*
-ItemManager itemManager = ItemManager.Instance;
 
 List<string> mods = [];
 
@@ -34,11 +23,22 @@ Dictionary<string, Recipe> recipes = recipeManager.GetAllRecipes();
 
 foreach (KeyValuePair<string, Recipe> kvp in recipes)
 {
-    Console.WriteLine($"{kvp.Value}");
+    //Console.WriteLine($"{kvp.Value}");
+}
+
+Dictionary<string, List<Recipe>> itemRecipesMap = recipeManager.GetAllItemRecipes();
+
+foreach (KeyValuePair<string, List<Recipe>> itemRecipes in itemRecipesMap)
+{
+    //Console.WriteLine($"{itemRecipes.Key}:");
+    foreach (Recipe recipe in itemRecipes.Value)
+    {
+        //Console.WriteLine($"\t{recipe.Name}");
+    }
 }
 
 return;
-*/
+
 
 /*
 while (true)
