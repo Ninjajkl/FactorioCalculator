@@ -1,33 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text.Json;
+﻿using System.Text.Json;
 
-namespace FactorioCalculator.Items;
+namespace FactorioCalculator;
 public class ItemManager
 {
     private static readonly Lazy<ItemManager> _instance = new(() => new ItemManager());
     public static ItemManager Instance => _instance.Value;
     private readonly Dictionary<string, Item> _items;
-    public IEnumerable<Item> GetAllLoadedItems() => _items.Values;
+    public IEnumerable<Item> GetAllLoadedItems()
+    {
+        return _items.Values;
+    }
 
     private ItemManager()
     {
-        _items = new Dictionary<string, Item>();
+        _items = [];
     }
 
     //Method to load an item by name; if already loaded, it retrieves from the cache
     public Item GetItem(string itemName)
     {
-        if (_items.TryGetValue(itemName, out var item))
+        if (_items.TryGetValue(itemName, out Item? item))
         {
             return item;
         }
 
         try
         {
-            var json = File.ReadAllText($"../../../Items/{itemName}.json");
-            var itemData = JsonSerializer.Deserialize<ItemData>(json);
+            string json = File.ReadAllText($"../../../Items/{itemName}.json");
+            ItemData? itemData = JsonSerializer.Deserialize<ItemData>(json);
 
             item = new Item
             {
@@ -40,9 +40,9 @@ public class ItemManager
             _items[itemName] = item;
 
             // Convert components from Dictionary<string, int> to Dictionary<Item, int>
-            foreach (var component in itemData.Components)
+            foreach (KeyValuePair<string, int> component in itemData.Components)
             {
-                var componentItem = GetItem(component.Key);
+                Item componentItem = GetItem(component.Key);
                 item.Components[componentItem] = component.Value;
             }
 

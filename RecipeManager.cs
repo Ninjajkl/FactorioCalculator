@@ -16,8 +16,9 @@ public class RecipeManager
         return _itemRecipesMap;
     }
 
-    public RecipeManager(List<string> modList = null)
+    public RecipeManager(Profile p)
     {
+        List<string> modList = p.Mods;
         modList ??= [];
         //ORDER MATTERS! 
         modList.Insert(0, "base");

@@ -1,18 +1,46 @@
 ﻿using FactorioCalculator;
+using FactorioCalculator.Global;
+using System.Text.Json;
+using static System.Console;
+
+Profile profile = null;
+
+do
+{
+    WriteLine($"What Profile?");
+    string profileName = ReadLine();
+    if (string.IsNullOrEmpty(profileName))
+    {
+        profileName = GlobalVariables.defaultProfile;
+    }
+
+    try
+    {
+        string json = File.ReadAllText($"..\\..\\..\\Profiles\\{profileName}.json");
+        profile = JsonSerializer.Deserialize<Profile>(json);
+    }
+    catch
+    {
+        profile = null;
+        WriteLine("Invalid Profile Name\n");
+    }
+
+} while (profile is null);
+
 
 List<string> mods = [];
 
-Console.WriteLine("Mods?");
-if (Console.ReadLine().ToLower() is "y" or "yes")
+WriteLine("Mods?");
+if (ReadLine().ToLower() is "y" or "yes")
 {
-    Console.WriteLine("Use All Mods?");
-    if (Console.ReadLine().ToLower() is "y" or "yes")
+    WriteLine("Use All Mods?");
+    if (ReadLine().ToLower() is "y" or "yes")
     {
         mods = ["elevatedRails", "quality", "spaceAge"];
     }
     else
     {
-        Console.WriteLine("Individual mod selection not implemented");
+        WriteLine("Individual mod selection not implemented");
         return;
     }
 }
