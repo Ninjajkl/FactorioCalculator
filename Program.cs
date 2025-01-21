@@ -27,31 +27,11 @@ do
 
 } while (profile is null);
 
-
-List<string> mods = [];
-
-WriteLine("Mods?");
-if (ReadLine().ToLower() is "y" or "yes")
-{
-    WriteLine("Use All Mods?");
-    if (ReadLine().ToLower() is "y" or "yes")
-    {
-        mods = ["elevatedRails", "quality", "spaceAge"];
-    }
-    else
-    {
-        WriteLine("Individual mod selection not implemented");
-        return;
-    }
-}
-
-RecipeManager recipeManager = new(mods);
+RecipeManager recipeManager = new(profile);
 Dictionary<string, Recipe> recipes = recipeManager.GetAllRecipes();
 Dictionary<string, List<Recipe>> itemRecipesMap = recipeManager.GetAllItemRecipes();
 
 /*
-Dictionary<string, Recipe> recipes = recipeManager.GetAllRecipes();
-
 foreach (KeyValuePair<string, Recipe> kvp in recipes)
 {
     Console.WriteLine($"{kvp.Value}");
