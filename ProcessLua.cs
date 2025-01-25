@@ -84,7 +84,7 @@ internal class ProcessLua
 
             // Write the JSON to a file or console
             //Console.WriteLine(jsonOutput);
-            //File.WriteAllText($"..\\..\\..\\Recipes.json", jsonOutput);
+            File.WriteAllText($"..\\..\\..\\Recipes.json", jsonOutput);
 
             // Return the deserialized list of recipes
             return JsonSerializer.Deserialize<List<Recipe>>(jsonOutput, Converter.Settings); ;
