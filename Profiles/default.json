@@ -1,11 +1,51 @@
 {
   "Name": "default",
   "Mods": [
-    "elevatedRails",
+    "base",
+    "elevated-rails",
     "quality",
-    "spaceAge"
+    "space-age"
   ],
+  "GlobalProductivity": {
+    "Steel": 20
+  },
+  "PreferredRecipes": {
+    "steel-plate": "steel-plate",
+    "iron-plate": "iron-plate",
+    "sulfur": "sulfur",
+    "land-mine": "land-mine",
+    "explosives": "explosives",
+    "turbo-transport-belt": "turbo-transport-belt",
+    "tungsten-plate": "tungsten-plate",
+    "molten-iron": "molten-iron-from-lava",
+    "express-transport-belt": "express-transport-belt",
+    "iron-gear-wheel": "iron-gear-wheel",
+    "fast-transport-belt": "fast-transport-belt",
+    "transport-belt": "transport-belt",
+    "rocket-silo": "rocket-silo",
+    "concrete": "concrete",
+    "stone-brick": "stone-brick",
+    "pipe": "pipe",
+    "processing-unit": "processing-unit",
+    "electronic-circuit": "electronic-circuit",
+    "copper-cable": "copper-cable",
+    "copper-plate": "copper-plate",
+    "advanced-circuit": "advanced-circuit",
+    "plastic-bar": "plastic-bar",
+    "electric-engine-unit": "electric-engine-unit",
+    "engine-unit": "engine-unit"
+  },
   "RawMaterials": [
-
+    "iron-ore",
+    "water",
+    "petroleum-gas",
+    "coal",
+    "tungsten-ore",
+    "lava",
+    "calcite",
+    "lubricant",
+    "stone",
+    "copper-ore",
+    "sulfuric-acid"
   ]
 }

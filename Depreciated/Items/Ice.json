@@ -1,9 +1,0 @@
-{
-  "Name": "Ice",
-  "BaseTimeToCraft": 2,
-  "NumCreatedPerCraft": 10,
-  "IsRawMaterial": true,
-  "Components": {
-    "Oxide Asteroid Chunk": 1
-  }
-}

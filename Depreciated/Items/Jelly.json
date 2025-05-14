@@ -1,9 +1,0 @@
-{
-  "Name": "Jelly",
-  "BaseTimeToCraft": 1,
-  "NumCreatedPerCraft": 4,
-  "IsRawMaterial": false,
-  "Components": {
-    "Jellynut": 1
-  }
-}

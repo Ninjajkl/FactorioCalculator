@@ -1,9 +1,0 @@
-{
-  "Name": "Iron Stick",
-  "BaseTimeToCraft": 0.5,
-  "NumCreatedPerCraft": 2,
-  "IsRawMaterial": false,
-  "Components": {
-    "Iron Plate": 1
-  }
-}

@@ -18,6 +18,7 @@ do
     {
         string json = File.ReadAllText($"..\\..\\..\\Profiles\\{profileName}.json");
         profile = JsonSerializer.Deserialize<Profile>(json);
+        profile.InitializeAfterDeserialization();
     }
     catch
     {
@@ -31,13 +32,35 @@ RecipeManager recipeManager = new(profile);
 Dictionary<string, Recipe> recipes = recipeManager.GetAllRecipes();
 Dictionary<string, List<Recipe>> itemRecipesMap = recipeManager.GetAllItemRecipes();
 
+while (true)
+{
+    Console.Write("Enter the item name (or enter to quit): ");
+    string itemName = Console.ReadLine();
+
+    if (itemName == "")
+    {
+        break;
+    }
+
+    if (itemRecipesMap.ContainsKey(itemName))
+    {
+        Console.Write("Enter the quantity per second: ");
+        float quantityPerSec = float.Parse(Console.ReadLine());
+        recipeManager.GetItemBlueprint(itemName, quantityPerSec);
+    }
+    else
+    {
+        Console.WriteLine($"No recipes found for {itemName}.");
+    }
+}
+
+//recipeManager.SetPreferredRecipe("iron-plate", "iron-plate");
+//recipeManager.GetItemBlueprint("land-mine", 6);
 /*
 foreach (KeyValuePair<string, Recipe> kvp in recipes)
 {
     Console.WriteLine($"{kvp.Value}");
 }
-
-Dictionary<string, List<Recipe>> itemRecipesMap = recipeManager.GetAllItemRecipes();
 
 foreach (KeyValuePair<string, List<Recipe>> itemRecipes in itemRecipesMap)
 {
@@ -47,9 +70,9 @@ foreach (KeyValuePair<string, List<Recipe>> itemRecipes in itemRecipesMap)
         Console.WriteLine($"\t{recipe.Name}");
     }
 }
-*/
-return;
 
+return;
+*/
 
 /*
 while (true)

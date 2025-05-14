@@ -127,17 +127,17 @@
 
         private string IngredientsToString()
         {
-            List<string> ingredientsList = new();
+            List<string> ingredientsList = [];
             foreach (Ingredient ingredient in Ingredients.Values)
             {
-                ingredientsList.Add($"\t{ingredient.Amount}x {ingredient.Name} ({ingredient.Type})");
+                ingredientsList.Add(ingredient.ToString());
             }
             return string.Join("\n", ingredientsList);
         }
 
         private string ResultsToString()
         {
-            List<string> resultsList = new();
+            List<string> resultsList = [];
             foreach (Result result in Results.Values)
             {
                 resultsList.Add($"\t{result.Amount}x {result.Name} ({result.Type})");
@@ -245,6 +245,11 @@
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         [JsonPropertyName("fluidbox_index")]
         public long? FluidboxIndex { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Amount}x {Name} ({Type})";
+        }
     }
 
     public partial class LocalisedName

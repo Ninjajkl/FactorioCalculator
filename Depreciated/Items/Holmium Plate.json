@@ -1,9 +1,0 @@
-{
-  "Name": "Holmium Plate",
-  "BaseTimeToCraft": 1,
-  "NumCreatedPerCraft": 1,
-  "IsRawMaterial": false,
-  "Components": {
-    "Holmium Solution": 20
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "Name": "Steel Plate",
-  "BaseTimeToCraft": 16,
-  "NumCreatedPerCraft": 1,
-  "IsRawMaterial": true,
-  "Components": {}
-}

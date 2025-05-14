@@ -1,7 +1,0 @@
-{
-  "Name": "Coal",
-  "BaseTimeToCraft": 3.2,
-  "NumCreatedPerCraft": 1,
-  "IsRawMaterial": true,
-  "Components": {}
-}

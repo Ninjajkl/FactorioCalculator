@@ -1,9 +1,0 @@
-{
-  "Name": "Water",
-  "BaseTimeToCraft": 1,
-  "NumCreatedPerCraft": 20,
-  "IsRawMaterial": false,
-  "Components": {
-    "Ice": 1
-  }
-}

@@ -21,17 +21,16 @@ internal class ProcessLua
 
         foreach (string modName in modNames)
         {
-            // Path to the Lua file
-            string dataFilePath = $"..\\..\\..\\GameFiles\\{modName}Recipes.lua";
+            string modPrototypeDirectory = $"..\\..\\..\\ModData\\{modName}\\prototypes";
 
             // Read the Lua script from the file
-            string dataScript = File.ReadAllText(dataFilePath);
+            string dataScript = File.ReadAllText($"{modPrototypeDirectory}\\recipe.lua");
 
             // Execute the Lua script
             lua.DoString(dataScript);
 
             // Check if this Mod has updates
-            string path = $"..\\..\\..\\GameFiles\\{modName}DataUpdates.lua";
+            string path = $"{modPrototypeDirectory}\\base-data-updates.lua";
             if (File.Exists(path))
             {
                 // Read the Lua script from the update file
@@ -87,6 +86,14 @@ internal class ProcessLua
             File.WriteAllText($"..\\..\\..\\Recipes.json", jsonOutput);
 
             // Return the deserialized list of recipes
+            List<Recipe> recipes = JsonSerializer.Deserialize<List<Recipe>>(jsonOutput, Converter.Settings);
+            foreach (Recipe r in recipes)
+            {
+                if (!r.EnergyRequired.HasValue)
+                {
+                    r.EnergyRequired = 0.5;
+                }
+            }
             return JsonSerializer.Deserialize<List<Recipe>>(jsonOutput, Converter.Settings); ;
         }
         else
