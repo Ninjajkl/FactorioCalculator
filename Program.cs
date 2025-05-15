@@ -12,7 +12,7 @@ do
     string profileName = ReadLine();
     if (string.IsNullOrEmpty(profileName))
     {
-        profileName = GlobalVariables.defaultProfile;
+        profileName = GlobalVariables.DefaultProfile;
     }
 
     try
@@ -32,6 +32,7 @@ do
 RecipeManager recipeManager = new(profile);
 Dictionary<string, Recipe> recipes = recipeManager.GetAllRecipes();
 Dictionary<string, List<Recipe>> itemRecipesMap = recipeManager.GetAllItemRecipes();
+Module.ExportModifiersToCsv();
 
 while (true)
 {

@@ -1,0 +1,125 @@
+{
+  "chemistry-or-cryogenics": [
+    "ChemicalPlant",
+    "CryogenicPlant"
+  ],
+  "metallurgy": [
+    "Foundry"
+  ],
+  "chemistry": [
+    "ChemicalPlant"
+  ],
+  "advanced-crafting": [
+    "AssemblingMachine1",
+    "AssemblingMachine2",
+    "AssemblingMachine3"
+  ],
+  "": [
+    "Hand",
+    "AssemblingMachine1",
+    "AssemblingMachine2",
+    "AssemblingMachine3"
+  ],
+  "electromagnetics": [
+    "ElectromagneticPlant"
+  ],
+  "rocket-building": [
+    "RocketSilo"
+  ],
+  "metallurgy-or-assembling": [
+    "AssemblingMachine2",
+    "AssemblingMachine3",
+    "Foundry"
+  ],
+  "crushing": [
+    "Crusher"
+  ],
+  "crafting-with-fluid-or-metallurgy": [
+    "AssemblingMachine2",
+    "AssemblingMachine3",
+    "Foundry"
+  ],
+  "cryogenics": [
+    "CryogenicPlant"
+  ],
+  "organic": [
+    "Hand",
+    "AssemblingMachine2",
+    "AssemblingMachine3",
+    "Biochamber"
+  ],
+  "organic-or-assembling": [
+    "Hand",
+    "AssemblingMachine2",
+    "AssemblingMachine3",
+    "Biochamber"
+  ],
+  "electronics": [
+    "Hand",
+    "AssemblingMachine1",
+    "AssemblingMachine2",
+    "AssemblingMachine3",
+    "ElectromagneticPlant"
+  ],
+  "pressing": [
+    "Hand",
+    "AssemblingMachine1",
+    "AssemblingMachine2",
+    "AssemblingMachine3",
+    "Foundry"
+  ],
+  "crafting": [
+    "Hand",
+    "AssemblingMachine1",
+    "AssemblingMachine2",
+    "AssemblingMachine3"
+  ],
+  "oil-processing": [
+    "OilRefinery"
+  ],
+  "centrifuging": [
+    "Centrifuge"
+  ],
+  "electronics-or-assembling": [
+    "AssemblingMachine2",
+    "AssemblingMachine3",
+    "ElectromagneticPlant"
+  ],
+  "organic-or-hand-crafting": [
+    "Hand",
+    "AssemblingMachine2",
+    "AssemblingMachine3",
+    "Biochamber"
+  ],
+  "smelting": [
+    "StoneFurnace",
+    "SteelFurnace",
+    "ElectricFurnace"
+  ],
+  "electronics-with-fluid": [
+    "AssemblingMachine2",
+    "AssemblingMachine3",
+    "ElectromagneticPlant",
+    "Recycler"
+  ],
+  "organic-or-chemistry": [
+    "ChemicalPlant",
+    "Biochamber"
+  ],
+  "cryogenics-or-assembling": [
+    "AssemblingMachine2",
+    "AssemblingMachine3",
+    "CryogenicPlant"
+  ],
+  "crafting-with-fluid": [
+    "AssemblingMachine2",
+    "AssemblingMachine3"
+  ],
+  "captive-spawner-process": [
+    "CaptiveBiterSpawner"
+  ],
+  "recycling-or-hand-crafting": [
+    "Hand",
+    "Recycler"
+  ]
+}

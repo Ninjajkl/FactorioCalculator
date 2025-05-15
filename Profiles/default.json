@@ -47,5 +47,6 @@
     "stone",
     "copper-ore",
     "sulfuric-acid"
-  ]
+  ],
+  "PreferredMachineForCategory": null
 }

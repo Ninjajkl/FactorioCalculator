@@ -1,7 +1,8 @@
 ﻿namespace FactorioCalculator.Models;
 
-public enum Machines
+public enum MachineType
 {
+    Hand,
     BurnerMiningDrill,
     ElectricMiningDrill,
     BigMiningDrill,
@@ -22,5 +23,32 @@ public enum Machines
     OilRefinery,
     ChemicalPlant,
     CryogenicPlant,
-    Centrifuge
+    Centrifuge,
+    RocketSilo,
+    Crusher,
+}
+
+public enum ModuleType
+{
+    SpeedModule,
+    SpeedModule2,
+    SpeedModule3,
+    ProductivityModule,
+    ProductivityModule2,
+    ProductivityModule3,
+    EfficiencyModule,
+    EfficiencyModule2,
+    EfficiencyModule3,
+    QualityModule,
+    QualityModule2,
+    QualityModule3,
+}
+
+public enum Quality
+{
+    Normal,
+    Uncommon,
+    Rare,
+    Epic,
+    Legendary
 }
