@@ -1,4 +1,4 @@
-﻿namespace FactorioCalculator
+﻿namespace FactorioCalculator.Models
 {
     using System;
     using System.Collections.Generic;

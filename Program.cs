@@ -1,5 +1,6 @@
-﻿using FactorioCalculator;
-using FactorioCalculator.Global;
+﻿using FactorioCalculator.Global;
+using FactorioCalculator.Helpers;
+using FactorioCalculator.Models;
 using System.Text.Json;
 using static System.Console;
 
@@ -53,54 +54,3 @@ while (true)
         Console.WriteLine($"No recipes found for {itemName}.");
     }
 }
-
-//recipeManager.SetPreferredRecipe("iron-plate", "iron-plate");
-//recipeManager.GetItemBlueprint("land-mine", 6);
-/*
-foreach (KeyValuePair<string, Recipe> kvp in recipes)
-{
-    Console.WriteLine($"{kvp.Value}");
-}
-
-foreach (KeyValuePair<string, List<Recipe>> itemRecipes in itemRecipesMap)
-{
-    Console.WriteLine($"{itemRecipes.Key}:");
-    foreach (Recipe recipe in itemRecipes.Value)
-    {
-        Console.WriteLine($"\t{recipe.Name}");
-    }
-}
-
-return;
-*/
-
-/*
-while (true)
-{
-    Console.Write("Enter the item name (or type 'exit' to quit): ");
-    string itemName = Console.ReadLine();
-
-    if (itemName.ToLower() == "exit")
-    {
-        break;
-    }
-
-    Console.Write("Enter the quantity needed per second: ");
-    if (float.TryParse(Console.ReadLine(), out float quantity))
-    {
-        Item item = itemManager.GetItem(itemName);
-        if (item != null)
-        {
-            Console.WriteLine(item.CalculateMachines(quantity));
-        }
-        else
-        {
-            Console.WriteLine("Item not found. Please try again.");
-        }
-    }
-    else
-    {
-        Console.WriteLine("Invalid quantity. Please enter a valid number.");
-    }
-}
-*/

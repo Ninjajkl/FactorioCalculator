@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace FactorioCalculator;
+namespace FactorioCalculator.Models;
 
 public class Profile
 {
@@ -11,6 +11,7 @@ public class Profile
     private Dictionary<string, int> _globalProductivity;
     private Dictionary<string, string> _preferredRecipes;
     private HashSet<string> _rawMaterials;
+    private Dictionary<string, string> _preferredMachineForCategory;
 
     public string Name
     {
@@ -96,6 +97,21 @@ public class Profile
         return removed;
     }
 
+    public Dictionary<string, string> PreferredMachineForCategory
+    {
+        get => _preferredMachineForCategory;
+        set
+        {
+            _preferredMachineForCategory = value;
+            Save();
+        }
+    }
+
+    public void AddPreferredMachineForCategory(string item, string recipe)
+    {
+        _preferredRecipes[item] = recipe;
+        Save();
+    }
 
     public void InitializeAfterDeserialization()
     {

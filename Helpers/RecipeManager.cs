@@ -1,13 +1,14 @@
-﻿using NLua;
+﻿using FactorioCalculator.Models;
+using FactorioCalculator.Models.Interfaces;
+using NLua;
 
-namespace FactorioCalculator;
+namespace FactorioCalculator.Helpers;
 public class RecipeManager
 {
     private readonly Dictionary<string, Recipe> _recipes;
     private readonly Dictionary<string, List<Recipe>> _itemRecipesMap;
 
     private readonly Profile _profile;
-    private Dictionary<string, string> PreferedRecipes => _profile.PreferredRecipes;
 
     public Dictionary<string, Recipe> GetAllRecipes()
     {
@@ -32,7 +33,6 @@ public class RecipeManager
         foreach (Recipe r in recipesList)
         {
             _recipes[r.Name] = r;
-            r.EnergyRequired ??= 0.5;
 
             foreach (Result result in r.Results.Values)
             {
@@ -43,34 +43,6 @@ public class RecipeManager
                 _itemRecipesMap[result.Name].Add(r);
             }
         }
-    }
-
-    public bool SetPreferredRecipe(string itemName, string recipeName)
-    {
-        if (_recipes.ContainsKey(itemName) && _recipes.ContainsKey(recipeName))
-        {
-            _profile.AddPreferredRecipe(itemName, recipeName);
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-
-    public bool RemovePreferredRecipe(string itemName)
-    {
-        return _profile.RemovePreferredRecipe(itemName);
-    }
-
-    public void AddRawMaterial(string itemName)
-    {
-        _profile.AddRawMaterial(itemName);
-    }
-
-    public bool RemoveRawMaterial(string itemName)
-    {
-        return _profile.RemoveRawMaterial(itemName);
     }
 
     public void GetItemBlueprint(string itemName, float numPerSec)
@@ -179,7 +151,7 @@ public class RecipeManager
 
     }
 
-    public void DisplayBlueprint(Item item, int depth = 0)
+    public static void DisplayBlueprint(Item item, int depth = 0)
     {
         // Indentation for hierarchy
         string indent = new(' ', depth * 2);
@@ -200,57 +172,5 @@ public class RecipeManager
                 Console.WriteLine($"{new string(' ', (depth + 1) * 2)}- {component.QuantityNeededPerSecond} {component.Name}/s");
             }
         }
-    }
-}
-
-public interface IItem
-{
-    string Name { get; set; }
-    float QuantityNeededPerSecond { get; set; }
-}
-
-public class Item : IItem
-{
-    public string Name { get; set; }
-    public Recipe Recipe { get; set; }
-    public List<IItem> Components { get; set; } = [];
-    public float QuantityNeededPerSecond { get; set; }
-
-    public float TotalMachines => Components.OfType<Item>().Sum(c => c.TotalMachines) + Machines;
-    public float Machines { get; set; } = -1;
-    public long ItemsCreatedPerCraft => itemsCreatedPerCraft == -1 ? FindItemsCreatedPerCraft() : itemsCreatedPerCraft;
-    private long itemsCreatedPerCraft { get; set; } = -1;
-
-    public Item(string name, Recipe recipe)
-    {
-        Name = name;
-        Recipe = recipe;
-    }
-
-    public long FindItemsCreatedPerCraft()
-    {
-        Dictionary<string, Result>.ValueCollection results = Recipe.Results.Values;
-
-        foreach (Result result in results)
-        {
-            if (result.Name == Name)
-            {
-                return result.Amount;
-            }
-        }
-        throw new Exception($"Item {Name} not found in recipe {Recipe} results.");
-
-    }
-}
-
-public class RawMaterial : IItem
-{
-    public string Name { get; set; }
-    public float QuantityNeededPerSecond { get; set; }
-
-    public RawMaterial(string name, float quantityNeededPerSecond)
-    {
-        Name = name;
-        QuantityNeededPerSecond = quantityNeededPerSecond;
     }
 }

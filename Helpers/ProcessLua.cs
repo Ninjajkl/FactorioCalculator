@@ -1,4 +1,4 @@
-﻿using FactorioCalculator;
+﻿using FactorioCalculator.Models;
 using NLua;
 using System.Text.Json;
 
@@ -94,7 +94,7 @@ internal class ProcessLua
                     r.EnergyRequired = 0.5;
                 }
             }
-            return JsonSerializer.Deserialize<List<Recipe>>(jsonOutput, Converter.Settings); ;
+            return recipes; ;
         }
         else
         {
