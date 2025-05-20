@@ -8,11 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
     <PackageReference Include="NLua" Version="1.7.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ModData\CustomData\" />
   </ItemGroup>
 
 </Project>

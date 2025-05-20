@@ -26,6 +26,15 @@ public enum MachineType
     Centrifuge,
     RocketSilo,
     Crusher,
+    AsteroidCollector,
+}
+
+public enum MachineCategory
+{
+    Mining,
+    Furnace,
+    Assembly,
+    OffshorePump,
 }
 
 public enum ModuleType

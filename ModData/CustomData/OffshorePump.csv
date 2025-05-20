@@ -1,0 +1,6 @@
+MachineType,Quality,PumpingSpeed
+OffshorePump,Normal,1200
+OffshorePump,Uncommon,1560
+OffshorePump,Rare,1920
+OffshorePump,Epic,2280
+OffshorePump,Legendary,3000

@@ -32,7 +32,6 @@ do
 RecipeManager recipeManager = new(profile);
 Dictionary<string, Recipe> recipes = recipeManager.GetAllRecipes();
 Dictionary<string, List<Recipe>> itemRecipesMap = recipeManager.GetAllItemRecipes();
-Module.ExportModifiersToCsv();
 
 while (true)
 {

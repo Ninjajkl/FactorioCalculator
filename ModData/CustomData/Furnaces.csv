@@ -1,0 +1,16 @@
+MachineType,Quality,CraftingSpeed,EnergyConsumption,ModuleSlots
+StoneFurnace,Normal,1,90000,0
+StoneFurnace,Uncommon,1.3,90000,0
+StoneFurnace,Rare,1.6,90000,0
+StoneFurnace,Epic,1.9,90000,0
+StoneFurnace,Legendary,2.5,90000,0
+SteelFurnace,Normal,2,90000,0
+SteelFurnace,Uncommon,2.6,90000,0
+SteelFurnace,Rare,3.2,90000,0
+SteelFurnace,Epic,3.8,90000,0
+SteelFurnace,Legendary,5,90000,0
+ElectricFurnace,Normal,2,180000,2
+ElectricFurnace,Uncommon,2.6,180000,2
+ElectricFurnace,Rare,3.2,180000,2
+ElectricFurnace,Epic,3.8,180000,2
+ElectricFurnace,Legendary,5,180000,2
