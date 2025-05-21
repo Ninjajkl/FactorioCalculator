@@ -2,14 +2,20 @@
 using FactorioCalculator.Helpers;
 using FactorioCalculator.Models;
 using System.Text.Json;
-using static System.Console;
+using System.Text.Json.Serialization;
 
-Profile profile = null;
+JsonSerializerOptions _jsonOptions = new()
+{
+    WriteIndented = true,
+    Converters = { new JsonStringEnumConverter() }
+};
+
+Profile profile;
 
 do
 {
-    WriteLine($"What Profile?");
-    string profileName = ReadLine();
+    Console.WriteLine($"What Profile?");
+    string profileName = Console.ReadLine();
     if (string.IsNullOrEmpty(profileName))
     {
         profileName = GlobalVariables.DefaultProfile;
@@ -18,13 +24,13 @@ do
     try
     {
         string json = File.ReadAllText($"..\\..\\..\\Profiles\\{profileName}.json");
-        profile = JsonSerializer.Deserialize<Profile>(json);
+        profile = JsonSerializer.Deserialize<Profile>(json, _jsonOptions);
         profile.InitializeAfterDeserialization();
     }
     catch
     {
         profile = null;
-        WriteLine("Invalid Profile Name\n");
+        Console.WriteLine("Invalid Profile Name\n");
     }
 
 } while (profile is null);

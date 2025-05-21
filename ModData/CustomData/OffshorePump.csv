@@ -1,6 +1,6 @@
-MachineType,Quality,PumpingSpeed
-OffshorePump,Normal,1200
-OffshorePump,Uncommon,1560
-OffshorePump,Rare,1920
-OffshorePump,Epic,2280
-OffshorePump,Legendary,3000
+MachineType,Quality,PumpingSpeed,ModuleSlots
+OffshorePump,Normal,1200,0
+OffshorePump,Uncommon,1560,0
+OffshorePump,Rare,1920,0
+OffshorePump,Epic,2280,0
+OffshorePump,Legendary,3000,0

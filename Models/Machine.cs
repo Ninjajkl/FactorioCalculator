@@ -35,10 +35,11 @@ public class Furnace(MachineType mt, Quality q, float cs, float es, int ms) : IM
     public int ModuleSlots { get; } = ms;
 }
 
-public class OffshorePump(MachineType mt, Quality q, int ps) : IMachine
+public class OffshorePump(MachineType mt, Quality q, int ps, int ms) : IMachine
 {
     public MachineType MachineType { get; } = mt;
     public Quality Quality { get; } = q;
     public MachineCategory MachineCategory { get; } = MachineCategory.OffshorePump;
-    public int PumpingSpeed { get; }
+    public int PumpingSpeed { get; } = ps;
+    public int ModuleSlots { get; } = ms;
 }

@@ -26,6 +26,8 @@ public sealed class GlobalVariables
         LoadMachines();
     }
 
+    #region LoadCustomData
+
     private void DeserializeCategoryToMachineMap()
     {
         string json = File.ReadAllText($"..\\..\\..\\ModData\\CustomData\\CategoryToMachineMap.json");
@@ -173,8 +175,11 @@ public sealed class GlobalVariables
                 continue;
             }
             int pumpingSpeed = csv.GetField<int>("PumpingSpeed");
-            IMachine machine = new OffshorePump(machineType, quality, pumpingSpeed);
+            int moduleSlots = csv.GetField<int>("ModuleSlots");
+            IMachine machine = new OffshorePump(machineType, quality, pumpingSpeed, moduleSlots);
             Machines[(machineType, quality)] = machine;
         }
     }
+
+    #endregion LoadCustomData
 }

@@ -48,5 +48,23 @@
     "copper-ore",
     "sulfuric-acid"
   ],
-  "PreferredMachineForCategory": null
+  "PreferredMachineForCategory": {
+    "smelting": "ElectricFurnace"
+  },
+  "SerializedPreferredMachineForRecipe": {
+    "iron-plate": {
+      "MachineType": "ElectricFurnace",
+      "Quality": "Normal",
+      "Modules": [
+        {
+          "ModuleType": "SpeedModule",
+          "Quality": "Normal"
+        },
+        {
+          "ModuleType": "SpeedModule",
+          "Quality": "Normal"
+        }
+      ]
+    }
+  }
 }
