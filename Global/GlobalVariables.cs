@@ -125,7 +125,7 @@ public sealed class GlobalVariables
             float energyConsumption = csv.GetField<float>("EnergyConsumption");
             int moduleSlots = csv.GetField<int>("ModuleSlots");
             float baseProductivity = csv.GetField<float>("BaseProductivity");
-            IMachine machine = new Assembler(machineType, quality, craftingSpeed, energyConsumption, moduleSlots, baseProductivity);
+            IMachine machine = new Assembler(machineType, quality, craftingSpeed, energyConsumption, baseProductivity, moduleSlots);
             Machines[(machineType, quality)] = machine;
         }
     }

@@ -55,10 +55,17 @@ public class RecipeManager
             return;
         }
         Item item = new(itemName, recipe);
-        float craftsPerSec = numPerSec / item.ItemsCreatedPerCraft;
-        float craftingTime = (float)item.Recipe.EnergyRequired;
-        item.Machines = craftsPerSec * craftingTime;
-        CalculateBlueprintRecursively(item, craftsPerSec);
+        Ingredient baseIngredient = new()
+        {
+            Name = itemName,
+            Amount = 1
+        };
+        //Get the preferred machine + modules combo for this machine
+        (IMachine machineUsed, List<Module> modulesUsed) = FindPreferredMachine(recipe);
+
+        (float machinesUsed, float ingredientsNeededPerSec, float totalEnergyConsumption) = CalculateFromMachine(numPerSec, item, baseIngredient, machineUsed, modulesUsed);
+        item.Machines = machinesUsed;
+        CalculateBlueprintRecursively(item, ingredientsNeededPerSec);
         DisplayBlueprint(item);
     }
 
@@ -78,77 +85,119 @@ public class RecipeManager
 
             //Get the preferred machine + modules combo for this machine
             (IMachine machineUsed, List<Module> modulesUsed) = FindPreferredMachine(ingredientRecipe);
-            PrintMachineAndModules(machineUsed, modulesUsed);
 
             //Get the Item + Recipe for this ingredient
             Item ingredientItem = new(ingredient.Name, ingredientRecipe);
 
             item.Components.Add(ingredientItem);
 
-            CalculateFromMachine(parentNumPerSec, ingredientItem, machineUsed, modulesUsed);
+            (float machinesUsed, float ingredientsNeededPerSec, float totalEnergyConsumption) = CalculateFromMachine(parentNumPerSec, ingredientItem, ingredient, machineUsed, modulesUsed);
 
-            //Calculate the number of ingredients needed per second for this ingredient
-            //Amount of Ingredients needed per craft Divided by how many Ingredients are created per craft
-            //Multiplied by quanitity needed per second
-            float numPerSecond = (float)ingredient.Amount / ingredientItem.ItemsCreatedPerCraft * parentNumPerSec;
-
-            //Get the crafting time of this component
-            //It's stored as the energy required, but that's the same as the crafting time
-            //Ridiculous honestly
-            float craftingTime = (float)ingredientItem.Recipe.EnergyRequired;
-
-            //Calculate the number of machines needed based on crafting time
-            //This calculation is currently off as no assembly machine speed is taken into account, and none have a speed of 1
-            ingredientItem.Machines = numPerSecond * craftingTime;
+            ingredientItem.Machines = machinesUsed;
 
             //Recursively calculate for subcomponents with increased depth
-            CalculateBlueprintRecursively(ingredientItem, numPerSecond);
+            CalculateBlueprintRecursively(ingredientItem, ingredientsNeededPerSec);
         }
     }
 
     #region Calculations
 
-    private float CalculateFromMachine(float pNumPerSec, Item ingredientItem, IMachine machineUsed, List<Module> modulesUsed)
+    private static (float machinesUsed, float ingredientsNeededPerSec, float totalEnergyConsumption) CalculateFromMachine(float pNumPerSec, Item ingredientItem, Ingredient ingredient, IMachine machineUsed, List<Module> modulesUsed)
     {
-        // Sum each modifier from all modules
+        //Sum each modifier from all modules
         float totalSpeedModifier = modulesUsed.Sum(m => m.SpeedModifier);
-        float totalEnergyModifier = modulesUsed.Sum(m => m.EnergyModifier);
         float totalProductivityModifier = modulesUsed.Sum(m => m.ProductivityModifier);
-        float totalQualityModifier = modulesUsed.Sum(m => m.QualityModifier);
+        //Min energy consuption is 20%, so need to clamp
+        float totalEfficiencyModifier = (float)Math.Max(modulesUsed.Sum(m => m.EnergyModifier), -0.8);
+
+        //Machine-specific values
+        float baseSpeed = 1f;
+        float baseProductivity = 0f;
+        float baseEnergyConsumption = 0;
 
         switch (machineUsed.MachineCategory)
         {
             case MachineCategory.Assembly:
                 if (machineUsed is Assembler assembler)
                 {
-                    //Calculate the number of ingredients needed per second for this ingredient
-                    //Amount of Ingredients needed per craft Divided by how many Ingredients are created per craft
-                    //Multiplied by quanitity needed per second
-                    //Divided by the productivity modifier (higher productivity = less ingredients needed per sec)
-                    float numPerSecond = (float)ingredientItem.Ingredient.Amount / ingredientItem.ItemsCreatedPerCraft * pNumPerSec / (1+totalProductivityModifier);
-
-                    //Get the crafting time of this component
-                    //It's stored as the energy required, but that's the same as the crafting time
-                    //Ridiculous honestly
-                    float craftingTime = (float)ingredientItem.Recipe.EnergyRequired;
-
-                    return assembler.CraftingSpeed * pNumPerSec;
-
+                    baseProductivity = assembler.BaseProductivity;
+                    baseSpeed = assembler.CraftingSpeed;
+                    baseEnergyConsumption = assembler.EnergyConsumption;
+                    break;
                 }
-                break;
+                else
+                {
+                    throw new Exception($"Failed to cast {machineUsed} as Assembler");
+                }
 
             case MachineCategory.Mining:
                 if (machineUsed is Miner miner)
                 {
-                    return miner.MiningSpeed * pNumPerSec;
+                    baseProductivity = miner.BaseProductivity;
+                    baseSpeed = miner.MiningSpeed;
+                    baseEnergyConsumption = miner.EnergyConsumption;
+                    break;
                 }
-                break;
+                else
+                {
+                    throw new Exception($"Failed to cast {machineUsed} as Miner");
+                }
 
+            case MachineCategory.Furnace:
+                if (machineUsed is Furnace furnace)
+                {
+                    baseSpeed = furnace.CraftingSpeed;
+                    baseEnergyConsumption = furnace.EnergyConsumption;
+                    break;
+                }
+                else
+                {
+                    throw new Exception($"Failed to cast {machineUsed} as Furnace");
+                }
+
+            case MachineCategory.OffshorePump:
+                if (machineUsed is OffshorePump offshorePump)
+                {
+                    baseSpeed = offshorePump.PumpingSpeed;
+                    break;
+                }
+                else
+                {
+                    throw new Exception($"Failed to cast {machineUsed} as OffshorePump");
+                }
 
             default:
-                break;
+                throw new Exception($"Unknown machine category: {machineUsed.MachineCategory}");
         }
-        return -1;
+
+        //Add base productivity for applicable machines
+        totalProductivityModifier += baseProductivity;
+
+        //How many items are created per machine craft
+        float numItemsCreatedPerCraft = ingredientItem.ItemsCreatedPerCraft * (1 + totalProductivityModifier);
+
+        //How many items are needed per second to fulfill the parent's needs
+        float numItemsNeededPerSec = ingredient.Amount * pNumPerSec;
+
+        //How many ingredients I need per sec (not scaled by amount of each item per craft)
+        float ingredientsNeededPerSec = numItemsNeededPerSec / numItemsCreatedPerCraft;
+
+        //Machine crafting speed + speed modifiers
+        float machineSpeed = baseSpeed * (1 + totalSpeedModifier);
+
+        //Get the crafting time of this component
+        float secondsPerCraft = (float)ingredientItem.Recipe.EnergyRequired / machineSpeed;
+
+        //How many items are created per machine each second
+        float itemsCreatedPerMachinePerSec = numItemsCreatedPerCraft / secondsPerCraft;
+
+        //How many machines are needed
+        float machinesNeeded = numItemsNeededPerSec / itemsCreatedPerMachinePerSec;
+
+        //The total energy cost of all machines per sec, assuming constant use
+        float energyConsumption = machinesNeeded * baseEnergyConsumption * (1 + totalEfficiencyModifier);
+
+        return (machinesNeeded, ingredientsNeededPerSec, energyConsumption);
     }
 
     #endregion Calculations
@@ -222,13 +271,7 @@ public class RecipeManager
             Console.WriteLine($"\nWhat quality is the machine? 'Normal', 'Uncommon', 'Rare', 'Epic', 'Legendary'");
             string strQuality = Console.ReadLine();
 
-            // Normalize: lowercase all, then uppercase first letter
-            if (!string.IsNullOrWhiteSpace(strQuality))
-            {
-                strQuality = char.ToUpper(strQuality[0]) + strQuality[1..].ToLower();
-            }
-
-            if (Enum.TryParse(strQuality, out Quality q))
+            if (Enum.TryParse(strQuality, true, out Quality q))
             {
                 quality = q;
                 break;
@@ -247,6 +290,7 @@ public class RecipeManager
             modulesUsed = PromptForModules(machine.ModuleSlots);
         }
         _profile.AddPreferredMachineForRecipe(recipe.Name, machine, modulesUsed);
+        PrintMachineAndModules(machine, modulesUsed);
         return (machine, modulesUsed);
     }
 
@@ -285,11 +329,26 @@ public class RecipeManager
         List<Module> modules = [];
         Console.WriteLine($"\nThis machine has {moduleSlots} module slots.");
 
+        Console.Write($"Skip Modules? (y/n)");
+        string skip = Console.ReadLine()?.Trim().ToLower();
+        if (skip == "y")
+        {
+            //All slots skipped
+            return modules;
+        }
+
         Console.Write("Do you want to fill all slots with the same module type and quality? (y/n): ");
         string bulk = Console.ReadLine()?.Trim().ToLower();
 
         if (bulk == "y")
         {
+            Console.Write("Leave all slots empty? (y/n): ");
+            string leaveEmpty = Console.ReadLine()?.Trim().ToLower();
+            if (leaveEmpty == "y")
+            {
+                return modules;
+            }
+
             ModuleType moduleType = PromptForModuleType();
             Quality quality = PromptForModuleQuality();
             Module module = GlobalVariables.Instance.Modules[(moduleType, quality)];
@@ -304,6 +363,12 @@ public class RecipeManager
         for (int i = 0; i < moduleSlots; i++)
         {
             Console.WriteLine($"\nSlot {i + 1}:");
+            Console.Write("Leave remaining slots empty? (y/n): ");
+            string leaveEmpty = Console.ReadLine()?.Trim().ToLower();
+            if (leaveEmpty == "y")
+            {
+                return modules;
+            }
             ModuleType moduleType = PromptForModuleType();
             Quality quality = PromptForModuleQuality();
             Module module = GlobalVariables.Instance.Modules[(moduleType, quality)];
@@ -324,7 +389,7 @@ public class RecipeManager
 
             Console.Write("Enter module type: ");
             string input = Console.ReadLine();
-            if (Enum.TryParse(input, out ModuleType moduleType))
+            if (Enum.TryParse(input, true, out ModuleType moduleType))
             {
                 return moduleType;
             }
@@ -345,7 +410,7 @@ public class RecipeManager
 
             Console.Write("Enter module quality: ");
             string input = Console.ReadLine();
-            if (Enum.TryParse(input, out Quality quality))
+            if (Enum.TryParse(input, true, out Quality quality))
             {
                 return quality;
             }

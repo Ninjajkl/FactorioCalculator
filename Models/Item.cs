@@ -8,7 +8,6 @@ public class Item : IItem
     public Recipe Recipe { get; set; }
     public List<IItem> Components { get; set; } = [];
     public float QuantityNeededPerSecond { get; set; }
-    public Ingredient Ingredient => Recipe.Ingredients[Name];
 
     public float TotalMachines => Components.OfType<Item>().Sum(c => c.TotalMachines) + Machines;
     public float Machines { get; set; } = -1;

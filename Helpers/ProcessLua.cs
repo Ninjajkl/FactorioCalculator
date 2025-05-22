@@ -93,6 +93,7 @@ internal class ProcessLua
                 {
                     r.EnergyRequired = 0.5;
                 }
+                r.Category ??= "";
             }
             return recipes; ;
         }

@@ -49,22 +49,19 @@
     "sulfuric-acid"
   ],
   "PreferredMachineForCategory": {
-    "smelting": "ElectricFurnace"
+    "smelting": "ElectricFurnace",
+    "": "AssemblingMachine1"
   },
   "SerializedPreferredMachineForRecipe": {
     "iron-plate": {
       "MachineType": "ElectricFurnace",
       "Quality": "Normal",
-      "Modules": [
-        {
-          "ModuleType": "SpeedModule",
-          "Quality": "Normal"
-        },
-        {
-          "ModuleType": "SpeedModule",
-          "Quality": "Normal"
-        }
-      ]
+      "Modules": []
+    },
+    "iron-gear-wheel": {
+      "MachineType": "AssemblingMachine1",
+      "Quality": "Normal",
+      "Modules": []
     }
   }
 }

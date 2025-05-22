@@ -2,44 +2,48 @@
 
 namespace FactorioCalculator.Models;
 
-public class Assembler(MachineType mt, Quality q, float cs, float es, int ms, float bp) : IMachine
+public readonly record struct Assembler(
+    MachineType MachineType,
+    Quality Quality,
+    float CraftingSpeed,
+    float EnergyConsumption,
+    float BaseProductivity,
+    int ModuleSlots
+) : IMachine
 {
-    public MachineType MachineType { get; } = mt;
-    public Quality Quality { get; } = q;
-    public MachineCategory MachineCategory { get; } = MachineCategory.Assembly;
-    public float CraftingSpeed { get; } = cs;
-    public float EnergyConsumption { get; } = es;
-    public int ModuleSlots { get; } = ms;
-    public float BaseProductivity { get; } = bp;
+    public MachineCategory MachineCategory => MachineCategory.Assembly;
 }
 
-public class Miner(MachineType mt, Quality q, float ms, float ec, int mods, float bp, float rd) : IMachine
+public readonly record struct Miner(
+    MachineType MachineType,
+    Quality Quality,
+    float MiningSpeed,
+    float EnergyConsumption,
+    int ModuleSlots,
+    float BaseProductivity,
+    float ResourceDrain
+) : IMachine
 {
-    public MachineType MachineType { get; } = mt;
-    public Quality Quality { get; } = q;
-    public MachineCategory MachineCategory { get; } = MachineCategory.Mining;
-    public float MiningSpeed { get; } = ms;
-    public float EnergyConsumption { get; } = ec;
-    public int ModuleSlots { get; } = mods;
-    public float BaseProductivity { get; } = bp;
-    public float ResourceDrain { get; } = rd;
+    public MachineCategory MachineCategory => MachineCategory.Mining;
 }
 
-public class Furnace(MachineType mt, Quality q, float cs, float es, int ms) : IMachine
+public readonly record struct Furnace(
+    MachineType MachineType,
+    Quality Quality,
+    float CraftingSpeed,
+    float EnergyConsumption,
+    int ModuleSlots
+) : IMachine
 {
-    public MachineType MachineType { get; } = mt;
-    public Quality Quality { get; } = q;
-    public MachineCategory MachineCategory { get; } = MachineCategory.Furnace;
-    public float CraftingSpeed { get; } = cs;
-    public float EnergyConsumption { get; } = es;
-    public int ModuleSlots { get; } = ms;
+    public MachineCategory MachineCategory => MachineCategory.Furnace;
 }
 
-public class OffshorePump(MachineType mt, Quality q, int ps, int ms) : IMachine
+public readonly record struct OffshorePump(
+    MachineType MachineType,
+    Quality Quality,
+    int PumpingSpeed,
+    int ModuleSlots
+) : IMachine
 {
-    public MachineType MachineType { get; } = mt;
-    public Quality Quality { get; } = q;
-    public MachineCategory MachineCategory { get; } = MachineCategory.OffshorePump;
-    public int PumpingSpeed { get; } = ps;
-    public int ModuleSlots { get; } = ms;
+    public MachineCategory MachineCategory => MachineCategory.OffshorePump;
 }
